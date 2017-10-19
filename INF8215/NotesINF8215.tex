@@ -1,4 +1,4 @@
-\documentclass{book}
+\documentclass[oneside]{book}
 \usepackage[utf8]{inputenc}
 \usepackage{float}
 \usepackage{graphicx}
@@ -360,6 +360,359 @@ On appel un voisinage tous les noeuds qui peuvent être un successeur de l'état
 
 Les méthodes de recherche locales ne conservent qu'un seul noeud en mémoire, celui ou nous sommes. En générale, avec une méthode de recherche locale on cherche seulement à trouver une solution, et non pas comment se rendre à la solution selon notre origine.\\
 
-À chaque itération de notre algorithme, on remplace par notre meilleur noeuds jusqu'à temps qu'on a une solution.
+À chaque itération de notre algorithme, on remplace par notre meilleur noeuds jusqu'à temps qu'on a une solution. Normalement, on essaie de concevoir l'algorithme de sorte qu'il essaie de minimiser les conflits. Ou la solution possible est une solution sans conflit. \\
 
+\noindent
+Pour un voisinage étant défini comme un voisinage n-opt, cette fonction décrit l'ordre de complexité du voisinage.
+\begin{align*}
+O(n^k)
+\end{align*}
+\begin{center}
+ou k est égale au nombre d'opérations permis
+\end{center}
+
+\paragraph{Randomisation} Si on peut trouver un bon optimum local avec un prob de $p$, une solution sera trouver en faisant $O(1/p)$ éxécutions.
+
+\subsubsection{Recuit Stimulé}
+Le problème avec les méthodes généraliste de recherche locale est qu'il n'ont pas de notions de max-min local. C'est à dire, lorsqu'il va trouver un max ou un min, il ne sera pas si c'est le max-min globale, ou si c'est juste une max-min ordinaire(locale) 
+\paragraph{Fait empirique:} Les bon optima locaux sont souvent près les uns des autres.\\
+
+l'objectif de l'algorithme de recuit sitmulé est de laisser des solution mauvaise passer. Tout sa pour pouvoir sortir des différents max-min locale (voir fig \ref{fig:paysage_espace}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width = 7cm, height = 7cm, keepaspectratio]{Paysage_Espace.png}
+\caption{Exemple de Paysage de l'Espace. On cherche à trouver le maximum global sans rester pris dans un max locale}
+\label{fig:paysage_espace}
+\end{figure}
+\paragraph{}
+Au fur et à la mesure que le problème augmente en taille, le raport entre les mauvais et les bons optima locaux augmente (exponentiel). Ce qui rend le redémarrage de l'algorithme avec un départ différent futile. C'est la raison pourquoi on se sert du Recuit Stimulé. voir fig. pour algorithme.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width = 7cm, height = 7cm, keepaspectratio]{Recuit_Stimule.png}
+\caption{Algorithme de Recuit Stimulé}
+\label{fig:recuit_stimule}
+\end{figure}
+La difficulté avec le recuit stimulé est de trouver un bon régime de refroidissement pour T. Cet algorithme est rendu obsolete comparer a l'algorithme génétique.
+\subsubsection{Algorithme Génétique}
+\paragraph{}
+L'algorithme génétique est très flexible. Dans le cours, il est considéré comme une recherche local tandis que certains expert le considère comme une recherche globale. \\
+
+Le principe de l'algorithme génétique est de représenter ton problème/état comme étant une chaine de symbole (une entité). Nous avons besoin d'une quantité de solution possible, que nous allons appeller \textbf{population}. Nous essayer de répliquer la théorie de l'évolution sur cette population en appliquant des \textbf{croisements} et des \textbf{mutations}. Nous allons ensuite répéter le processus $n$ fois jusqu'à temp qu'un individu dans notre populations soit une solution qu'on désigne comme acceptable.\\
+
+Voici les ligne directrice de l'algorithme génétique. (fig. \ref{fig:algo_genetique} et fig \ref{fig:exemple_algo_genetique} ) 
+
+\begin{figure}[h!t]
+\centering
+\includegraphics[width = 7cm, height = 7cm, keepaspectratio]{algo_genetique.png}
+\caption{Ligne directrice de l'algo génétique}
+\label{fig:algo_genetique}
+\end{figure}
+
+
+\begin{figure}[h!t]
+\centering
+\includegraphics[width = 7cm, height = 7cm, keepaspectratio]{exemple_algo_genetique.png}
+\caption{Exemple visuel d'algorithme génétique}
+\label{fig:exemple_algo_genetique}
+\end{figure}
+\paragraph{}
+L'algorithme génétique est très flexible. On peut nous même déterminer notre processus de sélection des solutions optimales après avoir fait notre croisements et mutations. On peut sélectionner pour vraiment avoir une bonne diversité génétique dans notre population ou on peut s'assurer de vraiment choisir les solutions optimales. Par contre, il faut réaliser qu'il est difficile de générer de meilleurs solutions si notre populations est hétérogènes. Alors il faut quand même s'assurer d'avoir des solutions qui ne sont pas nécessairement optimale, mais différent au point de vue du génotype.\\
+
+voici sur la prochaine page quelques exemples d'opérateur de croisement et de mutations.
+\begin{figure}[h!t]
+\centering
+\includegraphics[height = 15cm, keepaspectratio]{operateur_genetique.png}
+\caption{Exemple d'opérateurs génétiques}
+\label{fig:ops_genetique}
+\end{figure}
+\section{Problème de Satisfaction de Contraintes}
+\noindent Quoique très courte, cette section reste quand même très importante. \\
+On formule un problème de satisfaction de contraintes comme suit:\\
+
+\noindent un état est défini par $n$ variables $X_i, i = 1...n$ \\
+\noindent Ces valeurs appartienne à un domaine $D_i$ \\
+
+Cette formulation mène à la création d'algorithme généraliste. Le principe est de trouver une solution qui satisfait toute les contraintes appliquer sur les variable $X_{i\rightarrow n}$. Par contre, sa peut être utile d'analyser le problème à l'aide d'un graphe de contraintes.\\
+
+\noindent On peut classer les contraintes par type. Ou: \\
+\noindent \textbf{unaire} $\rightarrow$ s'applique à une seul variable\\
+\noindent \textbf{binaire} $\rightarrow$ s'applique à deux variable\\
+\noindent \textbf{ordre supérieur} $\rightarrow$ s'applique à plusieurs variables... très simple\\
+\\subsection{Recherche Standard}
+On défini la recherche standard comme:
+\noindent \paragraph{état initiale:} l'affectation vide
+\noindent \paragraph{successeurs :} affect une valeur à une variable pas affecté sans ajouter de conflits avec les affectations précédente $\rightarrow$ si ce n'est pas possible, la ramification est coupés. 
+\noindent \paragraph{test de finitude :} l'affectation de variable complète.\\
+
+c'est le même algorithme pour tous les problèmes, on suppose que le chemin pour se rendre à la solution n'est pas important. 
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width = 7cm, height = 7cm, keepaspectratio]{arbre_recherche_standard.png}
+\caption{Arbre de Recherche Standard}
+\label{fig:arbre_recherche_standard}
+\end{figure}
+\subsection{Backtracking}
+Dans le cas ou notre algorithme prend une mauvaise branche par accident. On doit utiliser le backtracking pour revenir sur nos pas et pour pouvoir prendre la bonne branche.
+Ce processus est inneficace. on finit par faire une recherche qui regarde une bonne partie des possibilités de notre arbre d'état. Ce qui en revient à faire une recherche en profondeur... \\
+Pour pouvoir améliorer notre backtracking, on peut utiliser plusieurs méthodes.
+
+\subsubsection{Heuristiques dans le Backtracking}
+On trouve une fonction heuristique pour chaque contraintes. Sa pourrait être quelques chose qui choisit une valeur pour ta variable qui génère le moins de conflits. Sa pourrait être aussi qu'on choisit la variable qui à le plus grande nombre de contraintes et de choisit une valeur qui génère le plus de possibilité dans toutes les contraintes.
+
+\subsubsection{Forward-checking}
+C'est très self-explanatory. Le principe c'est de regarder le domaine de chaque variable instancié, et que pour chaque valeur qu'on attribuerait, on regarde si on viole une contrainte. \\
+
+Si c'est le cas, on la retire du domaine. on s'arrète quand le domaine d'une variable est vide. Par contre, on ne peut pas détecter toute les violations (Pour pouvoir détecter toutes les violations, il faudrait faire du forward checking d'ordre du nombre de variable dans notre domaine, ce qui reviendrait à faire une recherche en largeur..) voir fig \ref{fig:forward_checking}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width = 7cm, height = 7cm, keepaspectratio]{forward_checking.png}
+\caption{Exemple de Forward Checking}
+\label{fig:forward_checking}
+\end{figure}
+
+\subsubsection{Cohérence d'arc}
+La dernière méthode de backtracking est la cohérence d'arc. Cette méthode en principe, regarde toute les variables et les compares avec toutes les autre variable. On compare toute les attributions de domaine, et on enleve toutes les valeur possible qui génère un conflit avec les autre valeurs de la variable à lequel tu la compare. On fait une comparaison avec toute les permutations de variables. voir fig \ref{fig:gac1}, \ref{fig:gac2}, \ref{fig:gac3} \\
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width = 7cm, height = 7cm, keepaspectratio]{gac1.png}
+\caption{Step1 GAC}
+\label{fig:gac1}
+\end{figure} 
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width = 7cm, height = 7cm, keepaspectratio]{gac2.png}
+\caption{Step2 GAC}
+\label{fig:gac2}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width = 7cm, height = 7cm, keepaspectratio]{gac3.png}
+\caption{Step3 GAC}
+\label{fig:gac3}
+\end{figure}
+
+\section{Logique Propositionelle}
+Apparament, en tant qu'humain on sait des choses. C'est chose pour être interpréter comme étant des connaissance sur le monde. On opère en fonction de ces connaissance et non en fonction d'un pure réflexe (voir Réseau de Neurones). On utilise un \textbf{raisonnement} basé sur nos \textbf{connaissances}. Jusqu'à dâte, nos méthode de recherches sont basé sur des problèmes très spécifiques.\\
+
+Un Agent logique suit un framework comme suit:\\
+
+\begin{figure}[h!t]
+\centering
+\includegraphics[width = 7cm, height = 7cm, keepaspectratio]{agent_logique.png}
+\caption{Framework d'un agent Logique}
+\label{fig:agent_logique}
+\end{figure}
+
+Le principe est que tu envoie la perception de ton agent dans sa base de connaissance. Ensuite en utilisant une méthode de référence, tu peux déduire certaines affirmations sur le monde. Ensuite, l'agent finit par redemander certaines affirmations sur le demande. Affirmations lequel la base de connaissance répond par un oui ou un non.\\
+
+\noindent Un agent logique utilise:
+\begin{itemize}
+\item un \textbf{language formel} qui lui permet de représenter de façon compacte plusieurs situations différentes (logique propositionel et logique de premier ordre)
+
+\item une \textbf{base de connaissances} pour stocker les faits connus spécifiques aux problèmes
+
+\item des \textbf{algorithme d'inférence généraux} pour déduire des nouveaux faits.
+\end{itemize}
+
+\subsection{Conséquence Logique}
+On définit une conséquences logique comme une chose conséquence d'un autre
+\begin{align*}
+KB \models \alpha
+\end{align*}
+\noindent est vraie si seulement si $\alpha$ est vrai dans tous les monde ou $KB$ est vrai aussi.
+
+\noindent Exemple: $ KB = ( x = 3 ), KB \models ( x + 2 = 5 )$
+
+On dit que $KB$ est un modèl de $\alpha$ dans la condition d'en haut.. On pourrait élaborer et dire qu'un modèle d'un affirmation $\alpha$ serait en fait une possibilité de représentation du monde.. voir fig 
+
+\begin{figure}[h!t]
+\centering
+\includegraphics[width = 7cm, height = 7cm, keepaspectratio]{exemple_model.png}
+\caption{Exemple d'un model}
+\label{fig:exemple_model}
+\end{figure}
+\subsection{Syntaxe de la Logique}
+la logique propositionnelle suit des règle très spécifique avec sa propre famille d'opérateur. En voici des exemples.\\
+
+\begin{itemize}
+
+
+\item Le connecteurs : $\wedge$,
+$\vee$,
+$\Rightarrow$,
+$\Leftrightarrow$,
+$\neg$ ont tous des fonctions specifiques 
+\item pour S, nous avons $\neg$ S qui donne sont inverse (negation) implique $\neg$ S est vraie si S est faux
+\item pour $S_1 et S_2$, on a $S_1 \wedge S_2$ si $S_1$ est vraie et $S_2$ est vraie
+\item pour $S_1 et S_2$, on a $S_1 \vee S_2$ si $S_1$ est vraie ou $S_2$ est vraie
+\item pour $S_1 et S_2$, on a $S_1 \Rightarrow S_2$ si $S_1$ est faux ou $S_1$ est vrai, \\
+ie. c'est faux si $S_1$ est vraie et $S_2$ est faux
+\item pour $S_1 et S_2$, on a $S_1 \Leftrightarrow S_2$ qui est equivalent a $S_1 \Rightarrow S_2$ et $S_2 \Rightarrow S_1$ 
+
+\end{itemize}
+
+Notre base de connaissance va être former d'une multitude de statements sous forme $X_1 \vee X_2 \wedge \neg X_3$ ou les variables X sont des variable qui représente certains aspects du monde. Comme par exemple sa pourrait représenter l'état d'une switch dans un circuit ou $True$ serait égale à un courant qui passe dans la switch et que $False$ serait lorsque rien ne passe dans la switch.\\
+
+
+à l'aide de la syntaxe de la logique et de notre base de connaissance composés d'une multitude  de statements sur le monde. Il est possible de faire des déductions sur le monde basé que sur les statements dans notre base de connaissances.\\
+
+On peut déduire une affirmation $\alpha$ de KB et l'écrire sous la forme : \\
+\begin{center}
+$ KB \vdash \alpha$
+\end{center}
+
+voici quelques règles d'inférence qui est valable:
+\begin{align}
+\neg(A\vee B) \vdash (\neg A\wedge \neg B) \textbf{      Loi de de Morgan}\\
+\neg(A\wedge B) \vdash (\neg A \vee \neg B) \textbf{       Loi de de Morgan}\\
+[(A \Rightarrow B), A] \vdash B \textbf{        Modus Ponens}\\
+[(A \Rightarrow B), \neg B] \vdash \neg A \textbf{        Modus Tolens}\\
+(A \wedge B) \vdash A \textbf{       Élimination du } \wedge\\
+(A \Leftrightarrow B) \vdash (A\Rightarrow B) \wedge (B\Rightarrow A)\\
+[(A \vee B), \neg A] \vdash B
+\end{align}
+
+\subsection{Inférence}
+Pour faire de l'inférence, nous n'avons qu'à appliquer les formules vu ci-haut. On définit:
+\paragraph{Algorithme de résolution :} Les formules sont normalisé et on applique une règles de résolution que nous allons voir plus bas
+
+\paragraph{Formes Normale Conjonctive} Une formule est en FNC si et seulement si elle consiste d'une conjonction de clauses ou une clauses est une disjonction de littéraux. Un littéraux peut être vraie ou faux.
+\begin{align}
+FNC = K_1 \wedge K_2 \wedge K_m \\
+\text{K est une clause} \rightarrow K_i = L_1 \vee L_2 \vee L_m\\
+\text{ou L est un littéraux, vraie ou faux}\\
+\text{forme finale = } (L_{11}\vee L_{12})\wedge (L_{21} \vee L_{22})
+\end{align} 
+
+\noindent Toute base de connaissance en Logique Propositionelle peut être traduite en Forme normale conjonction à l'aide de:\\ \\
+\centering
+$(A \Rightarrow B) \vdash \neg A \vee B$
+\justify
+
+\noindent On utilise ensuite la loi de De Morgan pour rendre les statements en une combinaise de $\vee$ et de $\wedge$. voir fig.\ref{fig:exemple_inference}
+
+\begin{figure}[h!t]
+\centering
+\includegraphics[width = 7cm, height = 7cm, keepaspectratio]{exemple_inference.png}
+\caption{Exemple d'une traduction de statements en FNC}
+\label{fig:exemple_inference}
+\end{figure}
+
+\noindent La base de connaissance KB doit toujours être consistante. c-à-d quelle ne se contredit pas elle dans ses statements. Exemple avoir un statement $S_1$ et de vouloir rajouter $\neg S_1$
+
+\noindent Nos algorithme d'inférence peut être classifier de deux manières:
+
+\begin{itemize}
+\item \textbf{Algorithme Complet} Si un fait est une conséquence logique de la base de connaissance, notre algorithme doit être capable de déduire ce fait.\\
+Si $KB \models \alpha$ alors $KB \vdash \alpha$
+
+\item \textbf{Algorithme Correct} Si l'algorithme d'inférence déduit un fait. Celui-ci doit être nécessairement une conséquence logique de la base de connaissance, c-à-d, qu'il n'invente pas des fausseté. \\
+Si $KB \vdash \alpha$ alors $KB \models \alpha$
+\end{itemize}
+
+\subsubsection{Clause de Horn}
+On peut être encore plus spécifique dans notre définitions d'une clause. Les \textbf{clauses de horné} est une ensemble de clauses il y a au plus un littéral positif. voir fig \ref{fig:horn} 
+
+\begin{figure}[h!t]
+\centering
+\includegraphics[width = 5cm, height = 5cm, keepaspectratio]{horn.png}
+\caption{Formulation d'une clause de Horn}
+\label{fig:horn}
+\end{figure}
+
+\noindent C'est important car en prolog, tout doit être défini par des clauses de horn.
+
+\subsubsection{Chaînage Avant}
+le premier algorithme d'inférence que nous allons voir est l'algorithme de chaînage avant. Le principe de l'algorithme est pouvoir déduire tout ce que nous pouvons avec notre base de connaissance, et ensuite de vérifier si nous pouvons déduire le statement que nous voulons, c-à-d $\alpha$. voir fig.\ref{fig:exemple_chainage avant} et \ref{fig:algo_chainage_avant}
+
+\begin{figure}[h!t]
+\centering
+\includegraphics[width = 5cm, height = 5cm, keepaspectratio]{chainage_avant_exemple.png}
+\caption{Exemple de chaînage avant}
+\label{fig:exemple_chainage avant}
+\end{figure}
+
+\begin{figure}[h!t]
+\centering
+\includegraphics[width = 5cm, height = 5cm, keepaspectratio]{algo_chainage_avant.png}
+\caption{Algorithme de chaînage avant}
+\label{fig:algo_chainage_avant}
+\end{figure}
+
+\subsubsection{Chaînage Arrière}
+Le deuxième algorithme d'inférence que nous allons voir est le chaînage arrière. cet algorithme essaie d'ajouter la négation du fait à prouver dans la base de connaissance. Si on fini avec une clause vide, sa veut dire que le fait qu'on essaie de prouver est faux (fig \ref{fig:exemple_chainage_arriere}). Il faut prendre garde. Car l'algorithme de chaînage passe les statements un à un de haut en bas. Il se peut que notre algorithme rentre dans une boucle infini si certains statements se font références (fig \ref{fig:chainage_arriere_loop}).\\
+
+\begin{figure}[h!t]
+\centering
+\includegraphics[width = 5cm, height = 5cm, keepaspectratio]{exemple_chainage_arriere.png}
+\caption{Exemple d'un chaînage arrière}
+\label{fig:exemple_chainage_arriere}
+\end{figure}
+
+
+\subsubsection{WalkSat}
+Le troisième algorithme est le WalkSat. C'est en fait un algorithme très probabiliste. Sont principe est qu'on attribue aléatoirement des valeurs (vraie ou faux) à tous les littéraux présent dans notre base de connaissance qui pourrait faire matcher notre base de connaissance avec le statement à prouver $\alpha$. \\
+
+Par contre, le désavantage avec sa, c'est qu'on peut 'tomber' dans un minimum local.. et qu'on ne peut jamais avoir une certitude que $\alpha$ est vraie.. En plus, le temps requis pour appliquer WalkSat peut être très grand étant donnée sa nature purement aléatoire. 
+
+\section{Logique Prédicat du Premier Ordre}
+La logique de Prédicat du Premier Ordre est très similaire à la Logique propositionelle. Par contre, il y a des différences notables. Le principe est qu'on fait une différence entre un objet et ses charactéristique et parfois même le contexte (une fonction genre père, mère..) .\\
+
+\noindent On retrouve aussi la présence de quantificateur. Les quantificateurs sert à représenter les variables qu'on place dans nos prédicat. Voici quelques exemple:
+\begin{align}
+\forall X \rightarrow \text{veut dire}: \text{Pour tous les X, c'est absolue}\\
+\exists X \rightarrow \text{veut dire}: \text{Il existe un X pour laquel la condition s'applique}\\
+\end{align}
+\noindent On retrouve aussi tous les opérateurs qu'on avait dans la logique propositionelle avec les mêmes signification, c'est à dire: $\neg , \wedge , \vee , \Rightarrow , \Leftrightarrow , =$
+\noindent Voici quelques exemples de fonctions de prédicats avec leur significations
+
+\paragraph{Tous les élèves sont intelligents} $\forall x [eleve(x) \Rightarrow intelligent(x)]$
+\paragraph{Il existe un professeur intelligent} $\exists x [professeur(x) \Rightarrow intelligent(x)]$
+\paragraph{Si un prof enseigne l'IA, il est intelligent} $\forall x [professeur(x) \wedge enseigne(x, IA) \Rightarrow intelligent(x)]$
+\paragraph{Tout le monde aime tout le monde}$\forall x \forall y [aime(x,y)]$
+\paragraph{Tout le monde aime quelqu'un}$\forall x \exists y [aime(x,y)]$
+\paragraph{Quelqu'un aime tout le monde}$\forall x \exists y [aime(x,y)]$
+\paragraph{Quelqu'un aime quelqu'un}$\exists x \exists [y aime(x,y)]$
+\paragraph{Quelqu'un aime tous les prof d'IA}$\exists y \forall x [enseigne(x, IA)\wedge professeur(x) \Rightarrow aime(y, x)]$
+\paragraph{Paul est un barbier qui rase tous cex qui ne se rasent pas}
+$barbier(Paul) \\ \forall x[\neg rase(x,x) \Rightarrow rase(Paul, x)]$ 
+\paragraph{Les brésiliens ne dansent pas tous la samba}
+$\neg \forall x [bresilien(x) \Rightarrow danser(x, samba)]$\\
+ou \\
+$\exists x [bresilien(x) \wedge \neg danser(x, samba)]$
+
+\subsection{Résolution}
+Pour faire la résolution de problème en Logique de prédicat, on applique exactement les mêmes rêgles qu'avec la logique propositionnelle. On peut faire du chaînage avant en déduisant ce que l'on peut et on peut faire du chaînage arrière en plaçant l'inverse de notre statement dans notre base de connaissance. Évidemment, étant donné la quantification qui se rajoute, certaines modifications devront avoir lieu pour que tous puisse marcher normalement. C'est pour sa qu'on utilisera la \textbf{skolémisation} pour pouvoir résoudre ces problèmes. 
+
+\subsection{Skolémisation}
+ Le but de la skolémisation est d'éliminer les quantificateurs existentiel. En faisant sa, on change notre problème de sorte qu'on puisse les régler de la même manière que la logique propositionelle.\\
+ 
+Voici un exemple de skolémisation pour résoudre un problème.\\
+
+\noindent KB:\\
+$\forall x [professeur(x) \Rightarrow \exists y \text{ } cours(y) \wedge enseigne(x, y)]$\\
+$\forall x [cours(x) \Rightarrow \exists y \text{ } siteweb(y) \wedge associe(x,y)]$\\
+$professeur(michel)$\\
+
+\noindent On veut déduire $\exists y$ $siteweb(y)$
+\noindent Voici les étapes requis pour faire la déduction
+\setcounter{equation}{0}
+\begin{align}
+professeur(x) \Rightarrow cours(C_1(x))\wedge enseigne(x C_1(x))\\
+cours(x)\Rightarrow siteweb(C_2(x))\wedge associe(x, C_2(x))\\
+professeur(michel)\\
+cours(C_1(michel))\\
+enseigne(michel, C_1(michel))\\
+\mathbf{siteweb(C_2(C_1(michel)))}\\
+associe(C_1(michel), C_2(C_1(michel))
+\end{align}
+
+On peut voir qu'on vient de prouver ce qu'on voulait, c-à-d. qu'il y a un quelconque siteweb y qui existe
 \end{document}

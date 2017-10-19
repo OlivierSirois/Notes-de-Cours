@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.10)  16 OCT 2017 00:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.10)  17 OCT 2017 14:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -558,34 +558,34 @@ File: Braitenberg.png Graphic file (type png)
  <use Braitenberg.png>
 Package pdftex.def Info: Braitenberg.png used on input line 50.
 (pdftex.def)             Requested size: 284.54468pt x 241.83012pt.
- [2]
-[3 <./Braitenberg.png>] <Agent_base.png, id=20, 411.5375pt x 234.8775pt>
+ [1]
+[2 <./Braitenberg.png>] <Agent_base.png, id=19, 411.5375pt x 234.8775pt>
 File: Agent_base.png Graphic file (type png)
 
 <use Agent_base.png>
 Package pdftex.def Info: Agent_base.png used on input line 101.
 (pdftex.def)             Requested size: 142.26317pt x 81.19409pt.
- <Agent_Reflexe.png, id=21, 361.35pt x 226.8475pt>
+ <Agent_Reflexe.png, id=20, 361.35pt x 226.8475pt>
 File: Agent_Reflexe.png Graphic file (type png)
 
 <use Agent_Reflexe.png>
 Package pdftex.def Info: Agent_Reflexe.png used on input line 110.
 (pdftex.def)             Requested size: 142.26578pt x 89.31128pt.
- <Agent_Memoire.png, id=22, 329.23pt x 214.8025pt>
+ <Agent_Memoire.png, id=21, 329.23pt x 214.8025pt>
 File: Agent_Memoire.png Graphic file (type png)
 
 <use Agent_Memoire.png>
 Package pdftex.def Info: Agent_Memoire.png used on input line 118.
 (pdftex.def)             Requested size: 142.26442pt x 92.81886pt.
 
-<Agent_Memoire_But.png, id=23, 335.2525pt x 213.79875pt>
+<Agent_Memoire_But.png, id=22, 335.2525pt x 213.79875pt>
 File: Agent_Memoire_But.png Graphic file (type png)
 
 <use Agent_Memoire_But.png>
 Package pdftex.def Info: Agent_Memoire_But.png used on input line 125.
 (pdftex.def)             Requested size: 142.26302pt x 90.72461pt.
 
-<Agent_Memoire_Theorie.png, id=24, 330.23375pt x 218.8175pt>
+<Agent_Memoire_Theorie.png, id=23, 330.23375pt x 218.8175pt>
 File: Agent_Memoire_Theorie.png Graphic file (type png)
 
 <use Agent_Memoire_Theorie.png>
@@ -597,61 +597,59 @@ Overfull \hbox (6.05615pt too wide) in paragraph at lines 137--138
 tillons d'entrainement
  []
 
-[4 <./Agent_base.png>] [5 <./Agent_Reflexe.png> <./Agent_Memoire.png> <./Agent_
+[3 <./Agent_base.png>] [4 <./Agent_Reflexe.png> <./Agent_Memoire.png> <./Agent_
 Memoire_But.png> <./Agent_Memoire_Theorie.png>]
 Overfull \hbox (7.90974pt too wide) in paragraph at lines 138--138
 []\OT1/cmr/bx/n/14.4 M^^Sethodes de Recherche dans un Es-pace []Etats 
  []
 
-<Etat.png, id=31, 530.98375pt x 289.08pt>
+<Etat.png, id=30, 530.98375pt x 289.08pt>
 File: Etat.png Graphic file (type png)
  <use Etat.png>
 Package pdftex.def Info: Etat.png used on input line 143.
 (pdftex.def)             Requested size: 199.16702pt x 108.43118pt.
 
-<Recherche_Largeur.png, id=32, 470.75874pt x 282.05376pt>
+<Recherche_Largeur.png, id=31, 470.75874pt x 282.05376pt>
 File: Recherche_Largeur.png Graphic file (type png)
 
 <use Recherche_Largeur.png>
 Package pdftex.def Info: Recherche_Largeur.png used on input line 164.
 (pdftex.def)             Requested size: 199.16832pt x 119.33113pt.
- <algo_largeur.png, id=33, 469.755pt x 260.975pt>
+ <algo_largeur.png, id=32, 469.755pt x 260.975pt>
 File: algo_largeur.png Graphic file (type png)
 
 <use algo_largeur.png>
 Package pdftex.def Info: algo_largeur.png used on input line 171.
 (pdftex.def)             Requested size: 199.16656pt x 110.64809pt.
- [6 <./Etat.png>]
-<Recherche_Profondeur.png, id=37, 531.9875pt x 282.05376pt>
+ [5 <./Etat.png>]
+<Recherche_Profondeur.png, id=36, 531.9875pt x 282.05376pt>
 File: Recherche_Profondeur.png Graphic file (type png)
 
 <use Recherche_Profondeur.png>
 Package pdftex.def Info: Recherche_Profondeur.png used on input line 186.
 (pdftex.def)             Requested size: 199.162pt x 105.59343pt.
 
-<algo_profondeur.png, id=38, 379.4175pt x 256.96pt>
+<algo_profondeur.png, id=37, 379.4175pt x 256.96pt>
 File: algo_profondeur.png Graphic file (type png)
  <use algo_profondeur.png>
 Package pdftex.def Info: algo_profondeur.png used on input line 193.
 (pdftex.def)             Requested size: 199.17401pt x 134.89034pt.
 
-Underfull \vbox (badness 1178) has occurred while \output is active []
+[6 <./Recherche_Largeur.png> <./algo_largeur.png> <./Recherche_Profondeur.png>]
 
- [7 <./Recherche_Largeur.png> <./algo_largeur.png> <./Recherche_Profondeur.png>
-]
 Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
-[8 <./algo_profondeur.png>]
-<Recherche_Uniforme.png, id=50, 459.7175pt x 273.02pt>
+[7 <./algo_profondeur.png>]
+<Recherche_Uniforme.png, id=49, 459.7175pt x 273.02pt>
 File: Recherche_Uniforme.png Graphic file (type png)
 
 <use Recherche_Uniforme.png>
 Package pdftex.def Info: Recherche_Uniforme.png used on input line 227.
 (pdftex.def)             Requested size: 199.1688pt x 118.28365pt.
 
-<algo_uniforme.png, id=51, 520.94624pt x 255.95625pt>
+<algo_uniforme.png, id=50, 520.94624pt x 255.95625pt>
 File: algo_uniforme.png Graphic file (type png)
  <use algo_uniforme.png>
 Package pdftex.def Info: algo_uniforme.png used on input line 234.
@@ -661,7 +659,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
-[9 <./Recherche_Uniforme.png> <./algo_uniforme.png>]
+[8 <./Recherche_Uniforme.png> <./algo_uniforme.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
@@ -676,39 +674,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
-[10] <Heuristique_Glutone_Prob.png, id=60, 567.11874pt x 419.5675pt>
+[9] <Heuristique_Glutone_Prob.png, id=59, 567.11874pt x 419.5675pt>
 File: Heuristique_Glutone_Prob.png Graphic file (type png)
 
 <use Heuristique_Glutone_Prob.png>
 Package pdftex.def Info: Heuristique_Glutone_Prob.png used on input line 285.
 (pdftex.def)             Requested size: 199.16951pt x 147.35017pt.
 
-<Heuristique_Glutone.png, id=61, 487.8225pt x 324.21124pt>
+<Heuristique_Glutone.png, id=60, 487.8225pt x 324.21124pt>
 File: Heuristique_Glutone.png Graphic file (type png)
 
 <use Heuristique_Glutone.png>
 Package pdftex.def Info: Heuristique_Glutone.png used on input line 292.
 (pdftex.def)             Requested size: 199.16739pt x 132.36844pt.
- <A*.png, id=62, 549.05125pt x 361.35pt>
+ <A*.png, id=61, 549.05125pt x 361.35pt>
 File: A*.png Graphic file (type png)
 
 <use A*.png>
 Package pdftex.def Info: A*.png used on input line 313.
 (pdftex.def)             Requested size: 199.1663pt x 131.07837pt.
- [11 <./Heuristique_Glutone_Prob.png> <./Heuristique_Glutone.png>]
-<Preuve_A*.png, id=66, 223.83624pt x 187.70125pt>
+ [10 <./Heuristique_Glutone_Prob.png> <./Heuristique_Glutone.png>]
+<Preuve_A*.png, id=65, 223.83624pt x 187.70125pt>
 File: Preuve_A*.png Graphic file (type png)
  <use Preuve_A*.png>
 Package pdftex.def Info: Preuve_A*.png used on input line 329.
 (pdftex.def)             Requested size: 199.17264pt x 167.01921pt.
- [12 <./A*.png> <./Preuve_A*.png>]
-<incrementale_15.png, id=70, 536.0025pt x 350.30875pt>
+ [11 <./A*.png> <./Preuve_A*.png>]
+<incrementale_15.png, id=69, 536.0025pt x 350.30875pt>
 File: incrementale_15.png Graphic file (type png)
 
 <use incrementale_15.png>
 Package pdftex.def Info: incrementale_15.png used on input line 346.
 (pdftex.def)             Requested size: 199.1684pt x 130.1681pt.
- <incrementale_25.png, id=71, 550.055pt x 367.3725pt>
+ <incrementale_25.png, id=70, 550.055pt x 367.3725pt>
 File: incrementale_25.png Graphic file (type png)
 
 <use incrementale_25.png>
@@ -719,7 +717,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 359--360
 
  []
 
-[13 <./incrementale_15.png> <./incrementale_25.png>]
+[12 <./incrementale_15.png> <./incrementale_25.png>]
 Overfull \hbox (3.58377pt too wide) in paragraph at lines 361--362
 []\OT1/cmr/m/n/10 Les m^^Sethodes de recherche lo-cales ne con-ser-vent qu'un s
 eul noeud en m^^Semoire,
@@ -730,42 +728,307 @@ Underfull \hbox (badness 10000) in paragraph at lines 361--362
 
  []
 
-[14]
-Chapter 1.
-[15
 
-] [16
+Underfull \hbox (badness 10000) in paragraph at lines 363--364
 
-] (./NotesINF8215.toc)
-\tf@toc=\write4
-\openout4 = `NotesINF8215.toc'.
+ []
 
- [17] (./NotesINF8215.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
+
+ []
+
+<Paysage_Espace.png, id=75, 467.7475pt x 337.26pt>
+File: Paysage_Espace.png Graphic file (type png)
+ <use Paysage_Espace.png>
+Package pdftex.def Info: Paysage_Espace.png used on input line 384.
+(pdftex.def)             Requested size: 199.17189pt x 143.60892pt.
+
+<Recuit_Stimule.png, id=76, 494.84875pt x 138.5175pt>
+File: Recuit_Stimule.png Graphic file (type png)
+ <use Recuit_Stimule.png>
+Package pdftex.def Info: Recuit_Stimule.png used on input line 393.
+(pdftex.def)             Requested size: 199.16676pt x 55.75052pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
+
+ []
+
+<algo_genetique.png, id=80, 492.84125pt x 254.9525pt>
+File: algo_genetique.png Graphic file (type png)
+ <use algo_genetique.png>
+Package pdftex.def Info: algo_genetique.png used on input line 408.
+(pdftex.def)             Requested size: 199.17096pt x 103.03343pt.
+
+<exemple_algo_genetique.png, id=81, 539.01375pt x 302.12875pt>
+File: exemple_algo_genetique.png Graphic file (type png)
+
+<use exemple_algo_genetique.png>
+Package pdftex.def Info: exemple_algo_genetique.png used on input line 416.
+(pdftex.def)             Requested size: 199.16876pt x 111.63835pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--422
+
+ []
+
+<operateur_genetique.png, id=82, 389.455pt x 767.86874pt>
+File: operateur_genetique.png Graphic file (type png)
+
+<use operateur_genetique.png>
+Package pdftex.def Info: operateur_genetique.png used on input line 426.
+(pdftex.def)             Requested size: 216.46503pt x 426.79134pt.
+ [14 <./Paysage_Espace.png> <./Recuit_Stimule.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 431--433
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 434--436
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--445
+
+ []
+
+[15 <./algo_genetique.png> <./exemple_algo_genetique.png>] [16 <./operateur_gen
+etique.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
+
+ []
+
+<arbre_recherche_standard.png, id=93, 476.78125pt x 358.33875pt>
+File: arbre_recherche_standard.png Graphic file (type png)
+
+<use arbre_recherche_standard.png>
+Package pdftex.def Info: arbre_recherche_standard.png used on input line 453.
+(pdftex.def)             Requested size: 199.17004pt x 149.69202pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
+
+ []
+
+[17 <./arbre_recherche_standard.png>]
+<forward_checking.png, id=97, 538.01pt x 230.8625pt>
+File: forward_checking.png Graphic file (type png)
+
+<use forward_checking.png>
+Package pdftex.def Info: forward_checking.png used on input line 472.
+(pdftex.def)             Requested size: 199.1673pt x 85.46358pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
+
+ []
+
+<gac1.png, id=98, 458.71375pt x 76.285pt>
+File: gac1.png Graphic file (type png)
+ <use gac1.png>
+Package pdftex.def Info: gac1.png used on input line 482.
+(pdftex.def)             Requested size: 199.1679pt x 33.12201pt.
+
+<gac2.png, id=99, 462.72874pt x 80.3pt>
+File: gac2.png Graphic file (type png)
+ <use gac2.png>
+Package pdftex.def Info: gac2.png used on input line 489.
+(pdftex.def)             Requested size: 199.16718pt x 34.56262pt.
+
+<gac3.png, id=100, 461.725pt x 79.29625pt>
+File: gac3.png Graphic file (type png)
+ <use gac3.png>
+Package pdftex.def Info: gac3.png used on input line 496.
+(pdftex.def)             Requested size: 199.16492pt x 34.20439pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--503
+
+ []
+
+[18 <./forward_checking.png> <./gac1.png> <./gac2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 504--505
+
+ []
+
+<agent_logique.png, id=105, 443.6575pt x 230.8625pt>
+File: agent_logique.png Graphic file (type png)
+ <use agent_logique.png>
+Package pdftex.def Info: agent_logique.png used on input line 508.
+(pdftex.def)             Requested size: 199.16338pt x 103.63704pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 513--514
+
+ []
+
+[19 <./gac3.png> <./agent_logique.png>]
+<exemple_model.png, id=109, 351.3125pt x 266.9975pt>
+File: exemple_model.png Graphic file (type png)
+ <use exemple_model.png>
+Package pdftex.def Info: exemple_model.png used on input line 537.
+(pdftex.def)             Requested size: 199.17271pt x 151.37126pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--562
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--565
+
+ []
+
+[20 <./exemple_model.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
+
+ []
+
+<exemple_inference.png, id=113, 590.205pt x 414.54875pt>
+File: exemple_inference.png Graphic file (type png)
+
+<use exemple_inference.png>
+Package pdftex.def Info: exemple_inference.png used on input line 603.
+(pdftex.def)             Requested size: 199.16307pt x 139.88835pt.
+ [21] <horn.png, id=117, 219.82124pt x 160.6pt>
+File: horn.png Graphic file (type png)
+
+<use horn.png>
+Package pdftex.def Info: horn.png used on input line 625.
+(pdftex.def)             Requested size: 142.26828pt x 103.94029pt.
+ [22 <./exemple_inference.png> <./horn.png>]
+Overfull \hbox (2.83392pt too wide) in paragraph at lines 633--634
+\OT1/cmr/m/n/10 le pre-mier al-go-rithme d'inf^^Serence que nous al-lons voir e
+st l'algorithme de cha^^^Pnage
+ []
+
+<chainage_avant_exemple.png, id=121, 484.81125pt x 277.035pt>
+File: chainage_avant_exemple.png Graphic file (type png)
+
+<use chainage_avant_exemple.png>
+Package pdftex.def Info: chainage_avant_exemple.png used on input line 637.
+(pdftex.def)             Requested size: 142.26352pt x 81.29343pt.
+
+<algo_chainage_avant.png, id=122, 434.62375pt x 313.17pt>
+File: algo_chainage_avant.png Graphic file (type png)
+
+<use algo_chainage_avant.png>
+Package pdftex.def Info: algo_chainage_avant.png used on input line 644.
+(pdftex.def)             Requested size: 142.2657pt x 102.51016pt.
+
+
+LaTeX Warning: Reference `fig:chainage_arriere_loop' on page  undefined on inpu
+t line 650.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 650--651
+
+ []
+
+<exemple_chainage_arriere.png, id=123, 448.67625pt x 291.0875pt>
+File: exemple_chainage_arriere.png Graphic file (type png)
+
+<use exemple_chainage_arriere.png>
+Package pdftex.def Info: exemple_chainage_arriere.png used on input line 654.
+(pdftex.def)             Requested size: 142.25801pt x 92.29266pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 661--662
+
+ []
+
+[23 <./chainage_avant_exemple.png> <./algo_chainage_avant.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 666--667
+
+ []
+
+
+Overfull \hbox (27.84877pt too wide) in paragraph at lines 678--679
+ \OT1/cmr/bx/n/10 Si un prof en-seigne l'IA, il est in-tel-li-gent[] $\OMS/cmsy
+/m/n/10 8\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 professeur\OT1/cmr
+/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/1
+0 enseigne\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; IA\OT1/cmr/m/n/10 ) \OMS/cmsy/m/
+n/10 )
+ []
+
+[24 <./exemple_chainage_arriere.png>]
+Overfull \hbox (8.01328pt too wide) in paragraph at lines 683--684
+ \OT1/cmr/bx/n/10 Quelqu'un aime tous les prof d'IA[] $\OMS/cmsy/m/n/10 9\OML/c
+mm/m/it/10 y\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 [\OML/cmm/m/it/
+10 enseigne\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; IA\OT1/cmr/m/n/10 ) \OMS/cmsy/m
+/n/10 ^ \OML/cmm/m/it/10 professeur\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/
+m/n/10 ) \OMS/cmsy/m/n/10 )
+ []
+
+
+Overfull \hbox (0.76456pt too wide) in paragraph at lines 685--686
+ \OT1/cmr/bx/n/10 Paul est un bar-bier qui rase tous cex qui ne se rasent pas[]
+ $\OML/cmm/m/it/10 barbier\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Paul\OT1/cmr/m/n/10
+ )[] 
+ []
+
+
+Overfull \hbox (43.10603pt too wide) in paragraph at lines 687--690
+ \OT1/cmr/bx/n/10 Les br^^Sesiliens ne dansent pas tous la samba[] $\OMS/cmsy/m
+/n/10 :8\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 bresilien\OT1/cmr/m
+/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ) \OML/cmm/m/it/10 
+danser\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; samba\OT1/cmr/m/n/10 )]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--696
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 697--698
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 699--703
+
+ []
+
+[25] [26] (./NotesINF8215.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2697 strings out of 493029
- 36025 string characters out of 6136233
- 99222 words of memory out of 5000000
- 6172 multiletter control sequences out of 15000+600000
- 10588 words of font info for 38 fonts, out of 8000000 for 9000
+ 2797 strings out of 493029
+ 38226 string characters out of 6136233
+ 101322 words of memory out of 5000000
+ 6256 multiletter control sequences out of 15000+600000
+ 9995 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,23p,557b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb>
-Output written on NotesINF8215.pdf (17 pages, 675324 bytes).
+ 38i,11n,23p,652b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on NotesINF8215.pdf (27 pages, 1117837 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
+ 184 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
