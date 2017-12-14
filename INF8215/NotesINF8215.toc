@@ -1,51 +1,154 @@
-\contentsline {section}{\numberline {0.1}Introduction}{}
-\contentsline {paragraph}{}{}
-\contentsline {paragraph}{}{}
-\contentsline {paragraph}{}{}
-\contentsline {paragraph}{ex:}{}
-\contentsline {paragraph}{}{}
-\contentsline {subparagraph}{McCarthy 1955}{}
-\contentsline {subparagraph}{Brittanica 1991}{}
-\contentsline {subparagraph}{Rich 1983}{}
-\contentsline {paragraph}{V\IeC {\'e}hicule Braitenberg}{}
-\contentsline {subparagraph}{Ex: voir 1\hbox {}}{}
-\contentsline {paragraph}{}{}
-\contentsline {paragraph}{}{}
-\contentsline {section}{\numberline {0.2}Agents Intelligents}{}
-\contentsline {paragraph}{}{}
-\contentsline {paragraph}{}{}
-\contentsline {section}{\numberline {0.3}M\IeC {\'e}thodes de Recherche dans un Espace \IeC {\'E}tats}{}
-\contentsline {paragraph}{\IeC {\'E}tat}{}
-\contentsline {paragraph}{Fonction de Cout}{}
-\contentsline {paragraph}{M\IeC {\'e}thode de recherche}{}
-\contentsline {subsection}{\numberline {0.3.1}M\IeC {\'e}thodes de Recherche non inform\IeC {\'e}e}{}
-\contentsline {subsubsection}{M\IeC {\'e}thode de Recherche en largeur}{}
-\contentsline {paragraph}{}{}
-\contentsline {paragraph}{Avantages}{}
-\contentsline {paragraph}{D\IeC {\'e}savantages}{}
-\contentsline {subsubsection}{M\IeC {\'e}thode de Recherche en profondeur}{}
-\contentsline {paragraph}{}{}
-\contentsline {paragraph}{Variantes Incr\IeC {\'e}mentales}{}
-\contentsline {paragraph}{}{}
-\contentsline {paragraph}{}{}
-\contentsline {subsubsection}{Algorithme de Recherche a cout uniforme}{}
-\contentsline {paragraph}{}{}
-\contentsline {paragraph}{}{}
-\contentsline {subsubsection}{Recherche Bidirectionel}{}
-\contentsline {paragraph}{}{}
-\contentsline {paragraph}{}{}
-\contentsline {subsection}{\numberline {0.3.2}M\IeC {\'e}thode de Recherche Inform\IeC {\'e}e}{}
-\contentsline {paragraph}{Heuristique}{}
-\contentsline {paragraph}{}{}
-\contentsline {subsubsection}{Heuristique Glutone}{}
-\contentsline {paragraph}{}{}
-\contentsline {subsubsection}{Algorithme A*}{}
-\contentsline {paragraph}{}{}
-\contentsline {paragraph}{}{}
-\contentsline {paragraph}{}{}
-\contentsline {paragraph}{}{}
-\contentsline {subsubsection}{Variante A* incr\IeC {\'e}mentale}{}
-\contentsline {paragraph}{}{}
-\contentsline {subsection}{\numberline {0.3.3}M\IeC {\'e}thode de Recherche Locale}{}
-\contentsline {paragraph}{Voisinage}{}
-\contentsline {chapter}{\numberline {1}1}{}
+\contentsline {chapter}{\numberline {1}Introduction}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {paragraph}{ex:}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {subparagraph}{McCarthy 1955}{3}
+\contentsline {subparagraph}{Brittanica 1991}{3}
+\contentsline {subparagraph}{Rich 1983}{3}
+\contentsline {paragraph}{V\IeC {\'e}hicule Braitenberg}{4}
+\contentsline {subparagraph}{Ex: voir 1.1\hbox {}}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {section}{\numberline {1.1}Agents Intelligents}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {paragraph}{}{6}
+\contentsline {chapter}{\numberline {2}M\IeC {\'e}thode de Recherche dans un Espace d'\IeC {\'E}tats et Probl\IeC {\`e}me de Satisfaction de Contraintes.}{8}
+\contentsline {section}{\numberline {2.1}M\IeC {\'e}thodes de Recherche dans un Espace \IeC {\'E}tats}{8}
+\contentsline {paragraph}{\IeC {\'E}tat}{8}
+\contentsline {paragraph}{Fonction de Cout}{8}
+\contentsline {paragraph}{M\IeC {\'e}thode de recherche}{9}
+\contentsline {subsection}{\numberline {2.1.1}M\IeC {\'e}thodes de Recherche non inform\IeC {\'e}e}{9}
+\contentsline {subsubsection}{M\IeC {\'e}thode de Recherche en largeur}{9}
+\contentsline {paragraph}{Avantages}{9}
+\contentsline {paragraph}{D\IeC {\'e}savantages}{10}
+\contentsline {subsubsection}{M\IeC {\'e}thode de Recherche en profondeur}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {paragraph}{Variantes Incr\IeC {\'e}mentales}{10}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {subsubsection}{Algorithme de Recherche a cout uniforme}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {subsubsection}{Recherche Bidirectionel}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{12}
+\contentsline {subsection}{\numberline {2.1.2}M\IeC {\'e}thode de Recherche Inform\IeC {\'e}e}{13}
+\contentsline {paragraph}{Heuristique}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {subsubsection}{Heuristique Glutone}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {subsubsection}{Algorithme A*}{14}
+\contentsline {paragraph}{}{14}
+\contentsline {paragraph}{}{14}
+\contentsline {paragraph}{}{15}
+\contentsline {paragraph}{}{15}
+\contentsline {subsubsection}{Variante A* incr\IeC {\'e}mentale}{15}
+\contentsline {paragraph}{}{15}
+\contentsline {subsection}{\numberline {2.1.3}M\IeC {\'e}thode de Recherche Locale}{15}
+\contentsline {paragraph}{Voisinage}{15}
+\contentsline {paragraph}{Randomisation}{17}
+\contentsline {subsubsection}{Recuit Stimul\IeC {\'e}}{17}
+\contentsline {paragraph}{Fait empirique:}{17}
+\contentsline {paragraph}{}{17}
+\contentsline {subsubsection}{Algorithme G\IeC {\'e}n\IeC {\'e}tique}{18}
+\contentsline {paragraph}{}{18}
+\contentsline {paragraph}{}{18}
+\contentsline {section}{\numberline {2.2}Probl\IeC {\`e}me de Satisfaction de Contraintes}{19}
+\contentsline {paragraph}{\IeC {\'e}tat initiale:}{19}
+\contentsline {paragraph}{successeurs :}{19}
+\contentsline {paragraph}{test de finitude :}{19}
+\contentsline {subsection}{\numberline {2.2.1}Backtracking}{19}
+\contentsline {subsubsection}{Heuristiques dans le Backtracking}{21}
+\contentsline {subsubsection}{Forward-checking}{21}
+\contentsline {subsubsection}{Coh\IeC {\'e}rence d'arc}{22}
+\contentsline {chapter}{\numberline {3}Logique Propositionelle et Pr\IeC {\'e}dicat du Premier Ordre}{23}
+\contentsline {section}{\numberline {3.1}Logique Propositionelle}{23}
+\contentsline {subsection}{\numberline {3.1.1}Cons\IeC {\'e}quence Logique}{24}
+\contentsline {subsection}{\numberline {3.1.2}Syntaxe de la Logique}{24}
+\contentsline {subsection}{\numberline {3.1.3}Inf\IeC {\'e}rence}{25}
+\contentsline {paragraph}{Algorithme de r\IeC {\'e}solution :}{25}
+\contentsline {paragraph}{Formes Normale Conjonctive}{26}
+\contentsline {subsubsection}{Clause de Horn}{27}
+\contentsline {subsubsection}{Cha\IeC {\^\i }nage Avant}{27}
+\contentsline {subsubsection}{Cha\IeC {\^\i }nage Arri\IeC {\`e}re}{27}
+\contentsline {subsubsection}{WalkSat}{28}
+\contentsline {section}{\numberline {3.2}Logique Pr\IeC {\'e}dicat du Premier Ordre}{28}
+\contentsline {paragraph}{Tous les \IeC {\'e}l\IeC {\`e}ves sont intelligents}{29}
+\contentsline {paragraph}{Il existe un professeur intelligent}{29}
+\contentsline {paragraph}{Si un prof enseigne l'IA, il est intelligent}{29}
+\contentsline {paragraph}{Tout le monde aime tout le monde}{29}
+\contentsline {paragraph}{Tout le monde aime quelqu'un}{29}
+\contentsline {paragraph}{Quelqu'un aime tout le monde}{29}
+\contentsline {paragraph}{Quelqu'un aime quelqu'un}{29}
+\contentsline {paragraph}{Quelqu'un aime tous les prof d'IA}{29}
+\contentsline {paragraph}{Paul est un barbier qui rase tous cex qui ne se rasent pas}{29}
+\contentsline {paragraph}{Les br\IeC {\'e}siliens ne dansent pas tous la samba}{29}
+\contentsline {subsection}{\numberline {3.2.1}R\IeC {\'e}solution}{29}
+\contentsline {subsection}{\numberline {3.2.2}Skol\IeC {\'e}misation}{30}
+\contentsline {chapter}{\numberline {4}Ontologies, Planification et R\IeC {\'e}seaux Bay\IeC {\'e}siens}{31}
+\contentsline {section}{\numberline {4.1}Ontologies}{31}
+\contentsline {paragraph}{r\IeC {\'e}ification}{31}
+\contentsline {paragraph}{r\IeC {\'e}flexivit\IeC {\'e}}{33}
+\contentsline {paragraph}{substances}{33}
+\contentsline {paragraph}{transitivit\IeC {\'e}}{33}
+\contentsline {paragraph}{symm\IeC {\'e}trique}{33}
+\contentsline {subsection}{\numberline {4.1.1}S\IeC {\'e}mantique}{33}
+\contentsline {subsection}{\numberline {4.1.2}interpr\IeC {\'e}tation}{34}
+\contentsline {subsection}{\numberline {4.1.3}Partage des connaissances}{34}
+\contentsline {section}{\numberline {4.2}Planning}{35}
+\contentsline {subsection}{\numberline {4.2.1}Planificateur}{35}
+\contentsline {paragraph}{PlanSAT}{35}
+\contentsline {subsubsection}{GPR}{36}
+\contentsline {subsection}{\numberline {4.2.2}PDDL}{37}
+\contentsline {paragraph}{Hypoth\IeC {\`e}se du monde ferm\IeC {\'e}}{38}
+\contentsline {subsection}{\numberline {4.2.3}Exemple de Shakey le Robot}{39}
+\contentsline {subsection}{\numberline {4.2.4}Sommaire}{39}
+\contentsline {section}{\numberline {4.3}R\IeC {\'e}seaux de Bayes}{40}
+\contentsline {subsection}{\numberline {4.3.1}Rappels des notions de bases}{40}
+\contentsline {paragraph}{Distribution conjointe}{41}
+\contentsline {paragraph}{Probabilit\IeC {\'e} Conditionelle}{41}
+\contentsline {paragraph}{Ind\IeC {\'e}pendance des variables}{42}
+\contentsline {paragraph}{Ind\IeC {\'e}pendance conditionelle}{42}
+\contentsline {paragraph}{Th\IeC {\'e}or\IeC {\`e}me de Bayes}{43}
+\contentsline {subsection}{\numberline {4.3.2}R\IeC {\'e}seaux de Bayes}{43}
+\contentsline {subsubsection}{Motivation}{44}
+\contentsline {subsubsection}{Explications}{45}
+\contentsline {paragraph}{D-s\IeC {\'e}paration}{45}
+\contentsline {subsection}{\numberline {4.3.3}Sommaire}{46}
+\contentsline {chapter}{\numberline {5}Machine Learning / Apprentissage Machine et Fouilles de donn\IeC {\'e}es}{48}
+\contentsline {paragraph}{Apprentissage Supervis\IeC {\'e}}{48}
+\contentsline {paragraph}{Apprentissage par renforcement}{51}
+\contentsline {paragraph}{Apprentissage non-supervis\IeC {\'e}}{51}
+\contentsline {paragraph}{Fouilles de donn\IeC {\'e}es}{51}
+\contentsline {paragraph}{Perceptron}{51}
+\contentsline {section}{\numberline {5.1}Maths}{53}
+\contentsline {subsection}{\numberline {5.1.1}Sommaire}{55}
+\contentsline {section}{\numberline {5.2}Perceptron Adaptif}{55}
+\contentsline {paragraph}{Descente de Gradient}{56}
+\contentsline {section}{\numberline {5.3}Regr\IeC {\'e}ssion Logistique}{57}
+\contentsline {section}{\numberline {5.4}Descente de Gradient Stochastique}{58}
+\contentsline {paragraph}{solution interm\IeC {\'e}diaire}{59}
+\contentsline {section}{\numberline {5.5}K nearest neighbours}{59}
+\contentsline {section}{\numberline {5.6}Reseaux de neurones}{60}
+\contentsline {subsection}{\numberline {5.6.1}Couche Cach\IeC {\'e}}{61}
+\contentsline {subsection}{\numberline {5.6.2}Maths}{61}
+\contentsline {subsection}{\numberline {5.6.3}R\IeC {\'e}tro-propagation}{61}
+\contentsline {subsection}{\numberline {5.6.4}Exemple R\IeC {\'e}tro-propagation}{63}
+\contentsline {subsection}{\numberline {5.6.5}G\IeC {\'e}n\IeC {\'e}ralisation}{66}
+\contentsline {section}{\numberline {5.7}Arbres de D\IeC {\'e}cision}{67}
+\contentsline {subsection}{\numberline {5.7.1}Sommaire}{70}
+\contentsline {chapter}{\numberline {6}Apprentissage non-supervis\IeC {\'e}}{71}
+\contentsline {section}{\numberline {6.1}Clustering}{71}
+\contentsline {subsection}{\numberline {6.1.1}ingr\IeC {\'e}dients}{72}
+\contentsline {paragraph}{\IeC {\'e}chantillons}{72}
+\contentsline {paragraph}{matrice}{73}
+\contentsline {paragraph}{matrice de dissimilarit\IeC {\'e}}{73}
+\contentsline {subsection}{\numberline {6.1.2}partitionnement}{74}
+\contentsline {paragraph}{Quelques fait}{75}
+\contentsline {subsection}{\numberline {6.1.3}k-means}{75}
+\contentsline {subsection}{\numberline {6.1.4}Algorithme hierarchiques / agglom\IeC {\'e}ration}{77}
+\contentsline {subsection}{\numberline {6.1.5}DBScan}{78}
+\contentsline {chapter}{\numberline {7}Apprentisage par renforcement}{79}
+\contentsline {section}{\numberline {7.1}Programmation Dynamique}{81}

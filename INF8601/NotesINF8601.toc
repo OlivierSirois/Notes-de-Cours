@@ -1,0 +1,378 @@
+\contentsline {chapter}{\numberline {1}Introduction}{7}
+\contentsline {paragraph}{Moores Law}{7}
+\contentsline {paragraph}{Densit\IeC {\'e} des processeurs}{8}
+\contentsline {paragraph}{P\IeC {\'e}riph\IeC {\'e}riques}{8}
+\contentsline {paragraph}{R\IeC {\'e}pertoire d'instructions}{8}
+\contentsline {paragraph}{Classes d'ordinateurs}{9}
+\contentsline {paragraph}{Historique des Syst\IeC {\`e}mes parall\IeC {\`e}les}{9}
+\contentsline {paragraph}{Programmation des syst\IeC {\`e}mes parall\IeC {\`e}les.}{10}
+\contentsline {paragraph}{Hi\IeC {\'e}rarchie de m\IeC {\'e}moire}{10}
+\contentsline {paragraph}{Addresse}{10}
+\contentsline {paragraph}{M\IeC {\'e}moire Cache}{10}
+\contentsline {paragraph}{M\IeC {\'e}moire Centrale}{11}
+\contentsline {paragraph}{Syst\IeC {\`e}me d'exploitation}{11}
+\contentsline {section}{\numberline {1.1}Taxonomie de Flynn}{11}
+\contentsline {paragraph}{SISD}{11}
+\contentsline {paragraph}{SIMD}{11}
+\contentsline {paragraph}{MIMD}{12}
+\contentsline {section}{\numberline {1.2}Parall\IeC {\'e}lisme}{12}
+\contentsline {section}{\numberline {1.3}Associativit\IeC {\'e}}{12}
+\contentsline {section}{\numberline {1.4}Fiabilit\IeC {\'e} et Statistiques}{12}
+\contentsline {paragraph}{MTBF}{12}
+\contentsline {paragraph}{MTTF}{12}
+\contentsline {paragraph}{MTTR}{12}
+\contentsline {paragraph}{Fiabilit\IeC {\'e}: F}{12}
+\contentsline {paragraph}{Disponibilit\IeC {\'e} : D}{12}
+\contentsline {paragraph}{D\IeC {\'e}terminer taux de pannes, Failure in Time}{12}
+\contentsline {subparagraph}{Exemple}{12}
+\contentsline {paragraph}{Probabilit\IeC {\'e}}{12}
+\contentsline {subparagraph}{Probabilit\IeC {\'e} que $P_1$ et $P_2$ se produisent (conjonction)}{13}
+\contentsline {subparagraph}{Probabilit\IeC {\'e} que de cas disjoints se produisent}{13}
+\contentsline {subparagraph}{Probabilit\IeC {\'e} que m ordinateurs sur n soient fonctionnels}{13}
+\contentsline {section}{\numberline {1.5}Mesure de performances}{13}
+\contentsline {paragraph}{Acc\IeC {\'e}l\IeC {\'e}ration Partielle, Loi d'Amdahl}{13}
+\contentsline {paragraph}{Facteur d'acc\IeC {\'e}l\IeC {\'e}ration, S(p)}{13}
+\contentsline {paragraph}{Efficacit\IeC {\'e} E(p) = }{13}
+\contentsline {section}{\numberline {1.6}Exercices}{14}
+\contentsline {subsection}{\numberline {1.6.1}1.1}{14}
+\contentsline {paragraph}{Question}{14}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{14}
+\contentsline {subsection}{\numberline {1.6.2}1.2}{14}
+\contentsline {paragraph}{Question}{14}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{14}
+\contentsline {subsection}{\numberline {1.6.3}1.3}{15}
+\contentsline {paragraph}{Question}{15}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{15}
+\contentsline {subsection}{\numberline {1.6.4}1.4}{15}
+\contentsline {paragraph}{Question}{15}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{15}
+\contentsline {subsection}{\numberline {1.6.5}1.5}{15}
+\contentsline {paragraph}{Question}{15}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{15}
+\contentsline {subsection}{\numberline {1.6.6}1.6}{16}
+\contentsline {paragraph}{Question}{16}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{16}
+\contentsline {subsection}{\numberline {1.6.7}1.7}{16}
+\contentsline {paragraph}{Question}{16}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{16}
+\contentsline {subsection}{\numberline {1.6.8}1.8}{16}
+\contentsline {paragraph}{Question}{16}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{16}
+\contentsline {subsection}{\numberline {1.6.9}1.9}{16}
+\contentsline {paragraph}{Question}{16}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{17}
+\contentsline {subsection}{\numberline {1.6.10}1.10}{17}
+\contentsline {paragraph}{Question}{17}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{17}
+\contentsline {chapter}{\numberline {2}Pthread et TBB}{18}
+\contentsline {section}{\numberline {2.1}Fils d'ex\IeC {\'e}cution}{18}
+\contentsline {section}{\numberline {2.2}HyperThread}{18}
+\contentsline {section}{\numberline {2.3}Fils d'ex\IeC {\'e}cution en mode usager}{19}
+\contentsline {section}{\numberline {2.4}Processus r\IeC {\'e}gulier (PThread)}{19}
+\contentsline {subsection}{\numberline {2.4.1}Commandes}{19}
+\contentsline {paragraph}{Cr\IeC {\'e}ation}{19}
+\contentsline {paragraph}{Le parent attend souvent apr\IeC {\`e}s l'enfant:}{19}
+\contentsline {paragraph}{avantages}{20}
+\contentsline {paragraph}{d\IeC {\'e}savantages}{20}
+\contentsline {section}{\numberline {2.5}Pthread}{20}
+\contentsline {subsection}{\numberline {2.5.1}Fonctions}{20}
+\contentsline {subsection}{\numberline {2.5.2}Exemples Pthreads}{22}
+\contentsline {paragraph}{Exemple du TP1}{24}
+\contentsline {section}{\numberline {2.6}TBB}{31}
+\contentsline {subsection}{\numberline {2.6.1}for}{31}
+\contentsline {subsection}{\numberline {2.6.2}r\IeC {\'e}duction}{35}
+\contentsline {subsection}{\numberline {2.6.3}Scan}{36}
+\contentsline {subsection}{\numberline {2.6.4}Do}{37}
+\contentsline {subsection}{\numberline {2.6.5}Pipeline}{38}
+\contentsline {subsection}{\numberline {2.6.6}Sort}{39}
+\contentsline {subsection}{\numberline {2.6.7}T\IeC {\^a}ches}{39}
+\contentsline {section}{\numberline {2.7}Exercice}{40}
+\contentsline {subsection}{\numberline {2.7.1}2.1}{40}
+\contentsline {paragraph}{Question}{40}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{40}
+\contentsline {subsection}{\numberline {2.7.2}2.2}{40}
+\contentsline {paragraph}{Question}{40}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{41}
+\contentsline {subsection}{\numberline {2.7.3}2.3}{41}
+\contentsline {paragraph}{Question}{41}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{41}
+\contentsline {subsection}{\numberline {2.7.4}2.4}{41}
+\contentsline {paragraph}{Question}{41}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{41}
+\contentsline {chapter}{\numberline {3}Coh\IeC {\'e}rence M\IeC {\'e}moire}{42}
+\contentsline {section}{\numberline {3.1}Coh\IeC {\'e}rence de Cache}{42}
+\contentsline {paragraph}{Coh\IeC {\'e}rence par surveillance du bus}{44}
+\contentsline {section}{\numberline {3.2}Coh\IeC {\'e}rence par r\IeC {\'e}pertoire}{44}
+\contentsline {paragraph}{Surveillance versus r\IeC {\'e}pertoire}{44}
+\contentsline {paragraph}{l'architecture NUMA avec r\IeC {\'e}pertoire r\IeC {\'e}partie}{44}
+\contentsline {section}{\numberline {3.3}interface logiciel cache et TLB}{45}
+\contentsline {paragraph}{TLB}{45}
+\contentsline {paragraph}{Cache}{46}
+\contentsline {paragraph}{In\IeC {\'e}vitable}{47}
+\contentsline {paragraph}{Conflit}{47}
+\contentsline {paragraph}{Capacit\IeC {\'e}}{47}
+\contentsline {paragraph}{Contention}{47}
+\contentsline {paragraph}{Faux partage}{47}
+\contentsline {section}{\numberline {3.4}Optimisation}{48}
+\contentsline {paragraph}{Pipelines superscalaires}{48}
+\contentsline {paragraph}{Queues d'\IeC {\'e}critures}{48}
+\contentsline {paragraph}{Queus de message d'invalidations}{48}
+\contentsline {paragraph}{Bancs de m\IeC {\'e}moire cache qui peuvent \IeC {\^e}tre acc\IeC {\'e}d\IeC {\'e}s en parall\IeC {\`e}le}{48}
+\contentsline {paragraph}{Explication de la pipeline superscalaire}{48}
+\contentsline {section}{\numberline {3.5}Contraintes d'ordonnancement}{49}
+\contentsline {paragraph}{Ordre s\IeC {\'e}quentiel}{49}
+\contentsline {paragraph}{Ordre total des \IeC {\'e}criture (TSO)}{49}
+\contentsline {paragraph}{Ordre partiel des \IeC {\'e}critures(PSO)}{49}
+\contentsline {paragraph}{Ordre faible(WO)}{49}
+\contentsline {section}{\numberline {3.6}Course entre deux processeur}{49}
+\contentsline {section}{\numberline {3.7}forcer un r\IeC {\'e}ordonnancement}{49}
+\contentsline {subsection}{\numberline {3.7.1}Instructions}{50}
+\contentsline {paragraph}{Explications avec exemple}{50}
+\contentsline {section}{\numberline {3.8}Exercice}{51}
+\contentsline {subsection}{\numberline {3.8.1}3.1}{51}
+\contentsline {paragraph}{Question}{51}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{51}
+\contentsline {subsection}{\numberline {3.8.2}3.2}{51}
+\contentsline {paragraph}{Question}{51}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{51}
+\contentsline {subsection}{\numberline {3.8.3}3.2}{52}
+\contentsline {paragraph}{Question}{52}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{52}
+\contentsline {subsection}{\numberline {3.8.4}3.4}{52}
+\contentsline {paragraph}{Question}{52}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{52}
+\contentsline {chapter}{\numberline {4}Mod\IeC {\`e}le de m\IeC {\'e}moire partag\IeC {\'e}e}{53}
+\contentsline {section}{\numberline {4.1}Mod\IeC {\`e}le Partag\IeC {\'e}}{53}
+\contentsline {paragraph}{ S\IeC {\'e}quentiel}{53}
+\contentsline {subsection}{\numberline {4.1.1}Barri\IeC {\`e}res}{55}
+\contentsline {paragraph}{Exemples:}{55}
+\contentsline {paragraph}{Architecture}{56}
+\contentsline {paragraph}{V\IeC {\'e}rifications}{56}
+\contentsline {paragraph}{Lock}{57}
+\contentsline {paragraph}{Unlock}{57}
+\contentsline {paragraph}{Lock.. Unlock}{57}
+\contentsline {paragraph}{Unlock.. Lock}{57}
+\contentsline {section}{\numberline {4.2}r\IeC {\'e}sum\IeC {\'e}}{57}
+\contentsline {paragraph}{M\IeC {\'e}thode de gestion de fils}{58}
+\contentsline {section}{\numberline {4.3}Exercices}{58}
+\contentsline {subsection}{\numberline {4.3.1}4.1}{58}
+\contentsline {paragraph}{Question}{58}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{58}
+\contentsline {subsection}{\numberline {4.3.2}4.2}{58}
+\contentsline {paragraph}{Question}{58}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{59}
+\contentsline {subsection}{\numberline {4.3.3}4.3}{59}
+\contentsline {paragraph}{Question}{59}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{59}
+\contentsline {subsection}{\numberline {4.3.4}4.4}{59}
+\contentsline {paragraph}{Question}{59}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{59}
+\contentsline {subsection}{\numberline {4.3.5}4.5}{59}
+\contentsline {paragraph}{Question}{59}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{60}
+\contentsline {subsection}{\numberline {4.3.6}4.6}{60}
+\contentsline {paragraph}{Question}{60}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{60}
+\contentsline {subsection}{\numberline {4.3.7}4.7}{60}
+\contentsline {paragraph}{Question}{60}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{60}
+\contentsline {subsection}{\numberline {4.3.8}4.8}{60}
+\contentsline {paragraph}{Question}{60}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{60}
+\contentsline {subsection}{\numberline {4.3.9}4.9}{61}
+\contentsline {paragraph}{Question}{61}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{61}
+\contentsline {chapter}{\numberline {5}OpenMP}{62}
+\contentsline {paragraph}{charact\IeC {\'e}ristique}{62}
+\contentsline {paragraph}{Syntaxes}{63}
+\contentsline {paragraph}{Exemples}{63}
+\contentsline {section}{\numberline {5.1}Directives}{64}
+\contentsline {subsection}{\numberline {5.1.1}parallel}{64}
+\contentsline {subsection}{\numberline {5.1.2}for}{64}
+\contentsline {subsection}{\numberline {5.1.3}Sections}{65}
+\contentsline {subsection}{\numberline {5.1.4}Tasks}{66}
+\contentsline {subsection}{\numberline {5.1.5}single}{66}
+\contentsline {subsection}{\numberline {5.1.6}Master}{67}
+\contentsline {subsection}{\numberline {5.1.7}Critical}{67}
+\contentsline {subsection}{\numberline {5.1.8}barrier}{68}
+\contentsline {subsection}{\numberline {5.1.9}taskwait}{68}
+\contentsline {subsection}{\numberline {5.1.10}atomic}{69}
+\contentsline {subsection}{\numberline {5.1.11}flush}{69}
+\contentsline {subsection}{\numberline {5.1.12}ordered}{70}
+\contentsline {subsection}{\numberline {5.1.13}Synchronisations}{70}
+\contentsline {paragraph}{}{70}
+\contentsline {section}{\numberline {5.2}Clauses}{70}
+\contentsline {subsection}{\numberline {5.2.1}Shared et Private}{70}
+\contentsline {subsection}{\numberline {5.2.2}Threadprivate}{71}
+\contentsline {subsection}{\numberline {5.2.3}Copyin}{71}
+\contentsline {subsection}{\numberline {5.2.4}r\IeC {\'e}duction}{71}
+\contentsline {subsection}{\numberline {5.2.5}if}{71}
+\contentsline {subsection}{\numberline {5.2.6}Nowait}{71}
+\contentsline {subsection}{\numberline {5.2.7}Collapse}{72}
+\contentsline {subsection}{\numberline {5.2.8}SIMD}{72}
+\contentsline {subsection}{\numberline {5.2.9}Safelen}{72}
+\contentsline {subsection}{\numberline {5.2.10}Aligned}{72}
+\contentsline {subsection}{\numberline {5.2.11}Uniforme}{72}
+\contentsline {subsection}{\numberline {5.2.12}Target}{72}
+\contentsline {section}{\numberline {5.3}Fonctions de supports de threads}{74}
+\contentsline {paragraph}{Pr\IeC {\'e}cautions}{75}
+\contentsline {section}{\numberline {5.4}Exercices.}{75}
+\contentsline {subsection}{\numberline {5.4.1}5.1}{75}
+\contentsline {paragraph}{Question}{75}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{76}
+\contentsline {subsection}{\numberline {5.4.2}5.2}{76}
+\contentsline {paragraph}{Question}{76}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{76}
+\contentsline {subsection}{\numberline {5.4.3}5.3}{76}
+\contentsline {paragraph}{Question}{76}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{77}
+\contentsline {subsection}{\numberline {5.4.4}4.4}{77}
+\contentsline {paragraph}{Question}{77}
+\contentsline {paragraph}{R\IeC {\'e}ponse}{77}
+\contentsline {chapter}{\numberline {6}Contr\IeC {\^o}le des Ann\IeC {\'e}es pr\IeC {\'e}c\IeC {\'e}dents.}{78}
+\contentsline {section}{\numberline {6.1}Ann\IeC {\'e}e 2016}{78}
+\contentsline {subsection}{\numberline {6.1.1}1}{78}
+\contentsline {paragraph}{a)}{78}
+\contentsline {paragraph}{b)}{78}
+\contentsline {paragraph}{c)}{78}
+\contentsline {paragraph}{d)}{78}
+\contentsline {subsection}{\numberline {6.1.2}2}{78}
+\contentsline {paragraph}{a et b}{78}
+\contentsline {paragraph}{c)}{78}
+\contentsline {section}{\numberline {6.2}Ann\IeC {\'e}es 2014}{87}
+\contentsline {section}{\numberline {6.3}Ann\IeC {\'e}e 2013}{97}
+\contentsline {section}{\numberline {6.4}Ann\IeC {\'e}e 2012}{105}
+\contentsline {chapter}{\numberline {7}MIPS - Assembleur Vectorielle}{114}
+\contentsline {section}{\numberline {7.1}Instructions multim\IeC {\'e}dia}{117}
+\contentsline {section}{\numberline {7.2}Processeur Graphique}{117}
+\contentsline {subsection}{\numberline {7.2.1}M\IeC {\'e}moire}{118}
+\contentsline {subsection}{\numberline {7.2.2}Instructions}{118}
+\contentsline {section}{\numberline {7.3}\IeC {\'E}xercices}{119}
+\contentsline {chapter}{\numberline {8}OpenCL}{122}
+\contentsline {subsection}{\numberline {8.0.1}Code}{124}
+\contentsline {subsubsection}{Commande abr\IeC {\'e}g\IeC {\'e}s}{125}
+\contentsline {subsubsection}{Acc\IeC {\'e}der au dispositifs}{126}
+\contentsline {subsubsection}{Contexte et Queue}{127}
+\contentsline {subsubsection}{Exemple Complet: Device et Contexte}{127}
+\contentsline {subsubsection}{Gestion M\IeC {\'e}moires}{128}
+\contentsline {subsubsection}{Programe h\IeC {\^o}te versus dispositif}{129}
+\contentsline {subsubsection}{Ex\IeC {\'e}cution de fonctions OpenCL}{130}
+\contentsline {subsubsection}{Synchronisation par \IeC {\'e}v\IeC {\'e}nements}{131}
+\contentsline {subsubsection}{Barri\IeC {\`e}res}{132}
+\contentsline {subsubsection}{Divers}{133}
+\contentsline {subsection}{\numberline {8.0.2}Fonctions Kernels - Sur Dispositif}{134}
+\contentsline {subsubsection}{Les op\IeC {\'e}rateurs math\IeC {\'e}matique}{135}
+\contentsline {paragraph}{Attributs}{135}
+\contentsline {subsubsection}{Synchronisation}{136}
+\contentsline {section}{\numberline {8.1}Optimisation}{137}
+\contentsline {paragraph}{Maximisation du nombre d'items}{138}
+\contentsline {paragraph}{Vectorisation}{138}
+\contentsline {section}{\numberline {8.2}Exemple TP2}{138}
+\contentsline {section}{\numberline {8.3}Exercices}{141}
+\contentsline {chapter}{\numberline {9}MPI}{146}
+\contentsline {section}{\numberline {9.1}Message et Types}{147}
+\contentsline {subsubsection}{Message}{148}
+\contentsline {subsection}{\numberline {9.1.1}Communications Globales}{151}
+\contentsline {section}{\numberline {9.2}Groupes de Communications}{153}
+\contentsline {section}{\numberline {9.3}Analyse de performance et optimisation}{156}
+\contentsline {subsection}{\numberline {9.3.1}Optimisation}{156}
+\contentsline {section}{\numberline {9.4}Conclusion}{157}
+\contentsline {section}{\numberline {9.5}\IeC {\'E}xercices}{157}
+\contentsline {chapter}{\numberline {10}Outils de V\IeC {\'e}rif. et Analyse}{162}
+\contentsline {section}{\numberline {10.1}LTTng}{162}
+\contentsline {paragraph}{Prise de Trace}{162}
+\contentsline {section}{\numberline {10.2}gcov}{163}
+\contentsline {section}{\numberline {10.3}gprof}{163}
+\contentsline {section}{\numberline {10.4}Oprofile}{165}
+\contentsline {section}{\numberline {10.5}Valgrind}{165}
+\contentsline {subsection}{\numberline {10.5.1}Memcheck}{166}
+\contentsline {subsection}{\numberline {10.5.2}cachegrind}{167}
+\contentsline {subsection}{\numberline {10.5.3}Address Sanitizer}{167}
+\contentsline {subsection}{\numberline {10.5.4}Massif}{168}
+\contentsline {subsection}{\numberline {10.5.5}Helgrind}{168}
+\contentsline {section}{\numberline {10.6}Lockdep}{169}
+\contentsline {section}{\numberline {10.7}Thread Sanitizer}{169}
+\contentsline {section}{\numberline {10.8}CPU profile}{170}
+\contentsline {section}{\numberline {10.9}Heap Profile}{170}
+\contentsline {section}{\numberline {10.10}Traces d'ex\IeC {\'e}cution multi-coeurs}{170}
+\contentsline {subsection}{\numberline {10.10.1}Utilisation de LTTng}{171}
+\contentsline {subsection}{\numberline {10.10.2}Pourquoi une trace avec un cout minimale?}{172}
+\contentsline {subsection}{\numberline {10.10.3}Exemple d'optimisation}{174}
+\contentsline {section}{\numberline {10.11}Autres}{175}
+\contentsline {subsection}{\numberline {10.11.1}synchronisation de traces}{175}
+\contentsline {subsection}{\numberline {10.11.2}Analyse du chemin critique}{176}
+\contentsline {section}{\numberline {10.12}Vtune}{177}
+\contentsline {section}{\numberline {10.13}Windows Performance Toolkit}{178}
+\contentsline {section}{\numberline {10.14}Vampir}{179}
+\contentsline {section}{\numberline {10.15}PARAver}{179}
+\contentsline {section}{\numberline {10.16}Tuning Analysis Utilities}{179}
+\contentsline {section}{\numberline {10.17}CODEXL}{180}
+\contentsline {section}{\numberline {10.18}APITrace}{180}
+\contentsline {section}{\numberline {10.19}GPUView}{180}
+\contentsline {section}{\numberline {10.20}Promela et SPIN}{180}
+\contentsline {section}{\numberline {10.21}OpenSpeedShop}{180}
+\contentsline {chapter}{\numberline {11}Virtualisation Haute Performance}{182}
+\contentsline {section}{\numberline {11.1}Surveillance de syst\IeC {\`e}me et r\IeC {\'e}seau}{183}
+\contentsline {section}{\numberline {11.2}Mat\IeC {\'e}riel}{185}
+\contentsline {section}{\numberline {11.3}Grappes de Calculs}{185}
+\contentsline {subsection}{\numberline {11.3.1}Infonuagies}{186}
+\contentsline {subsection}{\numberline {11.3.2}Red Hat MRG}{186}
+\contentsline {subsection}{\numberline {11.3.3}AMPQ}{186}
+\contentsline {subsection}{\numberline {11.3.4}Grilles CONDOR}{186}
+\contentsline {subsubsection}{Dagman}{188}
+\contentsline {section}{\numberline {11.4}Virtualisation}{188}
+\contentsline {subsection}{\numberline {11.4.1}conteneurs}{188}
+\contentsline {subsection}{\numberline {11.4.2}Simulateurs d'ex\IeC {\'e}cution}{189}
+\contentsline {subsection}{\numberline {11.4.3}Intel VT, AMD V (virtualisation mat\IeC {\'e}riel)}{189}
+\contentsline {subsection}{\numberline {11.4.4}Paravirtualisation}{190}
+\contentsline {subsection}{\numberline {11.4.5}Hyperviseur}{190}
+\contentsline {subsection}{\numberline {11.4.6}B\IeC {\'e}n\IeC {\'e}fice de la virtualisation}{191}
+\contentsline {subsection}{\numberline {11.4.7}Cout de la virtualisation}{191}
+\contentsline {subsection}{\numberline {11.4.8}Virtualisation du r\IeC {\'e}seau}{192}
+\contentsline {paragraph}{VLAN}{192}
+\contentsline {paragraph}{VPN/VPLS}{192}
+\contentsline {subsection}{\numberline {11.4.9}Migration}{192}
+\contentsline {subsection}{\numberline {11.4.10}Calcul parall\IeC {\`e}le et virtualisation}{193}
+\contentsline {section}{\numberline {11.5}Amazon EC2}{194}
+\contentsline {subsection}{\numberline {11.5.1}Stockage}{194}
+\contentsline {subsection}{\numberline {11.5.2}Utilisation}{194}
+\contentsline {subsection}{\numberline {11.5.3}Ench\IeC {\`e}re de calculs et addresse}{195}
+\contentsline {subsection}{\numberline {11.5.4}zones g\IeC {\'e}ographiques}{195}
+\contentsline {subsection}{\numberline {11.5.5}Instance de grappes}{195}
+\contentsline {subsection}{\numberline {11.5.6}r\IeC {\'e}partiteur de charge}{195}
+\contentsline {subsection}{\numberline {11.5.7}nuage \IeC {\'e}lastique}{195}
+\contentsline {subsection}{\numberline {11.5.8}surveillance CloudWatch}{196}
+\contentsline {subsection}{\numberline {11.5.9}nuage priv\IeC {\'e}. LOL}{196}
+\contentsline {subsection}{\numberline {11.5.10}Services de bases de donn\IeC {\'e}es}{196}
+\contentsline {subsection}{\numberline {11.5.11}Discussion}{196}
+\contentsline {section}{\numberline {11.6}OpenStack}{196}
+\contentsline {subsection}{\numberline {11.6.1}Nova}{198}
+\contentsline {subsection}{\numberline {11.6.2}Neutron}{198}
+\contentsline {subsection}{\numberline {11.6.3}Swift}{198}
+\contentsline {subsection}{\numberline {11.6.4}Cinder}{198}
+\contentsline {subsection}{\numberline {11.6.5}Keystone}{198}
+\contentsline {subsection}{\numberline {11.6.6}Glance}{199}
+\contentsline {subsection}{\numberline {11.6.7}Horizon}{199}
+\contentsline {subsection}{\numberline {11.6.8}Ceilometer}{199}
+\contentsline {subsection}{\numberline {11.6.9}Heat}{199}
+\contentsline {subsection}{\numberline {11.6.10}Trove}{200}
+\contentsline {subsection}{\numberline {11.6.11}Marconi}{200}
+\contentsline {subsection}{\numberline {11.6.12}Savannah}{200}
+\contentsline {subsection}{\numberline {11.6.13}Discussion}{200}
+\contentsline {chapter}{\numberline {12}Top 500 + Architecture}{201}
+\contentsline {section}{\numberline {12.1}Discussion}{202}
+\contentsline {chapter}{\numberline {13}Exemple d'examen finaux}{203}
+\contentsline {section}{\numberline {13.1}Examen 2016}{203}
+\contentsline {subsection}{\numberline {13.1.1}Question 1a}{203}
+\contentsline {subsection}{\numberline {13.1.2}Question 1b}{203}
+\contentsline {subsection}{\numberline {13.1.3}1c}{203}
+\contentsline {subsection}{\numberline {13.1.4}2a}{204}
+\contentsline {subsection}{\numberline {13.1.5}2b}{204}
+\contentsline {subsection}{\numberline {13.1.6}2c}{204}
+\contentsline {subsection}{\numberline {13.1.7}3a}{204}
+\contentsline {subsection}{\numberline {13.1.8}3b}{204}
+\contentsline {subsection}{\numberline {13.1.9}3c}{204}
+\contentsline {subsection}{\numberline {13.1.10}4a}{204}
+\contentsline {section}{\numberline {13.2}Ann\IeC {\'e}es 2014}{214}
+\contentsline {section}{\numberline {13.3}Ann\IeC {\'e}e 2013}{224}
+\contentsline {section}{\numberline {13.4}Ann\IeC {\'e}e 2012}{235}

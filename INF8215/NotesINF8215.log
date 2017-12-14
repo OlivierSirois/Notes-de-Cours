@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.10)  17 OCT 2017 14:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.10)  13 DEC 2017 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -461,18 +461,18 @@ Writing index file NotesINF8215.idx
 (./NotesINF8215.aux)
 \openout1 = `NotesINF8215.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -536,423 +536,557 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 12.
+LaTeX Info: Redefining \selectfont on input line 13.
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 24.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./NotesINF8215.toc [1
+
+]
+Overfull \hbox (13.43983pt too wide) in paragraph at lines 120--120
+ [] []\OT1/cmr/bx/n/10 Machine Learn-ing / Ap-pren-tis-sage Ma-chine et Fouille
+s de donn^^Sees []  
+ []
+
+)
+\tf@toc=\write4
+\openout4 = `NotesINF8215.toc'.
+
+ [2]
+Chapter 1.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
 
-Overfull \hbox (9.52832pt too wide) in paragraph at lines 35--36
+Overfull \hbox (9.52832pt too wide) in paragraph at lines 38--39
  [] \OT1/cmr/m/n/10 L'intelligence ar-ti-fi-cielle s'est at-tribuer diff^^Seren
 tes d^^Sefinitions a travers le temps... 
  []
 
-<Braitenberg.png, id=8, 434.62375pt x 369.38pt>
+[3
+
+] <Braitenberg.png, id=22, 434.62375pt x 369.38pt>
 File: Braitenberg.png Graphic file (type png)
  <use Braitenberg.png>
-Package pdftex.def Info: Braitenberg.png used on input line 50.
+Package pdftex.def Info: Braitenberg.png used on input line 53.
 (pdftex.def)             Requested size: 284.54468pt x 241.83012pt.
- [1]
-[2 <./Braitenberg.png>] <Agent_base.png, id=19, 411.5375pt x 234.8775pt>
+
+[4 <./Braitenberg.png>] <Agent_base.png, id=26, 411.5375pt x 234.8775pt>
 File: Agent_base.png Graphic file (type png)
 
 <use Agent_base.png>
-Package pdftex.def Info: Agent_base.png used on input line 101.
+Package pdftex.def Info: Agent_base.png used on input line 104.
 (pdftex.def)             Requested size: 142.26317pt x 81.19409pt.
- <Agent_Reflexe.png, id=20, 361.35pt x 226.8475pt>
+ <Agent_Reflexe.png, id=27, 361.35pt x 226.8475pt>
 File: Agent_Reflexe.png Graphic file (type png)
 
 <use Agent_Reflexe.png>
-Package pdftex.def Info: Agent_Reflexe.png used on input line 110.
+Package pdftex.def Info: Agent_Reflexe.png used on input line 113.
 (pdftex.def)             Requested size: 142.26578pt x 89.31128pt.
- <Agent_Memoire.png, id=21, 329.23pt x 214.8025pt>
+ <Agent_Memoire.png, id=28, 329.23pt x 214.8025pt>
 File: Agent_Memoire.png Graphic file (type png)
 
 <use Agent_Memoire.png>
-Package pdftex.def Info: Agent_Memoire.png used on input line 118.
+Package pdftex.def Info: Agent_Memoire.png used on input line 121.
 (pdftex.def)             Requested size: 142.26442pt x 92.81886pt.
 
-<Agent_Memoire_But.png, id=22, 335.2525pt x 213.79875pt>
+<Agent_Memoire_But.png, id=29, 335.2525pt x 213.79875pt>
 File: Agent_Memoire_But.png Graphic file (type png)
 
 <use Agent_Memoire_But.png>
-Package pdftex.def Info: Agent_Memoire_But.png used on input line 125.
+Package pdftex.def Info: Agent_Memoire_But.png used on input line 128.
 (pdftex.def)             Requested size: 142.26302pt x 90.72461pt.
 
-<Agent_Memoire_Theorie.png, id=23, 330.23375pt x 218.8175pt>
+<Agent_Memoire_Theorie.png, id=30, 330.23375pt x 218.8175pt>
 File: Agent_Memoire_Theorie.png Graphic file (type png)
 
 <use Agent_Memoire_Theorie.png>
-Package pdftex.def Info: Agent_Memoire_Theorie.png used on input line 132.
+Package pdftex.def Info: Agent_Memoire_Theorie.png used on input line 135.
 (pdftex.def)             Requested size: 142.26984pt x 94.26997pt.
 
-Overfull \hbox (6.05615pt too wide) in paragraph at lines 137--138
+Overfull \hbox (6.05615pt too wide) in paragraph at lines 140--141
 \OT1/cmr/m/n/10 eux-m^eme changer leur com-porte-ment en fonc-tion des ^^Sechan
 tillons d'entrainement
  []
 
-[3 <./Agent_base.png>] [4 <./Agent_Reflexe.png> <./Agent_Memoire.png> <./Agent_
-Memoire_But.png> <./Agent_Memoire_Theorie.png>]
-Overfull \hbox (7.90974pt too wide) in paragraph at lines 138--138
+[5] [6 <./Agent_base.png> <./Agent_Reflexe.png> <./Agent_Memoire.png> <./Agent_
+Memoire_But.png>] [7 <./Agent_Memoire_Theorie.png>]
+Chapter 2.
+
+Overfull \hbox (7.90974pt too wide) in paragraph at lines 142--142
 []\OT1/cmr/bx/n/14.4 M^^Sethodes de Recherche dans un Es-pace []Etats 
  []
 
-<Etat.png, id=30, 530.98375pt x 289.08pt>
+<Etat.png, id=41, 530.98375pt x 289.08pt>
 File: Etat.png Graphic file (type png)
  <use Etat.png>
-Package pdftex.def Info: Etat.png used on input line 143.
+Package pdftex.def Info: Etat.png used on input line 147.
 (pdftex.def)             Requested size: 199.16702pt x 108.43118pt.
+ [8
 
-<Recherche_Largeur.png, id=31, 470.75874pt x 282.05376pt>
+ <./Etat.png>]
+<Recherche_Largeur.png, id=45, 470.75874pt x 282.05376pt>
 File: Recherche_Largeur.png Graphic file (type png)
 
 <use Recherche_Largeur.png>
-Package pdftex.def Info: Recherche_Largeur.png used on input line 164.
+Package pdftex.def Info: Recherche_Largeur.png used on input line 167.
 (pdftex.def)             Requested size: 199.16832pt x 119.33113pt.
- <algo_largeur.png, id=32, 469.755pt x 260.975pt>
+ <algo_largeur.png, id=46, 469.755pt x 260.975pt>
 File: algo_largeur.png Graphic file (type png)
 
 <use algo_largeur.png>
-Package pdftex.def Info: algo_largeur.png used on input line 171.
+Package pdftex.def Info: algo_largeur.png used on input line 174.
 (pdftex.def)             Requested size: 199.16656pt x 110.64809pt.
- [5 <./Etat.png>]
-<Recherche_Profondeur.png, id=36, 531.9875pt x 282.05376pt>
+
+Overfull \hbox (263.92293pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE DE RECHERCHE DANS UN ESPACE D'[]ETATS ET
+ PROBL[]EME DE SATISFACTION DE CONTRAINTES. \OT1/cmr/m/n/10 9
+ []
+
+[9 <./Recherche_Largeur.png> <./algo_largeur.png>]
+<Recherche_Profondeur.png, id=50, 531.9875pt x 282.05376pt>
 File: Recherche_Profondeur.png Graphic file (type png)
 
 <use Recherche_Profondeur.png>
-Package pdftex.def Info: Recherche_Profondeur.png used on input line 186.
+Package pdftex.def Info: Recherche_Profondeur.png used on input line 189.
 (pdftex.def)             Requested size: 199.162pt x 105.59343pt.
 
-<algo_profondeur.png, id=37, 379.4175pt x 256.96pt>
+<algo_profondeur.png, id=51, 379.4175pt x 256.96pt>
 File: algo_profondeur.png Graphic file (type png)
  <use algo_profondeur.png>
-Package pdftex.def Info: algo_profondeur.png used on input line 193.
+Package pdftex.def Info: algo_profondeur.png used on input line 196.
 (pdftex.def)             Requested size: 199.17401pt x 134.89034pt.
 
-[6 <./Recherche_Largeur.png> <./algo_largeur.png> <./Recherche_Profondeur.png>]
+Overfull \hbox (268.92294pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE DE RECHERCHE DANS UN ESPACE D'[]ETATS ET
+ PROBL[]EME DE SATISFACTION DE CONTRAINTES. \OT1/cmr/m/n/10 10
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+[10 <./Recherche_Profondeur.png> <./algo_profondeur.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
-[7 <./algo_profondeur.png>]
-<Recherche_Uniforme.png, id=49, 459.7175pt x 273.02pt>
+<Recherche_Uniforme.png, id=55, 459.7175pt x 273.02pt>
 File: Recherche_Uniforme.png Graphic file (type png)
 
 <use Recherche_Uniforme.png>
-Package pdftex.def Info: Recherche_Uniforme.png used on input line 227.
+Package pdftex.def Info: Recherche_Uniforme.png used on input line 230.
 (pdftex.def)             Requested size: 199.1688pt x 118.28365pt.
 
-<algo_uniforme.png, id=50, 520.94624pt x 255.95625pt>
+<algo_uniforme.png, id=56, 520.94624pt x 255.95625pt>
 File: algo_uniforme.png Graphic file (type png)
  <use algo_uniforme.png>
-Package pdftex.def Info: algo_uniforme.png used on input line 234.
+Package pdftex.def Info: algo_uniforme.png used on input line 237.
 (pdftex.def)             Requested size: 199.16988pt x 97.85802pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
-
- []
-
-[8 <./Recherche_Uniforme.png> <./algo_uniforme.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Overfull \hbox (268.92294pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE DE RECHERCHE DANS UN ESPACE D'[]ETATS ET
+ PROBL[]EME DE SATISFACTION DE CONTRAINTES. \OT1/cmr/m/n/10 11
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Overfull \hbox (268.92294pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE DE RECHERCHE DANS UN ESPACE D'[]ETATS ET
+ PROBL[]EME DE SATISFACTION DE CONTRAINTES. \OT1/cmr/m/n/10 12
+ []
+
+[12 <./Recherche_Uniforme.png> <./algo_uniforme.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
-[9] <Heuristique_Glutone_Prob.png, id=59, 567.11874pt x 419.5675pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+
+ []
+
+<Heuristique_Glutone_Prob.png, id=70, 567.11874pt x 419.5675pt>
 File: Heuristique_Glutone_Prob.png Graphic file (type png)
 
 <use Heuristique_Glutone_Prob.png>
-Package pdftex.def Info: Heuristique_Glutone_Prob.png used on input line 285.
+Package pdftex.def Info: Heuristique_Glutone_Prob.png used on input line 288.
 (pdftex.def)             Requested size: 199.16951pt x 147.35017pt.
 
-<Heuristique_Glutone.png, id=60, 487.8225pt x 324.21124pt>
+<Heuristique_Glutone.png, id=71, 487.8225pt x 324.21124pt>
 File: Heuristique_Glutone.png Graphic file (type png)
 
 <use Heuristique_Glutone.png>
-Package pdftex.def Info: Heuristique_Glutone.png used on input line 292.
+Package pdftex.def Info: Heuristique_Glutone.png used on input line 295.
 (pdftex.def)             Requested size: 199.16739pt x 132.36844pt.
- <A*.png, id=61, 549.05125pt x 361.35pt>
+
+Overfull \hbox (268.92294pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE DE RECHERCHE DANS UN ESPACE D'[]ETATS ET
+ PROBL[]EME DE SATISFACTION DE CONTRAINTES. \OT1/cmr/m/n/10 13
+ []
+
+[13 <./Heuristique_Glutone_Prob.png>] <A*.png, id=75, 549.05125pt x 361.35pt>
 File: A*.png Graphic file (type png)
 
 <use A*.png>
-Package pdftex.def Info: A*.png used on input line 313.
+Package pdftex.def Info: A*.png used on input line 316.
 (pdftex.def)             Requested size: 199.1663pt x 131.07837pt.
- [10 <./Heuristique_Glutone_Prob.png> <./Heuristique_Glutone.png>]
-<Preuve_A*.png, id=65, 223.83624pt x 187.70125pt>
+
+Overfull \hbox (268.92294pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE DE RECHERCHE DANS UN ESPACE D'[]ETATS ET
+ PROBL[]EME DE SATISFACTION DE CONTRAINTES. \OT1/cmr/m/n/10 14
+ []
+
+[14 <./Heuristique_Glutone.png> <./A*.png>]
+<Preuve_A*.png, id=79, 223.83624pt x 187.70125pt>
 File: Preuve_A*.png Graphic file (type png)
  <use Preuve_A*.png>
-Package pdftex.def Info: Preuve_A*.png used on input line 329.
+Package pdftex.def Info: Preuve_A*.png used on input line 332.
 (pdftex.def)             Requested size: 199.17264pt x 167.01921pt.
- [11 <./A*.png> <./Preuve_A*.png>]
-<incrementale_15.png, id=69, 536.0025pt x 350.30875pt>
+
+<incrementale_15.png, id=80, 536.0025pt x 350.30875pt>
 File: incrementale_15.png Graphic file (type png)
 
 <use incrementale_15.png>
-Package pdftex.def Info: incrementale_15.png used on input line 346.
+Package pdftex.def Info: incrementale_15.png used on input line 349.
 (pdftex.def)             Requested size: 199.1684pt x 130.1681pt.
- <incrementale_25.png, id=70, 550.055pt x 367.3725pt>
+ <incrementale_25.png, id=81, 550.055pt x 367.3725pt>
 File: incrementale_25.png Graphic file (type png)
 
 <use incrementale_25.png>
-Package pdftex.def Info: incrementale_25.png used on input line 353.
+Package pdftex.def Info: incrementale_25.png used on input line 356.
 (pdftex.def)             Requested size: 199.16951pt x 133.02196pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
-
- []
-
-[12 <./incrementale_15.png> <./incrementale_25.png>]
-Overfull \hbox (3.58377pt too wide) in paragraph at lines 361--362
-[]\OT1/cmr/m/n/10 Les m^^Sethodes de recherche lo-cales ne con-ser-vent qu'un s
-eul noeud en m^^Semoire,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 361--362
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--364
+Overfull \hbox (268.92294pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE DE RECHERCHE DANS UN ESPACE D'[]ETATS ET
+ PROBL[]EME DE SATISFACTION DE CONTRAINTES. \OT1/cmr/m/n/10 15
+ []
+
+[15 <./Preuve_A*.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--379
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
  []
 
-<Paysage_Espace.png, id=75, 467.7475pt x 337.26pt>
+
+Overfull \hbox (268.92294pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE DE RECHERCHE DANS UN ESPACE D'[]ETATS ET
+ PROBL[]EME DE SATISFACTION DE CONTRAINTES. \OT1/cmr/m/n/10 16
+ []
+
+[16 <./incrementale_15.png> <./incrementale_25.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
+
+ []
+
+<Paysage_Espace.png, id=88, 467.7475pt x 337.26pt>
 File: Paysage_Espace.png Graphic file (type png)
  <use Paysage_Espace.png>
-Package pdftex.def Info: Paysage_Espace.png used on input line 384.
+Package pdftex.def Info: Paysage_Espace.png used on input line 387.
 (pdftex.def)             Requested size: 199.17189pt x 143.60892pt.
 
-<Recuit_Stimule.png, id=76, 494.84875pt x 138.5175pt>
+<Recuit_Stimule.png, id=89, 494.84875pt x 138.5175pt>
 File: Recuit_Stimule.png Graphic file (type png)
  <use Recuit_Stimule.png>
-Package pdftex.def Info: Recuit_Stimule.png used on input line 393.
+Package pdftex.def Info: Recuit_Stimule.png used on input line 396.
 (pdftex.def)             Requested size: 199.16676pt x 55.75052pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+Overfull \hbox (8.33394pt too wide) in paragraph at lines 400--401
+\OT1/cmr/m/n/10 ment pour T. Cet al-go-rithme est rendu ob-so-lete com-parer a 
+l'algorithme g^^Sen^^Setique. 
+ []
+
+
+Overfull \hbox (268.92294pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE DE RECHERCHE DANS UN ESPACE D'[]ETATS ET
+ PROBL[]EME DE SATISFACTION DE CONTRAINTES. \OT1/cmr/m/n/10 17
+ []
+
+[17 <./Paysage_Espace.png> <./Recuit_Stimule.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
 
  []
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
 
  []
 
-<algo_genetique.png, id=80, 492.84125pt x 254.9525pt>
+<algo_genetique.png, id=93, 492.84125pt x 254.9525pt>
 File: algo_genetique.png Graphic file (type png)
  <use algo_genetique.png>
-Package pdftex.def Info: algo_genetique.png used on input line 408.
+Package pdftex.def Info: algo_genetique.png used on input line 411.
 (pdftex.def)             Requested size: 199.17096pt x 103.03343pt.
 
-<exemple_algo_genetique.png, id=81, 539.01375pt x 302.12875pt>
+<exemple_algo_genetique.png, id=94, 539.01375pt x 302.12875pt>
 File: exemple_algo_genetique.png Graphic file (type png)
 
 <use exemple_algo_genetique.png>
-Package pdftex.def Info: exemple_algo_genetique.png used on input line 416.
+Package pdftex.def Info: exemple_algo_genetique.png used on input line 419.
 (pdftex.def)             Requested size: 199.16876pt x 111.63835pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--422
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
 
  []
 
-<operateur_genetique.png, id=82, 389.455pt x 767.86874pt>
+
+Overfull \hbox (268.92294pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE DE RECHERCHE DANS UN ESPACE D'[]ETATS ET
+ PROBL[]EME DE SATISFACTION DE CONTRAINTES. \OT1/cmr/m/n/10 18
+ []
+
+[18 <./algo_genetique.png> <./exemple_algo_genetique.png>]
+<operateur_genetique.png, id=99, 389.455pt x 767.86874pt>
 File: operateur_genetique.png Graphic file (type png)
 
 <use operateur_genetique.png>
-Package pdftex.def Info: operateur_genetique.png used on input line 426.
+Package pdftex.def Info: operateur_genetique.png used on input line 429.
 (pdftex.def)             Requested size: 216.46503pt x 426.79134pt.
- [14 <./Paysage_Espace.png> <./Recuit_Stimule.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 431--433
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 434--436
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--438
+Underfull \hbox (badness 10000) in paragraph at lines 437--439
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--445
+Underfull \hbox (badness 10000) in paragraph at lines 440--441
 
  []
 
-[15 <./algo_genetique.png> <./exemple_algo_genetique.png>] [16 <./operateur_gen
-etique.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--448
 
  []
 
-<arbre_recherche_standard.png, id=93, 476.78125pt x 358.33875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
+
+ []
+
+<arbre_recherche_standard.png, id=100, 476.78125pt x 358.33875pt>
 File: arbre_recherche_standard.png Graphic file (type png)
 
 <use arbre_recherche_standard.png>
-Package pdftex.def Info: arbre_recherche_standard.png used on input line 453.
+Package pdftex.def Info: arbre_recherche_standard.png used on input line 456.
 (pdftex.def)             Requested size: 199.17004pt x 149.69202pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--467
+Overfull \hbox (268.92294pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE DE RECHERCHE DANS UN ESPACE D'[]ETATS ET
+ PROBL[]EME DE SATISFACTION DE CONTRAINTES. \OT1/cmr/m/n/10 19
+ []
+
+[19]
+Overfull \hbox (268.92294pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE DE RECHERCHE DANS UN ESPACE D'[]ETATS ET
+ PROBL[]EME DE SATISFACTION DE CONTRAINTES. \OT1/cmr/m/n/10 20
+ []
+
+[20 <./operateur_genetique.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
 
  []
 
-[17 <./arbre_recherche_standard.png>]
-<forward_checking.png, id=97, 538.01pt x 230.8625pt>
+<forward_checking.png, id=108, 538.01pt x 230.8625pt>
 File: forward_checking.png Graphic file (type png)
 
 <use forward_checking.png>
-Package pdftex.def Info: forward_checking.png used on input line 472.
+Package pdftex.def Info: forward_checking.png used on input line 475.
 (pdftex.def)             Requested size: 199.1673pt x 85.46358pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 478--479
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
 
  []
 
-<gac1.png, id=98, 458.71375pt x 76.285pt>
+
+Overfull \hbox (268.92294pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE DE RECHERCHE DANS UN ESPACE D'[]ETATS ET
+ PROBL[]EME DE SATISFACTION DE CONTRAINTES. \OT1/cmr/m/n/10 21
+ []
+
+[21 <./arbre_recherche_standard.png> <./forward_checking.png>]
+<gac1.png, id=112, 458.71375pt x 76.285pt>
 File: gac1.png Graphic file (type png)
  <use gac1.png>
-Package pdftex.def Info: gac1.png used on input line 482.
+Package pdftex.def Info: gac1.png used on input line 485.
 (pdftex.def)             Requested size: 199.1679pt x 33.12201pt.
 
-<gac2.png, id=99, 462.72874pt x 80.3pt>
+<gac2.png, id=113, 462.72874pt x 80.3pt>
 File: gac2.png Graphic file (type png)
  <use gac2.png>
-Package pdftex.def Info: gac2.png used on input line 489.
+Package pdftex.def Info: gac2.png used on input line 492.
 (pdftex.def)             Requested size: 199.16718pt x 34.56262pt.
 
-<gac3.png, id=100, 461.725pt x 79.29625pt>
+<gac3.png, id=114, 461.725pt x 79.29625pt>
 File: gac3.png Graphic file (type png)
  <use gac3.png>
-Package pdftex.def Info: gac3.png used on input line 496.
+Package pdftex.def Info: gac3.png used on input line 499.
 (pdftex.def)             Requested size: 199.16492pt x 34.20439pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--503
+Overfull \hbox (268.92294pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE DE RECHERCHE DANS UN ESPACE D'[]ETATS ET
+ PROBL[]EME DE SATISFACTION DE CONTRAINTES. \OT1/cmr/m/n/10 22
+ []
+
+[22 <./gac1.png> <./gac2.png> <./gac3.png>]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--506
 
  []
 
-[18 <./forward_checking.png> <./gac1.png> <./gac2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 504--505
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--508
 
  []
 
-<agent_logique.png, id=105, 443.6575pt x 230.8625pt>
+<agent_logique.png, id=118, 443.6575pt x 230.8625pt>
 File: agent_logique.png Graphic file (type png)
  <use agent_logique.png>
-Package pdftex.def Info: agent_logique.png used on input line 508.
+Package pdftex.def Info: agent_logique.png used on input line 511.
 (pdftex.def)             Requested size: 199.16338pt x 103.63704pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--514
+Underfull \hbox (badness 10000) in paragraph at lines 516--517
 
  []
 
-[19 <./gac3.png> <./agent_logique.png>]
-<exemple_model.png, id=109, 351.3125pt x 266.9975pt>
+[23
+
+ <./agent_logique.png>]
+<exemple_model.png, id=122, 351.3125pt x 266.9975pt>
 File: exemple_model.png Graphic file (type png)
  <use exemple_model.png>
-Package pdftex.def Info: exemple_model.png used on input line 537.
+Package pdftex.def Info: exemple_model.png used on input line 540.
 (pdftex.def)             Requested size: 199.17271pt x 151.37126pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--543
+Underfull \hbox (badness 10000) in paragraph at lines 545--546
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--562
-
+Overfull \hbox (57.6098pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 3.  LOGIQUE PROPOSITIONELLE ET PR[]EDICAT DU PREMIER O
+RDRE \OT1/cmr/m/n/10 24
  []
 
-
+[24 <./exemple_model.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 564--565
 
  []
 
-[20 <./exemple_model.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 566--567
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--568
 
  []
 
-<exemple_inference.png, id=113, 590.205pt x 414.54875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 569--570
+
+ []
+
+
+Overfull \hbox (57.6098pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 3.  LOGIQUE PROPOSITIONELLE ET PR[]EDICAT DU PREMIER O
+RDRE \OT1/cmr/m/n/10 25
+ []
+
+[25] <exemple_inference.png, id=130, 590.205pt x 414.54875pt>
 File: exemple_inference.png Graphic file (type png)
 
 <use exemple_inference.png>
-Package pdftex.def Info: exemple_inference.png used on input line 603.
+Package pdftex.def Info: exemple_inference.png used on input line 606.
 (pdftex.def)             Requested size: 199.16307pt x 139.88835pt.
- [21] <horn.png, id=117, 219.82124pt x 160.6pt>
+
+Overfull \hbox (57.6098pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 3.  LOGIQUE PROPOSITIONELLE ET PR[]EDICAT DU PREMIER O
+RDRE \OT1/cmr/m/n/10 26
+ []
+
+[26 <./exemple_inference.png>] <horn.png, id=134, 219.82124pt x 160.6pt>
 File: horn.png Graphic file (type png)
 
 <use horn.png>
-Package pdftex.def Info: horn.png used on input line 625.
+Package pdftex.def Info: horn.png used on input line 628.
 (pdftex.def)             Requested size: 142.26828pt x 103.94029pt.
- [22 <./exemple_inference.png> <./horn.png>]
-Overfull \hbox (2.83392pt too wide) in paragraph at lines 633--634
+
+Overfull \hbox (2.83392pt too wide) in paragraph at lines 636--637
 \OT1/cmr/m/n/10 le pre-mier al-go-rithme d'inf^^Serence que nous al-lons voir e
 st l'algorithme de cha^^^Pnage
  []
 
-<chainage_avant_exemple.png, id=121, 484.81125pt x 277.035pt>
+<chainage_avant_exemple.png, id=135, 484.81125pt x 277.035pt>
 File: chainage_avant_exemple.png Graphic file (type png)
 
 <use chainage_avant_exemple.png>
-Package pdftex.def Info: chainage_avant_exemple.png used on input line 637.
+Package pdftex.def Info: chainage_avant_exemple.png used on input line 640.
 (pdftex.def)             Requested size: 142.26352pt x 81.29343pt.
 
-<algo_chainage_avant.png, id=122, 434.62375pt x 313.17pt>
+<algo_chainage_avant.png, id=136, 434.62375pt x 313.17pt>
 File: algo_chainage_avant.png Graphic file (type png)
 
 <use algo_chainage_avant.png>
-Package pdftex.def Info: algo_chainage_avant.png used on input line 644.
+Package pdftex.def Info: algo_chainage_avant.png used on input line 647.
 (pdftex.def)             Requested size: 142.2657pt x 102.51016pt.
 
 
-LaTeX Warning: Reference `fig:chainage_arriere_loop' on page  undefined on inpu
-t line 650.
+LaTeX Warning: Reference `fig:chainage_arriere_loop' on page 27 undefined on in
+put line 653.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--651
+Underfull \hbox (badness 10000) in paragraph at lines 653--654
 
  []
 
-<exemple_chainage_arriere.png, id=123, 448.67625pt x 291.0875pt>
+<exemple_chainage_arriere.png, id=137, 448.67625pt x 291.0875pt>
 File: exemple_chainage_arriere.png Graphic file (type png)
 
 <use exemple_chainage_arriere.png>
-Package pdftex.def Info: exemple_chainage_arriere.png used on input line 654.
+Package pdftex.def Info: exemple_chainage_arriere.png used on input line 657.
 (pdftex.def)             Requested size: 142.25801pt x 92.29266pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 661--662
-
- []
-
-[23 <./chainage_avant_exemple.png> <./algo_chainage_avant.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 666--667
+Underfull \hbox (badness 10000) in paragraph at lines 664--665
 
  []
 
 
-Overfull \hbox (27.84877pt too wide) in paragraph at lines 678--679
+Overfull \hbox (57.6098pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 3.  LOGIQUE PROPOSITIONELLE ET PR[]EDICAT DU PREMIER O
+RDRE \OT1/cmr/m/n/10 27
+ []
+
+[27 <./horn.png> <./chainage_avant_exemple.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 669--670
+
+ []
+
+
+Overfull \hbox (57.6098pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 3.  LOGIQUE PROPOSITIONELLE ET PR[]EDICAT DU PREMIER O
+RDRE \OT1/cmr/m/n/10 28
+ []
+
+[28 <./algo_chainage_avant.png> <./exemple_chainage_arriere.png>]
+Overfull \hbox (27.84877pt too wide) in paragraph at lines 681--682
  \OT1/cmr/bx/n/10 Si un prof en-seigne l'IA, il est in-tel-li-gent[] $\OMS/cmsy
 /m/n/10 8\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 professeur\OT1/cmr
 /m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/1
@@ -960,8 +1094,8 @@ Overfull \hbox (27.84877pt too wide) in paragraph at lines 678--679
 n/10 )
  []
 
-[24 <./exemple_chainage_arriere.png>]
-Overfull \hbox (8.01328pt too wide) in paragraph at lines 683--684
+
+Overfull \hbox (8.01328pt too wide) in paragraph at lines 686--687
  \OT1/cmr/bx/n/10 Quelqu'un aime tous les prof d'IA[] $\OMS/cmsy/m/n/10 9\OML/c
 mm/m/it/10 y\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 [\OML/cmm/m/it/
 10 enseigne\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; IA\OT1/cmr/m/n/10 ) \OMS/cmsy/m
@@ -970,14 +1104,14 @@ m/n/10 ) \OMS/cmsy/m/n/10 )
  []
 
 
-Overfull \hbox (0.76456pt too wide) in paragraph at lines 685--686
+Overfull \hbox (0.76456pt too wide) in paragraph at lines 688--689
  \OT1/cmr/bx/n/10 Paul est un bar-bier qui rase tous cex qui ne se rasent pas[]
  $\OML/cmm/m/it/10 barbier\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Paul\OT1/cmr/m/n/10
  )[] 
  []
 
 
-Overfull \hbox (43.10603pt too wide) in paragraph at lines 687--690
+Overfull \hbox (43.10603pt too wide) in paragraph at lines 690--693
  \OT1/cmr/bx/n/10 Les br^^Sesiliens ne dansent pas tous la samba[] $\OMS/cmsy/m
 /n/10 :8\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 bresilien\OT1/cmr/m
 /n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ) \OML/cmm/m/it/10 
@@ -985,33 +1119,1966 @@ danser\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; samba\OT1/cmr/m/n/10 )]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 695--696
+Underfull \hbox (badness 10000) in paragraph at lines 698--699
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 697--698
+Overfull \hbox (57.6098pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 3.  LOGIQUE PROPOSITIONELLE ET PR[]EDICAT DU PREMIER O
+RDRE \OT1/cmr/m/n/10 29
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 700--701
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 699--703
+Underfull \hbox (badness 10000) in paragraph at lines 702--706
 
  []
 
-[25] [26] (./NotesINF8215.aux)
+
+Overfull \hbox (57.6098pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 3.  LOGIQUE PROPOSITIONELLE ET PR[]EDICAT DU PREMIER O
+RDRE \OT1/cmr/m/n/10 30
+ []
+
+[30]
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--725
+
+ []
+
+
+Overfull \hbox (2.1394pt too wide) in paragraph at lines 726--727
+[]\OT1/cmr/m/n/10 On mod^^Selise des con-nais-sance on-tologiques avec un sens 
+diff^^Serentde la philoso-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 726--727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 728--729
+
+ []
+
+<taxonomie.png, id=152, 411.5375pt x 221.82875pt>
+File: taxonomie.png Graphic file (type png)
+ <use taxonomie.png>
+Package pdftex.def Info: taxonomie.png used on input line 733.
+(pdftex.def)             Requested size: 199.16928pt x 107.35663pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 738--739
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 740--741
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 744--745
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--749
+
+ []
+
+[31
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 750--751
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 752--757
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--759
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 760--761
+
+ []
+
+<caracteristique.png, id=156, 358.33875pt x 178.6675pt>
+File: caracteristique.png Graphic file (type png)
+
+<use caracteristique.png>
+Package pdftex.def Info: caracteristique.png used on input line 764.
+(pdftex.def)             Requested size: 199.16928pt x 99.30612pt.
+
+Overfull \hbox (13.16866pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 4.  ONTOLOGIES, PLANIFICATION ET R[]ESEAUX BAY[]ESIENS
+ \OT1/cmr/m/n/10 32
+ []
+
+[32 <./taxonomie.png> <./caracteristique.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 783--784
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 786--787
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 788--789
+
+ []
+
+<semantics.png, id=160, 129.48375pt x 22.0825pt>
+File: semantics.png Graphic file (type png)
+ <use semantics.png>
+Package pdftex.def Info: semantics.png used on input line 799.
+(pdftex.def)             Requested size: 85.35826pt x 14.55797pt.
+
+<semantics2.png, id=161, 338.26375pt x 224.84pt>
+File: semantics2.png Graphic file (type png)
+ <use semantics2.png>
+Package pdftex.def Info: semantics2.png used on input line 809.
+(pdftex.def)             Requested size: 199.16928pt x 132.39027pt.
+
+Overfull \hbox (1.77843pt too wide) in paragraph at lines 815--816
+\OT1/cmr/m/n/10 Quand une vari-able ap-pa-rait dans une clauses, la clause sera
+ vraie pour n'importe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 815--816
+
+ []
+
+
+Overfull \hbox (13.16866pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 4.  ONTOLOGIES, PLANIFICATION ET R[]ESEAUX BAY[]ESIENS
+ \OT1/cmr/m/n/10 33
+ []
+
+[33 <./semantics.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 817--818
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 821--822
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 823--824
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--826
+
+ []
+
+
+Overfull \hbox (13.16866pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 4.  ONTOLOGIES, PLANIFICATION ET R[]ESEAUX BAY[]ESIENS
+ \OT1/cmr/m/n/10 34
+ []
+
+[34 <./semantics2.png>]
+Overfull \hbox (9.96356pt too wide) in paragraph at lines 827--828
+\OT1/cmr/m/n/10 (wood chips). La base de con-nais-sance pour-rait utiliser un m
+oyen de repr^^Sesentation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 827--828
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 834--836
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 837--838
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 839--840
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 843--849
+
+ []
+
+
+Overfull \hbox (13.16866pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 4.  ONTOLOGIES, PLANIFICATION ET R[]ESEAUX BAY[]ESIENS
+ \OT1/cmr/m/n/10 35
+ []
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 850--851
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 852--853
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 854--855
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 856--861
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 863--864
+
+ []
+
+
+Overfull \hbox (1.72267pt too wide) in paragraph at lines 865--866
+[]\OT1/cmr/m/n/10 Chaque noeud de l'espace d'^^Setat est un ^^Setat r^^Sesultat
+ de la prise d'une s^^Sequence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 865--866
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 867--868
+
+ []
+
+
+Overfull \hbox (2.19395pt too wide) in paragraph at lines 870--871
+\OT1/cmr/m/n/10 La valeur de h(S) doit nous don-ner une es-ti-ma-tion du nom-br
+e d'actions n^^Secessaire
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 870--871
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 872--873
+
+ []
+
+
+Overfull \hbox (13.16866pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 4.  ONTOLOGIES, PLANIFICATION ET R[]ESEAUX BAY[]ESIENS
+ \OT1/cmr/m/n/10 36
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 874--875
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 891--892
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 893--894
+
+ []
+
+
+Overfull \hbox (13.16866pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 4.  ONTOLOGIES, PLANIFICATION ET R[]ESEAUX BAY[]ESIENS
+ \OT1/cmr/m/n/10 37
+ []
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 898--899
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--901
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 907--908
+
+ []
+
+<Exemple_Transport.png, id=178, 445.665pt x 223.83624pt>
+File: Exemple_Transport.png Graphic file (type png)
+
+<use Exemple_Transport.png>
+Package pdftex.def Info: Exemple_Transport.png used on input line 912.
+(pdftex.def)             Requested size: 345.0pt x 173.27661pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 917--918
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 919--920
+
+ []
+
+<Shakey.png, id=179, 545.03625pt x 517.935pt>
+File: Shakey.png Graphic file (type png)
+ <use Shakey.png>
+Package pdftex.def Info: Shakey.png used on input line 923.
+(pdftex.def)             Requested size: 227.62204pt x 216.29832pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 928--929
+
+ []
+
+
+Overfull \hbox (13.16866pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 4.  ONTOLOGIES, PLANIFICATION ET R[]ESEAUX BAY[]ESIENS
+ \OT1/cmr/m/n/10 38
+ []
+
+[38 <./Exemple_Transport.png>]
+<Reponse_Shakey.png, id=183, 545.03625pt x 450.68375pt>
+File: Reponse_Shakey.png Graphic file (type png)
+
+<use Reponse_Shakey.png>
+Package pdftex.def Info: Reponse_Shakey.png used on input line 932.
+(pdftex.def)             Requested size: 345.0pt x 285.27324pt.
+
+Overfull \hbox (9.72278pt too wide) in paragraph at lines 938--939
+\OT1/cmr/m/n/10 de probl^^Remes qui fonc-tion-nent sur des repr^^Sesentations e
+x-plicites d'^^Setats et d'actions
+ []
+
+
+Overfull \hbox (13.16866pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 4.  ONTOLOGIES, PLANIFICATION ET R[]ESEAUX BAY[]ESIENS
+ \OT1/cmr/m/n/10 39
+ []
+
+[39 <./Shakey.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 943--944
+
+ []
+
+
+Overfull \hbox (11.52832pt too wide) in paragraph at lines 945--946
+[]\OT1/cmr/m/n/10 On d^^Sefinit $
+$ comme l'ensemble de touts les r^^Sesultats pos-si-ble d'un ^^Sev^^Senement.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 948--949
+
+ []
+
+
+Overfull \hbox (13.16866pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 4.  ONTOLOGIES, PLANIFICATION ET R[]ESEAUX BAY[]ESIENS
+ \OT1/cmr/m/n/10 40
+ []
+
+[40 <./Reponse_Shakey.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 958--959
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--961
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 972--973
+
+ []
+
+<Distribution_Conjointe.png, id=190, 422.57875pt x 189.70876pt>
+File: Distribution_Conjointe.png Graphic file (type png)
+
+<use Distribution_Conjointe.png>
+Package pdftex.def Info: Distribution_Conjointe.png used on input line 978.
+(pdftex.def)             Requested size: 199.16928pt x 89.41496pt.
+
+<Prob_Cond.png, id=191, 508.90125pt x 284.06125pt>
+File: Prob_Cond.png Graphic file (type png)
+ <use Prob_Cond.png>
+Package pdftex.def Info: Prob_Cond.png used on input line 988.
+(pdftex.def)             Requested size: 199.16928pt x 111.17352pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1001--1002
+
+ []
+
+
+Overfull \hbox (13.16866pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 4.  ONTOLOGIES, PLANIFICATION ET R[]ESEAUX BAY[]ESIENS
+ \OT1/cmr/m/n/10 41
+ []
+
+[41 <./Distribution_Conjointe.png>]
+Overfull \hbox (10.35246pt too wide) in paragraph at lines 1007--1008
+[]\OT1/cmr/m/n/10 l'ind^^Sependant ab-solu est tr^^Res puis-sant, mais en pra-t
+ique c'est rare. l'odontologie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1010--1011
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1022
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1028
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1031--1033
+
+ []
+
+<Regle_Chaine.png, id=195, 521.95pt x 124.465pt>
+File: Regle_Chaine.png Graphic file (type png)
+ <use Regle_Chaine.png>
+Package pdftex.def Info: Regle_Chaine.png used on input line 1036.
+(pdftex.def)             Requested size: 199.16928pt x 47.49469pt.
+
+Overfull \hbox (13.16866pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 4.  ONTOLOGIES, PLANIFICATION ET R[]ESEAUX BAY[]ESIENS
+ \OT1/cmr/m/n/10 42
+ []
+
+[42 <./Prob_Cond.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1044--1045
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1050--1051
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1056--1057
+
+ []
+
+<Bayes.png, id=200, 498.86375pt x 261.97874pt>
+File: Bayes.png Graphic file (type png)
+ <use Bayes.png>
+Package pdftex.def Info: Bayes.png used on input line 1067.
+(pdftex.def)             Requested size: 199.16928pt x 104.59377pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1074
+
+ []
+
+
+Overfull \hbox (13.16866pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 4.  ONTOLOGIES, PLANIFICATION ET R[]ESEAUX BAY[]ESIENS
+ \OT1/cmr/m/n/10 43
+ []
+
+[43 <./Regle_Chaine.png> <./Bayes.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1077
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1078--1079
+
+ []
+
+<bayes_network.png, id=204, 418.56375pt x 283.0575pt>
+File: bayes_network.png Graphic file (type png)
+ <use bayes_network.png>
+Package pdftex.def Info: bayes_network.png used on input line 1082.
+(pdftex.def)             Requested size: 199.16928pt x 134.68694pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1087--1088
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1089--1090
+
+ []
+
+
+Overfull \hbox (13.16866pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 4.  ONTOLOGIES, PLANIFICATION ET R[]ESEAUX BAY[]ESIENS
+ \OT1/cmr/m/n/10 44
+ []
+
+[44 <./bayes_network.png>] <Exemple_Bayes.png, id=208, 538.01pt x 212.795pt>
+File: Exemple_Bayes.png Graphic file (type png)
+
+<use Exemple_Bayes.png>
+Package pdftex.def Info: Exemple_Bayes.png used on input line 1093.
+(pdftex.def)             Requested size: 199.16928pt x 78.77512pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1099--1100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1101--1102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1103--1104
+
+ []
+
+
+Overfull \hbox (14.74483pt too wide) in paragraph at lines 1105--1106
+\OT1/cmr/m/n/10 d'un noeud Y ^^Setant donn^^Sees d'autres noeuds $\OML/cmm/m/it
+/10 Z \OT1/cmr/m/n/10 = [\OML/cmm/m/it/10 Z[]; Z[]; ::::Z[]\OT1/cmr/m/n/10 ]$. 
+X est ind^^Sependant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1112--1113
+
+ []
+
+<tri_topologique.png, id=209, 249.93375pt x 229.85875pt>
+File: tri_topologique.png Graphic file (type png)
+
+<use tri_topologique.png>
+Package pdftex.def Info: tri_topologique.png used on input line 1116.
+(pdftex.def)             Requested size: 199.16928pt x 183.17874pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
+
+ []
+
+
+Overfull \hbox (13.16866pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 4.  ONTOLOGIES, PLANIFICATION ET R[]ESEAUX BAY[]ESIENS
+ \OT1/cmr/m/n/10 45
+ []
+
+[45 <./Exemple_Bayes.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1127--1128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1134--1135
+
+ []
+
+
+Overfull \hbox (13.16866pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 4.  ONTOLOGIES, PLANIFICATION ET R[]ESEAUX BAY[]ESIENS
+ \OT1/cmr/m/n/10 46
+ []
+
+[46 <./tri_topologique.png>]
+Overfull \hbox (40.27846pt too wide) in paragraph at lines 1145--1146
+[]\OT1/cmr/m/n/10 Pour chaque Vari-able A, un tableau de prob-a-bilit^^Ses con-
+di-tionelles P(A|parents(A))
+ []
+
+
+Overfull \hbox (13.16866pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 4.  ONTOLOGIES, PLANIFICATION ET R[]ESEAUX BAY[]ESIENS
+ \OT1/cmr/m/n/10 47
+ []
+
+[47]
+Chapter 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1149--1150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1158--1159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1161--1162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1163--1164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1165--1166
+
+ []
+
+[48
+
+] <Classes_ML.png, id=223, 790.955pt x 305.14pt>
+File: Classes_ML.png Graphic file (type png)
+ <use Classes_ML.png>
+Package pdftex.def Info: Classes_ML.png used on input line 1169.
+(pdftex.def)             Requested size: 345.0pt x 133.09799pt.
+
+<Classes_division.png, id=224, 375.4025pt x 276.03125pt>
+File: Classes_division.png Graphic file (type png)
+
+<use Classes_division.png>
+Package pdftex.def Info: Classes_division.png used on input line 1176.
+(pdftex.def)             Requested size: 345.0pt x 253.69067pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1181--1182
+
+ []
+
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 49
+ []
+
+[49 <./Classes_ML.png> <./Classes_division.png>]
+<Classifier_Agent.png, id=228, 584.1825pt x 290.08376pt>
+File: Classifier_Agent.png Graphic file (type png)
+
+<use Classifier_Agent.png>
+Package pdftex.def Info: Classifier_Agent.png used on input line 1185.
+(pdftex.def)             Requested size: 345.0pt x 171.32054pt.
+
+Overfull \hbox (28.4173pt too wide) in paragraph at lines 1190--1192
+[]\OT1/cmr/m/n/10 *L'apprentissage ma-chine est l'^^Setude des al-go-rithmes in
+-for-ma-tiques qui s'am^^Seliorent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1209--1210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1212--1213
+
+ []
+
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 50
+ []
+
+[50 <./Classifier_Agent.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1215--1216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1217--1218
+
+ []
+
+<Neurone.png, id=233, 564.1075pt x 243.91125pt>
+File: Neurone.png Graphic file (type png)
+ <use Neurone.png>
+Package pdftex.def Info: Neurone.png used on input line 1225.
+(pdftex.def)             Requested size: 345.0pt x 149.1727pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1231
+
+ []
+
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 51
+ []
+
+[51 <./Neurone.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1232--1233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1234--1235
+
+ []
+
+<Hyperplan.png, id=237, 350.30875pt x 282.05376pt>
+File: Hyperplan.png Graphic file (type png)
+ <use Hyperplan.png>
+Package pdftex.def Info: Hyperplan.png used on input line 1240.
+(pdftex.def)             Requested size: 345.0pt x 277.7966pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1248--1249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1250--1251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1252--1253
+
+ []
+
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 52
+ []
+
+[52 <./Hyperplan.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1256--1257
+
+ []
+
+<lineairement_separable.png, id=241, 684.5575pt x 285.065pt>
+File: lineairement_separable.png Graphic file (type png)
+
+<use lineairement_separable.png>
+Package pdftex.def Info: lineairement_separable.png used on input line 1260.
+(pdftex.def)             Requested size: 345.0pt x 143.66742pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1265--1266
+
+ []
+
+
+Overfull \hbox (17.2506pt too wide) in paragraph at lines 1271--1272
+[]\OT1/cmr/m/n/10 Ils ont re-marqu^^Ses que le Deep Learn-ing ^^Setait ca-pa-bl
+e d'automatiser l'extraction
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1275--1276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1277--1278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1279--1280
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1281--1282
+
+ []
+
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 53
+ []
+
+[53 <./lineairement_separable.png>]
+<Exemple_Perceptron.png, id=245, 674.52pt x 383.4325pt>
+File: Exemple_Perceptron.png Graphic file (type png)
+
+<use Exemple_Perceptron.png>
+Package pdftex.def Info: Exemple_Perceptron.png used on input line 1308.
+(pdftex.def)             Requested size: 345.0pt x 196.12135pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1314--1315
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1320--1321
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1324--1325
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1330--1331
+
+ []
+
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 54
+ []
+
+[54 <./Exemple_Perceptron.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1332--1333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1339--1340
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1341--1342
+
+ []
+
+
+Overfull \hbox (6.86166pt too wide) in paragraph at lines 1346--1347
+\OT1/cmr/m/n/10 On peut utiliser une sorte de seuil d'ex^^Secution si ja-mais l
+es donn^^Sees d'entrainement
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1346--1347
+
+ []
+
+<sommaire.png, id=250, 669.50125pt x 280.04625pt>
+File: sommaire.png Graphic file (type png)
+ <use sommaire.png>
+Package pdftex.def Info: sommaire.png used on input line 1353.
+(pdftex.def)             Requested size: 142.26378pt x 59.50797pt.
+
+Overfull \hbox (18.19507pt too wide) in paragraph at lines 1358--1360
+\OT1/cmr/m/n/10 Les poids sont mis ^^Ra jours bas^^Ses sur une fonc-tion d'acti
+vation lin^^Seaire $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 diff^^Serentiable
+ []
+
+
+Overfull \hbox (15.22285pt too wide) in paragraph at lines 1361--1362
+[]\OT1/cmr/m/n/10 Le principe est d'utiliser un quan-tifi-ca-teur tr^^Res sim-i
+-laire ^^Ra la fonc-tion d'activation
+ []
+
+<adaline.png, id=251, 485.815pt x 185.69376pt>
+File: adaline.png Graphic file (type png)
+ <use adaline.png>
+Package pdftex.def Info: adaline.png used on input line 1365.
+(pdftex.def)             Requested size: 345.0pt x 131.86899pt.
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 55
+ []
+
+[55 <./sommaire.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1372--1373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1376--1377
+
+ []
+
+<SGD.png, id=255, 489.83pt x 268.00125pt>
+File: SGD.png Graphic file (type png)
+ <use SGD.png>
+Package pdftex.def Info: SGD.png used on input line 1380.
+(pdftex.def)             Requested size: 345.0pt x 188.76505pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1384--1385
+
+ []
+
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 56
+ []
+
+[56 <./adaline.png> <./SGD.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1390--1391
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1396--1397
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1398--1399
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1403--1404
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1408--1409
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1410--1411
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1412--1413
+
+ []
+
+<sigmoide.png, id=259, 401.5pt x 336.25626pt>
+File: sigmoide.png Graphic file (type png)
+ <use sigmoide.png>
+Package pdftex.def Info: sigmoide.png used on input line 1416.
+(pdftex.def)             Requested size: 142.26378pt x 119.1486pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1421--1422
+
+ []
+
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 57
+ []
+
+[57 <./sigmoide.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1423--1424
+
+ []
+
+<logistique.png, id=264, 515.9275pt x 304.13625pt>
+File: logistique.png Graphic file (type png)
+ <use logistique.png>
+Package pdftex.def Info: logistique.png used on input line 1427.
+(pdftex.def)             Requested size: 227.62204pt x 134.18233pt.
+
+Overfull \hbox (2.90303pt too wide) in paragraph at lines 1431--1432
+[]\OT1/cmr/m/n/10 Normalement, pour la r^^Segression lo-gis-tique, on es-saie d
+e min-imiser \OT1/cmr/bx/n/10 l'entropie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1431--1432
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1437--1438
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1439--1440
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1442--1443
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1445--1446
+
+ []
+
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 58
+ []
+
+[58 <./logistique.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1447--1448
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1453--1454
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1455--1456
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1458--1459
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1460--1461
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1462--1463
+
+ []
+
+<Kcluster.png, id=268, 587.19376pt x 512.91624pt>
+File: Kcluster.png Graphic file (type png)
+ <use Kcluster.png>
+Package pdftex.def Info: Kcluster.png used on input line 1466.
+(pdftex.def)             Requested size: 199.16928pt x 173.97441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1471--1472
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1484--1485
+
+ []
+
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 59
+ []
+
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 1486--1487
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1488--1489
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1490--1492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1494--1495
+
+ []
+
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 60
+ []
+
+[60 <./Kcluster.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1496--1497
+
+ []
+
+<reseaux_neurone.png, id=276, 550.055pt x 285.065pt>
+File: reseaux_neurone.png Graphic file (type png)
+ <use reseaux_neurone.png>
+Package pdftex.def Info: reseaux_neurone.png used on input line 1500.
+(pdftex.def)             Requested size: 170.71652pt x 88.47362pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1506--1507
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1512--1513
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1515--1516
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1517--1518
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1523--1524
+
+ []
+
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 61
+ []
+
+[61 <./reseaux_neurone.png>]
+<derive_partielle.png, id=280, 534.99875pt x 229.85875pt>
+File: derive_partielle.png Graphic file (type png)
+
+<use derive_partielle.png>
+Package pdftex.def Info: derive_partielle.png used on input line 1527.
+(pdftex.def)             Requested size: 199.16928pt x 85.5725pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1532--1533
+
+ []
+
+
+Overfull \hbox (11.16727pt too wide) in paragraph at lines 1534--1535
+[]\OT1/cmr/m/n/10 Un cal-cul naif ne serait vrai-ment pas ef-fi-cace, alors on 
+utilise la r^^Setropropagation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1534--1535
+
+ []
+
+<derive_partielle_chainage.png, id=281, 421.575pt x 124.465pt>
+File: derive_partielle_chainage.png Graphic file (type png)
+
+<use derive_partielle_chainage.png>
+Package pdftex.def Info: derive_partielle_chainage.png used on input line 1538.
+
+(pdftex.def)             Requested size: 199.16928pt x 58.80241pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1543--1544
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1549--1550
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1557--1558
+
+ []
+
+<propagation_avant.png, id=282, 482.80376pt x 135.50626pt>
+File: propagation_avant.png Graphic file (type png)
+
+<use propagation_avant.png>
+Package pdftex.def Info: propagation_avant.png used on input line 1561.
+(pdftex.def)             Requested size: 199.16928pt x 55.89908pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1566--1567
+
+ []
+
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 62
+ []
+
+[62 <./derive_partielle.png> <./derive_partielle_chainage.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1572--1573
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1574--1575
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1580--1581
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1589--1590
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1591--1592
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1597--1598
+
+ []
+
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 63
+ []
+
+[63 <./propagation_avant.png>]
+<Exemple_retropropagation.png, id=289, 475.7775pt x 160.6pt>
+File: Exemple_retropropagation.png Graphic file (type png)
+
+<use Exemple_retropropagation.png>
+Package pdftex.def Info: Exemple_retropropagation.png used on input line 1601.
+(pdftex.def)             Requested size: 199.16928pt x 67.23097pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1607--1608
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1609--1610
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1612--1613
+
+ []
+
+<exemple_backprop1.png, id=290, 464.73625pt x 135.50626pt>
+File: exemple_backprop1.png Graphic file (type png)
+
+<use exemple_backprop1.png>
+Package pdftex.def Info: exemple_backprop1.png used on input line 1621.
+(pdftex.def)             Requested size: 113.81102pt x 33.1838pt.
+
+<exemple_backprop2.png, id=291, 434.62375pt x 125.46875pt>
+File: exemple_backprop2.png Graphic file (type png)
+
+<use exemple_backprop2.png>
+Package pdftex.def Info: exemple_backprop2.png used on input line 1630.
+(pdftex.def)             Requested size: 142.26378pt x 41.06976pt.
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 64
+ []
+
+[64 <./Exemple_retropropagation.png> <./exemple_backprop1.png> <./exemple_backp
+rop2.png>] <exemple_backprop3.png, id=295, 434.62375pt x 133.49875pt>
+File: exemple_backprop3.png Graphic file (type png)
+
+<use exemple_backprop3.png>
+Package pdftex.def Info: exemple_backprop3.png used on input line 1654.
+(pdftex.def)             Requested size: 142.26378pt x 43.69823pt.
+
+<exemple_backprop4.png, id=296, 426.59375pt x 134.5025pt>
+File: exemple_backprop4.png Graphic file (type png)
+
+<use exemple_backprop4.png>
+Package pdftex.def Info: exemple_backprop4.png used on input line 1666.
+(pdftex.def)             Requested size: 142.26378pt x 44.85594pt.
+
+<exemple_backprop5.png, id=297, 1004.75375pt x 511.9125pt>
+File: exemple_backprop5.png Graphic file (type png)
+
+<use exemple_backprop5.png>
+Package pdftex.def Info: exemple_backprop5.png used on input line 1684.
+(pdftex.def)             Requested size: 199.16928pt x 101.4746pt.
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 65
+ []
+
+[65 <./exemple_backprop3.png> <./exemple_backprop4.png> <./exemple_backprop5.pn
+g>]
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1695
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1696--1697
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1698--1699
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1700--1701
+
+ []
+
+<overfitting.png, id=301, 326.21875pt x 182.6825pt>
+File: overfitting.png Graphic file (type png)
+ <use overfitting.png>
+Package pdftex.def Info: overfitting.png used on input line 1705.
+(pdftex.def)             Requested size: 199.16928pt x 111.53929pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1711--1712
+
+ []
+
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 66
+ []
+
+[66 <./overfitting.png>]
+Overfull \hbox (3.14737pt too wide) in paragraph at lines 1713--1714
+\OT1/cmr/bx/n/10 param^^Retres\OT1/cmr/m/n/10 , dans le cas du clus-ter-ing, le
+ param^etre k serait un hyper-param^^Retre.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1713--1714
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1715--1716
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1719--1720
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1722--1723
+
+ []
+
+<decision_tree_example.png, id=306, 476.78125pt x 376.40625pt>
+File: decision_tree_example.png Graphic file (type png)
+
+<use decision_tree_example.png>
+Package pdftex.def Info: decision_tree_example.png used on input line 1726.
+(pdftex.def)             Requested size: 199.16928pt x 157.2395pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1731--1732
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1733--1734
+
+ []
+
+<algo_decision.png, id=307, 484.81125pt x 350.30875pt>
+File: algo_decision.png Graphic file (type png)
+ <use algo_decision.png>
+Package pdftex.def Info: algo_decision.png used on input line 1737.
+(pdftex.def)             Requested size: 284.52756pt x 205.60062pt.
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 67
+ []
+
+[67]
+Overfull \hbox (1.80603pt too wide) in paragraph at lines 1741--1742
+[]\OT1/cmr/m/n/10 On utilise le principe de r^^Secursivit^^Se pour con-stru-ire
+ des sous-arbres (branches)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1741--1742
+
+ []
+
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 68
+ []
+
+[68 <./decision_tree_example.png> <./algo_decision.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1743--1744
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1747--1748
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1754--1755
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1756--1757
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1758--1759
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1762--1763
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1764--1765
+
+ []
+
+<entropie1.png, id=314, 573.14125pt x 282.05376pt>
+File: entropie1.png Graphic file (type png)
+ <use entropie1.png>
+Package pdftex.def Info: entropie1.png used on input line 1770.
+(pdftex.def)             Requested size: 142.26378pt x 70.00972pt.
+
+<entropie2.png, id=315, 531.9875pt x 241.90375pt>
+File: entropie2.png Graphic file (type png)
+ <use entropie2.png>
+Package pdftex.def Info: entropie2.png used on input line 1776.
+(pdftex.def)             Requested size: 142.26378pt x 64.68738pt.
+
+<entropie3.png, id=316, 499.8675pt x 232.87pt>
+File: entropie3.png Graphic file (type png)
+ <use entropie3.png>
+Package pdftex.def Info: entropie3.png used on input line 1783.
+(pdftex.def)             Requested size: 142.26378pt x 66.27625pt.
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 69
+ []
+
+[69 <./entropie1.png> <./entropie2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1795--1796
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1797--1798
+
+ []
+
+
+Overfull \hbox (121.56717pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 5.  MACHINE LEARNING / APPRENTISSAGE MACHINE ET FOUILL
+ES DE DONN[]EES \OT1/cmr/m/n/10 70
+ []
+
+[70 <./entropie3.png>]
+Chapter 6.
+
+Overfull \hbox (9.35236pt too wide) in paragraph at lines 1802--1803
+\OT1/cmr/m/n/10 cach^^Ses dans notre en-sem-ble afin de les clas-si-fier. Dans 
+les m^^Sethodes non=supervis^^Se,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1802--1803
+
+ []
+
+<cluster.png, id=323, 519.9425pt x 208.78pt>
+File: cluster.png Graphic file (type png)
+ <use cluster.png>
+Package pdftex.def Info: cluster.png used on input line 1806.
+(pdftex.def)             Requested size: 199.16928pt x 79.97435pt.
+
+Overfull \hbox (4.75053pt too wide) in paragraph at lines 1811--1812
+[]\OT1/cmr/m/n/10 Les m^^Sethodes de clas-si-fi-ca-ton au-toma-tique con-tribue
+nt ^^Ra d^^Setercter des groupes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1811--1812
+
+ []
+
+<bresil.png, id=324, 547.04375pt x 293.095pt>
+File: bresil.png Graphic file (type png)
+ <use bresil.png>
+Package pdftex.def Info: bresil.png used on input line 1815.
+(pdftex.def)             Requested size: 199.16928pt x 106.71268pt.
+ [71
+
+ <./cluster.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1820--1821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1822--1823
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1824--1825
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1826--1827
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1828--1829
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1832
+
+ []
+
+[72 <./bresil.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1833--1834
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1835--1836
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1837--1838
+
+ []
+
+<separation.png, id=332, 512.91624pt x 384.43625pt>
+File: separation.png Graphic file (type png)
+ <use separation.png>
+Package pdftex.def Info: separation.png used on input line 1841.
+(pdftex.def)             Requested size: 199.16928pt x 149.2784pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1846--1847
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1848--1849
+
+ []
+
+<classification.png, id=333, 524.96124pt x 306.14375pt>
+File: classification.png Graphic file (type png)
+
+<use classification.png>
+Package pdftex.def Info: classification.png used on input line 1852.
+(pdftex.def)             Requested size: 199.16928pt x 116.14897pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1857--1858
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1859--1860
+
+ []
+
+[73 <./separation.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1861--1862
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1863--1864
+
+ []
+
+<classification_exemple.png, id=337, 473.77pt x 373.395pt>
+File: classification_exemple.png Graphic file (type png)
+
+<use classification_exemple.png>
+Package pdftex.def Info: classification_exemple.png used on input line 1867.
+(pdftex.def)             Requested size: 199.16928pt x 156.97296pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1871--1872
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1874--1875
+
+ []
+
+[74 <./classification.png> <./classification_exemple.png>]
+<Stirling.png, id=341, 452.69125pt x 218.8175pt>
+File: Stirling.png Graphic file (type png)
+ <use Stirling.png>
+Package pdftex.def Info: Stirling.png used on input line 1878.
+(pdftex.def)             Requested size: 199.16928pt x 96.26997pt.
+
+Overfull \hbox (9.52936pt too wide) in paragraph at lines 1885--1886
+ \OT1/cmr/bx/n/10 Quelques fait[] \OT1/cmr/m/n/10 La com-plexit^^Se d'un probl^
+^Reme de clas-si-fi-ca-tion aut-ma-tique d^^Sepend
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1885--1886
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1892--1893
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1894--1895
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1896--1897
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1898--1899
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1901--1902
+
+ []
+
+<algo_kmeans.png, id=342, 429.605pt x 277.035pt>
+File: algo_kmeans.png Graphic file (type png)
+ <use algo_kmeans.png>
+Package pdftex.def Info: algo_kmeans.png used on input line 1905.
+(pdftex.def)             Requested size: 199.16928pt x 128.43526pt.
+
+<clustering.png, id=343, 556.0775pt x 420.57124pt>
+File: clustering.png Graphic file (type png)
+ <use clustering.png>
+Package pdftex.def Info: clustering.png used on input line 1911.
+(pdftex.def)             Requested size: 142.26378pt x 107.594pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1916--1917
+
+ []
+
+[75 <./Stirling.png>] <clusters.png, id=347, 478.78876pt x 404.51125pt>
+File: clusters.png Graphic file (type png)
+
+<use clusters.png>
+Package pdftex.def Info: clusters.png used on input line 1920.
+(pdftex.def)             Requested size: 142.26378pt x 120.19391pt.
+ [76 <./algo_kmeans.png> <./clustering.png> <./clusters.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1926--1927
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1928--1929
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1931--1932
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1937--1938
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1959--1960
+
+ []
+
+[77]
+Underfull \hbox (badness 10000) in paragraph at lines 1962--1963
+
+ []
+
+<density_vs_other.png, id=354, 545.03625pt x 377.41pt>
+File: density_vs_other.png Graphic file (type png)
+
+<use density_vs_other.png>
+Package pdftex.def Info: density_vs_other.png used on input line 1966.
+(pdftex.def)             Requested size: 199.16928pt x 137.91187pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1969--1970
+
+ []
+
+<dbscan_drawback.png, id=355, 321.2pt x 247.92625pt>
+File: dbscan_drawback.png Graphic file (type png)
+ <use dbscan_drawback.png>
+Package pdftex.def Info: dbscan_drawback.png used on input line 1973.
+(pdftex.def)             Requested size: 199.16928pt x 153.73917pt.
+
+[78 <./density_vs_other.png> <./dbscan_drawback.png>]
+Chapter 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1978--1979
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1980--1981
+
+ []
+
+<slide2.png, id=360, 345.29pt x 166.6225pt>
+File: slide2.png Graphic file (type png)
+ <use slide2.png>
+Package pdftex.def Info: slide2.png used on input line 1984.
+(pdftex.def)             Requested size: 199.16928pt x 96.11227pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1988--1989
+
+ []
+
+<slide3.png, id=361, 336.25626pt x 215.80624pt>
+File: slide3.png Graphic file (type png)
+ <use slide3.png>
+Package pdftex.def Info: slide3.png used on input line 1992.
+(pdftex.def)             Requested size: 199.16928pt x 127.8251pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1996--1997
+
+ []
+
+[79
+
+ <./slide2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1998--1999
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2006--2007
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2013--2014
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2016--2017
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2018--2019
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2025--2026
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2027--2028
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2032--2033
+
+ []
+
+<politique_optimal.png, id=365, 510.90875pt x 249.93375pt>
+File: politique_optimal.png Graphic file (type png)
+
+<use politique_optimal.png>
+Package pdftex.def Info: politique_optimal.png used on input line 2036.
+(pdftex.def)             Requested size: 199.16928pt x 97.43181pt.
+ [80 <./slide3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2040--2041
+
+ []
+
+<slide7.png, id=369, 547.04375pt x 108.405pt>
+File: slide7.png Graphic file (type png)
+ <use slide7.png>
+Package pdftex.def Info: slide7.png used on input line 2044.
+(pdftex.def)             Requested size: 199.16928pt x 39.46907pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2050--2051
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2052--2053
+
+ []
+
+<slide9.png, id=370, 548.0475pt x 238.8925pt>
+File: slide9.png Graphic file (type png)
+ <use slide9.png>
+Package pdftex.def Info: slide9.png used on input line 2056.
+(pdftex.def)             Requested size: 199.16928pt x 86.81775pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2060--2061
+
+ []
+
+<slide10.png, id=371, 565.11125pt x 169.63374pt>
+File: slide10.png Graphic file (type png)
+ <use slide10.png>
+Package pdftex.def Info: slide10.png used on input line 2064.
+(pdftex.def)             Requested size: 199.16928pt x 59.78424pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2068--2069
+
+ []
+
+<formule_bellman.png, id=372, 523.9575pt x 119.44624pt>
+File: formule_bellman.png Graphic file (type png)
+
+<use formule_bellman.png>
+Package pdftex.def Info: formule_bellman.png used on input line 2072.
+(pdftex.def)             Requested size: 199.16928pt x 45.40462pt.
+ [81 <./politique_optimal.png> <./slide7.png>]
+<algo_renforcement.png, id=376, 348.30125pt x 207.77625pt>
+File: algo_renforcement.png Graphic file (type png)
+
+<use algo_renforcement.png>
+Package pdftex.def Info: algo_renforcement.png used on input line 2078.
+(pdftex.def)             Requested size: 199.16928pt x 118.81096pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2082--2083
+
+ []
+
+
+Overfull \hbox (0.46353pt too wide) in paragraph at lines 2086--2087
+\OT1/cmr/m/n/10 a ^^Ra par-tir e l'^^Setat s sans savoir l'^^Setat r^^Sesultat 
+s prime. On utilise donc l'algorithme
+ []
+
+[82 <./slide9.png> <./slide10.png> <./formule_bellman.png> <./algo_renforcement
+.png>] <algo_qlearning.png, id=380, 448.67625pt x 318.18875pt>
+File: algo_qlearning.png Graphic file (type png)
+
+<use algo_qlearning.png>
+Package pdftex.def Info: algo_qlearning.png used on input line 2094.
+(pdftex.def)             Requested size: 199.16928pt x 141.24153pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2098--2099
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2100--2101
+
+ []
+
+<qlearning_example.png, id=381, 377.41pt x 688.5725pt>
+File: qlearning_example.png Graphic file (type png)
+
+<use qlearning_example.png>
+Package pdftex.def Info: qlearning_example.png used on input line 2104.
+(pdftex.def)             Requested size: 199.16928pt x 363.37617pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2108--2109
+
+ []
+
+<qlearning_stochastique.png, id=382, 553.06625pt x 365.365pt>
+File: qlearning_stochastique.png Graphic file (type png)
+
+<use qlearning_stochastique.png>
+Package pdftex.def Info: qlearning_stochastique.png used on input line 2112.
+(pdftex.def)             Requested size: 199.16928pt x 131.57031pt.
+
+Underfull \hbox (badness 1132) in paragraph at lines 2113--2113
+[]\OT1/cmr/m/n/10 Figure 7.11: Q learn-ing mod-ifi^^Se pour pren-dre une en-vi-
+ron-nement non-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2116--2117
+
+ []
+
+<slide47.png, id=383, 529.98pt x 352.31625pt>
+File: slide47.png Graphic file (type png)
+ <use slide47.png>
+Package pdftex.def Info: slide47.png used on input line 2120.
+(pdftex.def)             Requested size: 199.16928pt x 132.40318pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2126--2127
+
+ []
+
+[83 <./algo_qlearning.png>] [84 <./qlearning_example.png>] [85 <./qlearning_sto
+chastique.png> <./slide47.png>] (./NotesINF8215.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2797 strings out of 493029
- 38226 string characters out of 6136233
- 101322 words of memory out of 5000000
- 6256 multiletter control sequences out of 15000+600000
- 9995 words of font info for 36 fonts, out of 8000000 for 9000
+ 3181 strings out of 493029
+ 45918 string characters out of 6136233
+ 102937 words of memory out of 5000000
+ 6571 multiletter control sequences out of 15000+600000
+ 11207 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,23p,652b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,23p,786b,238s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texli
@@ -1023,12 +3090,14 @@ public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on NotesINF8215.pdf (27 pages, 1117837 bytes).
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on NotesINF8215.pdf (86 pages, 3530154 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
+ 449 PDF objects out of 1000 (max. 8388607)
+ 240 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 511 words of extra memory for PDF output out of 10000 (max. 10000000)
 

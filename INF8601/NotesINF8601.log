@@ -1,0 +1,6303 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.10)  10 DEC 2017 16:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**NotesINF8601.tex
+(./NotesINF8601.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+01E02 (decimal 7682)
+   defining Unicode char U+01E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count88
+\float@exts=\toks16
+\float@box=\box26
+\@float@everytoks=\toks17
+\@floatcapt=\box27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count89
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen105
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen106
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks20
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks21
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks22
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 143.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
+\c@tracingmulticols=\count102
+\mult@box=\box30
+\multicol@leftmargin=\dimen114
+\c@unbalance=\count103
+\c@collectmore=\count104
+\doublecol@number=\count105
+\multicoltolerance=\count106
+\multicolpretolerance=\count107
+\full@width=\dimen115
+\page@free=\dimen116
+\premulticols=\dimen117
+\postmulticols=\dimen118
+\multicolsep=\skip46
+\multicolbaselineskip=\skip47
+\partial@page=\box31
+\last@line=\box32
+\maxbalancingoverflow=\dimen119
+\mult@rightbox=\box33
+\mult@grightbox=\box34
+\mult@gfirstbox=\box35
+\mult@firstbox=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\c@columnbadness=\count108
+\c@finalcolumnbadness=\count109
+\last@try=\dimen120
+\multicolovershoot=\dimen121
+\multicolundershoot=\dimen122
+\mult@nat@firstbox=\box54
+\colbreak@box=\box55
+\mc@col@check@num=\count110
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip48
+\RaggedLeftLeftskip=\skip49
+\RaggedRightLeftskip=\skip50
+\CenteringRightskip=\skip51
+\RaggedLeftRightskip=\skip52
+\RaggedRightRightskip=\skip53
+\CenteringParfillskip=\skip54
+\RaggedLeftParfillskip=\skip55
+\RaggedRightParfillskip=\skip56
+\JustifyingParfillskip=\skip57
+\CenteringParindent=\skip58
+\RaggedLeftParindent=\skip59
+\RaggedRightParindent=\skip60
+\JustifyingParindent=\skip61
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count111
+\lst@gtempboxa=\box56
+\lst@token=\toks24
+\lst@length=\count112
+\lst@currlwidth=\dimen123
+\lst@column=\count113
+\lst@pos=\count114
+\lst@lostspace=\dimen124
+\lst@width=\dimen125
+\lst@newlines=\count115
+\lst@lineno=\count116
+\lst@maxwidth=\dimen126
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count117
+\lst@skipnumbers=\count118
+\lst@framebox=\box57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count119
+\calc@Bcount=\count120
+\calc@Adimen=\dimen127
+\calc@Bdimen=\dimen128
+\calc@Askip=\skip62
+\calc@Bskip=\skip63
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count121
+\calc@Cskip=\skip64
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)))
+\AM@pagewidth=\dimen129
+\AM@pageheight=\dimen130
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box58
+\AM@toc@title=\toks25
+\c@AM@survey=\count122
+\AM@templatesizebox=\box59
+)
+\@indexfile=\write3
+\openout3 = `NotesINF8601.idx'.
+
+
+Writing index file NotesINF8601.idx
+(./NotesINF8601.aux)
+\openout1 = `NotesINF8601.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count123
+\scratchdimen=\dimen131
+\scratchbox=\box60
+\nofMPsegments=\count124
+\nofMParguments=\count125
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count126
+\MPscratchDim=\dimen132
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
+\everyMPtoPDFconversion=\toks27
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 17.
+\c@lstlisting=\count129
+\AtBeginShipoutBox=\box61
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)) [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./NotesINF8601.toc [1
+
+] [2] [3]
+[4] [5])
+\tf@toc=\write4
+\openout4 = `NotesINF8601.toc'.
+
+ [6]
+Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+<Moores.png, id=31, 583.17876pt x 357.335pt>
+File: Moores.png Graphic file (type png)
+ <use Moores.png>
+Package pdftex.def Info: Moores.png used on input line 38.
+(pdftex.def)             Requested size: 199.16801pt x 122.03754pt.
+ [7
+
+ <./Moores.png>] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+[10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 229--231
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 260--265
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--270
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 287--293
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
+
+Overfull \hbox (83.67545pt too wide) in paragraph at lines 296--298
+[]$\OT1/cmr/m/n/10 8042477\OML/cmm/m/it/10 pistes=plateau \OMS/cmsy/m/n/10 ^^C 
+\OT1/cmr/m/n/10 480000\OML/cmm/m/it/10 bits=piste \OMS/cmsy/m/n/10 ^^C \OT1/cmr
+/m/n/10 4\OML/cmm/m/it/10 plateaux=disque=\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 bit
+s=octet \OT1/cmr/m/n/10 = 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 93\OML/cmm/m/it/10
+ TeraOctets=disque:$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+
+ []
+
+[15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
+
+ []
+
+
+Overfull \hbox (17.38834pt too wide) in paragraph at lines 388--389
+[][] $\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 P[]\OT1/cmr/m/n/
+10 ) \OMS/cmsy/m/n/10 ^^C \OML/cmm/m/it/10 P[] \OMS/cmsy/m/n/10 ^^C \OT1/cmr/m/
+n/10 (1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 P[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/
+n/10 ^^C
+ []
+
+[17]
+Chapter 2.
+<i5costs.png, id=74, 686.565pt x 428.60126pt>
+File: i5costs.png Graphic file (type png)
+ <use i5costs.png>
+Package pdftex.def Info: i5costs.png used on input line 405.
+(pdftex.def)             Requested size: 199.1616pt x 124.33041pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--413
+
+ []
+
+[18
+
+ <./i5costs.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--435
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 454--456
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 465--466
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--468
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--472
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--482
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--485
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 513--514
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--518
+
+ []
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 527.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 527.
+ [22]
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 556--557
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (105.00458pt too wide) in paragraph at lines 571--572
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
+
+ []
+
+
+Overfull \hbox (86.01746pt too wide) in paragraph at lines 579--596
+[]\OT1/cmr/m/n/10 -bash-3.2$ ./ex-em-ple[]threads Cre-ation du thread AACBACBAC
+BACBACBACBACBACBACBAB-
+ []
+
+
+Overfull \hbox (66.52751pt too wide) in paragraph at lines 579--596
+\OT1/cmr/m/n/10 CAB-CAB-CAB-CAB-CAB-CABCA BCAB-CAB-CAB-CAB-CAB-CAB-CAB-CACBACBA
+CBACBLe
+ []
+
+
+Overfull \hbox (230.83429pt too wide) in paragraph at lines 579--596
+\OT1/cmr/m/n/10 thread prin-ci-pal at-tend que les autres se ter-mi-nent ACBACB
+ACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+ []
+
+
+Overfull \hbox (14.02844pt too wide) in paragraph at lines 579--596
+\OT1/cmr/m/n/10 BACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBA
+ []
+
+
+Overfull \hbox (13.75066pt too wide) in paragraph at lines 579--596
+\OT1/cmr/m/n/10 CBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACB
+ []
+
+
+Overfull \hbox (13.88953pt too wide) in paragraph at lines 579--596
+\OT1/cmr/m/n/10 ACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBACBAC
+ []
+
+[23]
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 601.
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 605.
+
+Overfull \hbox (33.00385pt too wide) in paragraph at lines 605--606
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (267.00623pt too wide) in paragraph at lines 609--610
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 631--632
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[24]
+Overfull \hbox (99.00452pt too wide) in paragraph at lines 637--638
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (123.00476pt too wide) in paragraph at lines 639--640
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 641--644
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (87.0044pt too wide) in paragraph at lines 646--648
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (69.00421pt too wide) in paragraph at lines 648--650
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][] 
+ []
+
+
+Overfull \hbox (111.00464pt too wide) in paragraph at lines 651--653
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (63.00415pt too wide) in paragraph at lines 657--658
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 659--661
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 662--663
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 663--664
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (99.00452pt too wide) in paragraph at lines 664--665
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.00385pt too wide) in paragraph at lines 668--669
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[25]
+Overfull \hbox (63.00415pt too wide) in paragraph at lines 704--706
+[][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (51.00403pt too wide) in paragraph at lines 706--709
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 714--717
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 717--718
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 720--721
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 721--723
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (189.00543pt too wide) in paragraph at lines 723--724
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[26]
+Overfull \hbox (111.00464pt too wide) in paragraph at lines 728--729
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (87.0044pt too wide) in paragraph at lines 733--734
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 742--743
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (57.00409pt too wide) in paragraph at lines 743--744
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (69.00421pt too wide) in paragraph at lines 744--745
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (129.00482pt too wide) in paragraph at lines 760--762
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (123.00476pt too wide) in paragraph at lines 763--764
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (189.00543pt too wide) in paragraph at lines 766--767
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 773--774
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[27]
+Overfull \hbox (33.00385pt too wide) in paragraph at lines 775--776
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 777--778
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (165.00519pt too wide) in paragraph at lines 779--780
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (135.00488pt too wide) in paragraph at lines 784--785
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (51.00403pt too wide) in paragraph at lines 788--789
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (75.00427pt too wide) in paragraph at lines 790--791
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 819--820
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[28]
+Overfull \hbox (39.0039pt too wide) in paragraph at lines 820--821
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (93.00446pt too wide) in paragraph at lines 822--823
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (75.00427pt too wide) in paragraph at lines 833--835
+[][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (51.00403pt too wide) in paragraph at lines 837--839
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (147.005pt too wide) in paragraph at lines 839--840
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 840--842
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (87.0044pt too wide) in paragraph at lines 844--846
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (105.00458pt too wide) in paragraph at lines 846--848
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (51.00403pt too wide) in paragraph at lines 850--851
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (183.00537pt too wide) in paragraph at lines 851--852
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (195.0055pt too wide) in paragraph at lines 852--854
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 856--857
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 857--858
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (141.00494pt too wide) in paragraph at lines 861--862
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[29]
+Overfull \hbox (195.0055pt too wide) in paragraph at lines 866--867
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][] 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 867--868
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (201.00555pt too wide) in paragraph at lines 869--870
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (135.00488pt too wide) in paragraph at lines 871--872
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (63.00415pt too wide) in paragraph at lines 874--875
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 879--880
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 881--882
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (135.00488pt too wide) in paragraph at lines 883--884
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 907--908
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 909--910
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 911--912
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 913--914
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 918--920
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 921--922
+
+ []
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+Underfull \hbox (badness 10000) in paragraph at lines 927--928
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 930--931
+
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 939--941
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[31]
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 941--942
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (51.00403pt too wide) in paragraph at lines 952--953
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (69.00421pt too wide) in paragraph at lines 954--955
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (81.00433pt too wide) in paragraph at lines 982--983
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (153.00507pt too wide) in paragraph at lines 984--985
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (141.00494pt too wide) in paragraph at lines 985--986
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 988--989
+[][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (189.00543pt too wide) in paragraph at lines 989--990
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[32]
+Overfull \hbox (51.00403pt too wide) in paragraph at lines 992--993
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (39.0039pt too wide) in paragraph at lines 994--995
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (45.00397pt too wide) in paragraph at lines 998--999
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (291.00647pt too wide) in paragraph at lines 1004--1005
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+ []
+
+
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 1022--1023
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 1030--1031
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 1031--1032
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[33]
+Overfull \hbox (57.00409pt too wide) in paragraph at lines 1063--1065
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (51.00403pt too wide) in paragraph at lines 1067--1069
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 1071--1072
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (63.00415pt too wide) in paragraph at lines 1074--1075
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 1087--1088
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1089--1090
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1098
+
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 1106--1107
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 1108--1109
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (45.00397pt too wide) in paragraph at lines 1118--1119
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+[35]
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 1133--1134
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 1137--1138
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 1139--1140
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (69.00421pt too wide) in paragraph at lines 1152--1153
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 1157--1158
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1165--1166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1167--1168
+
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 1174--1178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1179--1180
+
+ []
+
+
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 1184--1185
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 1187--1188
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 1195--1196
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 1196--1197
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1205--1207
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1212--1213
+
+ []
+
+[37]
+Overfull \hbox (99.00452pt too wide) in paragraph at lines 1219--1220
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.00385pt too wide) in paragraph at lines 1223--1224
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 1224--1225
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 1225--1226
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (69.00421pt too wide) in paragraph at lines 1231--1232
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (51.00403pt too wide) in paragraph at lines 1232--1233
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1237--1239
+
+ []
+
+
+Overfull \hbox (69.00421pt too wide) in paragraph at lines 1248--1249
+[][][][][][][][][][][][][][][] 
+ []
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 1265--1266
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1289--1290
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1291--1292
+
+ []
+
+[39]
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 1304--1305
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1311--1312
+
+ []
+
+[40] [41]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1376--1377
+
+ []
+
+<ArchitectureCache.png, id=152, 240.9pt x 198.7425pt>
+File: ArchitectureCache.png Graphic file (type png)
+
+<use ArchitectureCache.png>
+Package pdftex.def Info: ArchitectureCache.png used on input line 1381.
+(pdftex.def)             Requested size: 172.44435pt x 142.26659pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1386--1387
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1388--1389
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1390--1391
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1399--1400
+
+ []
+
+[42
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1415--1416
+
+ []
+
+[43 <./ArchitectureCache.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1419--1423
+
+ []
+
+
+Overfull \hbox (10.36586pt too wide) in paragraph at lines 1431--1432
+ \OT1/cmr/bx/n/10 l'architecture NUMA avec r^^Sepertoire r^^Separtie[] \OT1/cmr
+/m/n/10 Chaque pro-cesseur s'occupe
+ []
+
+<NUMA.png, id=160, 571.13374pt x 347.2975pt>
+File: NUMA.png Graphic file (type png)
+ <use NUMA.png>
+Package pdftex.def Info: NUMA.png used on input line 1435.
+(pdftex.def)             Requested size: 199.16776pt x 121.1108pt.
+
+<AMDbulldozer.png, id=161, 537.00626pt x 292.09125pt>
+File: AMDbulldozer.png Graphic file (type png)
+ <use AMDbulldozer.png>
+Package pdftex.def Info: AMDbulldozer.png used on input line 1443.
+(pdftex.def)             Requested size: 199.16446pt x 108.33057pt.
+
+<skylake.png, id=162, 501.875pt x 375.4025pt>
+File: skylake.png Graphic file (type png)
+ <use skylake.png>
+Package pdftex.def Info: skylake.png used on input line 1451.
+(pdftex.def)             Requested size: 190.19373pt x 142.26491pt.
+
+<TLBi7.png, id=163, 563.10374pt x 256.96pt>
+File: TLBi7.png Graphic file (type png)
+ <use TLBi7.png>
+Package pdftex.def Info: TLBi7.png used on input line 1459.
+(pdftex.def)             Requested size: 199.16858pt x 90.8862pt.
+
+<Cachei7.png, id=164, 561.09625pt x 286.06876pt>
+File: Cachei7.png Graphic file (type png)
+ <use Cachei7.png>
+Package pdftex.def Info: Cachei7.png used on input line 1466.
+(pdftex.def)             Requested size: 199.16916pt x 101.5442pt.
+ [44 <./NUMA.png>] [45 <./AMDbulldozer.png> <./skylake.png> <./TLBi7.png>]
+Overfull \hbox (9.42851pt too wide) in paragraph at lines 1482--1484
+[]\OT1/cmr/m/n/10 void flush[]tlb[]page(struct vm[]area[]struct *vma, un-signed
+ long addr), lorsque
+ []
+
+[46 <./Cachei7.png>]
+Overfull \hbox (60.11194pt too wide) in paragraph at lines 1503--1505
+[]\OT1/cmr/m/n/10 copy[]user[]page(...), copy[]to[]user[]page(...), clear[]user
+[]page(...), copy[]from[]user[]page(...),
+ []
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 1529--1530
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1531--1532
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1539--1545
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1548--1554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1557--1558
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1559--1560
+
+ []
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 1571--1572
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1573--1574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1578--1581
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1599--1600
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1601--1602
+
+ []
+
+[49]
+Overfull \hbox (14.67282pt too wide) in paragraph at lines 1618--1620
+[]\OT1/cmr/m/n/10 cmm[]smp[]mb(): barri^^Rere pour le com-pi-la-teur, le pipeli
+ne, les queues d'^^Secriture
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1621--1622
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1623--1624
+
+ []
+
+
+Overfull \hbox (26.2951pt too wide) in paragraph at lines 1625--1627
+[]\OT1/cmr/m/n/10 Une barri^^Rere cmm[]smp[]rmb() est trop con-ser-va-trice, cm
+m[]smp[]read[]barrier[]depends()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1627--1633
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1636--1645
+
+ []
+
+
+Overfull \vbox (28.44434pt too high) has occurred while \output is active []
+
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 1657--1659
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1660--1663
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1664--1668
+
+ []
+
+[51]
+Overfull \hbox (0.72269pt too wide) in paragraph at lines 1702--1707
+\OT1/cmr/m/n/10 avec cache, queues d'^^Secriture et queues d'invalidation et le
+ pro-to-cole de coh^^Serence
+ []
+
+[52]
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1726--1727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1728--1729
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1733--1734
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1735--1736
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1737--1738
+
+ []
+
+
+Overfull \hbox (0.72281pt too wide) in paragraph at lines 1739--1740
+\OT1/cmr/m/n/10 meilleur des deux mon-des, nous de-vront utiliser des vari-able
+s en m^^Semoire partag^^Se
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1739--1740
+
+ []
+
+[53
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1741--1742
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1743--1744
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1745--1746
+
+ []
+
+<StoreOrder.png, id=197, 745.78625pt x 465.74pt>
+File: StoreOrder.png Graphic file (type png)
+ <use StoreOrder.png>
+Package pdftex.def Info: StoreOrder.png used on input line 1751.
+(pdftex.def)             Requested size: 199.16869pt x 124.3799pt.
+ [54 <./StoreOrder.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1760
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1761--1765
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1766--1767
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1773--1774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1775--1779
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1780--1781
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1782--1785
+
+ []
+
+
+Overfull \hbox (1.10797pt too wide) in paragraph at lines 1797--1799
+[]\OT1/cmr/m/n/10 Barri^^Rere m^^Semoire pour ^^Secriture: cmm[]smp[]wmb(). Ecr
+i-t-ures qui pr^^Sec^^Redent
+ []
+
+
+Overfull \hbox (23.65065pt too wide) in paragraph at lines 1800--1802
+[]\OT1/cmr/m/n/10 Barri^^Rere m^^Semoire pour lec-tures d^^Sependantes: cmm[]sm
+p[]read[]barrier[]depends().
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1811--1812
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1813--1816
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1819--1820
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1821--1824
+
+ []
+
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 1827--1828
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1829--1834
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1837--1838
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1839--1844
+
+ []
+
+<barrierememoire1.png, id=205, 546.04pt x 250.9375pt>
+File: barrierememoire1.png Graphic file (type png)
+
+<use barrierememoire1.png>
+Package pdftex.def Info: barrierememoire1.png used on input line 1848.
+(pdftex.def)             Requested size: 199.16547pt x 91.52824pt.
+
+<barrierememoire2.png, id=206, 671.50874pt x 190.7125pt>
+File: barrierememoire2.png Graphic file (type png)
+
+<use barrierememoire2.png>
+Package pdftex.def Info: barrierememoire2.png used on input line 1855.
+(pdftex.def)             Requested size: 199.16924pt x 56.56525pt.
+
+Overfull \hbox (4.85611pt too wide) in paragraph at lines 1865--1867
+[]\OT1/cmr/m/n/10 AMD64: smp[]rmb() est lfence, smp[]wmb() est sfence, smp[]mb(
+) est mfence. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1874--1875
+
+ []
+
+[56 <./barrierememoire1.png> <./barrierememoire2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1884--1885
+
+ []
+
+[57]
+Overfull \hbox (3.75058pt too wide) in paragraph at lines 1909--1910
+[]\OT1/cmr/m/n/10 Section cri-tique du noyau mod-i-fi-ant des vari-ables et uti
+l-isant le CPUid:
+ []
+
+
+Overfull \hbox (8.66716pt too wide) in paragraph at lines 1910--1911
+[]\OT1/cmr/m/n/10 Dans le noy-aus, d^^Sesavticer les in-ter-rup-tions et d^^Ses
+activer la pr^^Se^^Seemption
+ []
+
+
+Overfull \hbox (17.7239pt too wide) in paragraph at lines 1934--1937
+ \OT1/cmr/bx/n/10 Ques-tion[] \OT1/cmr/m/n/10 En quoi diff^^Rerent les op^^Sera
+tions de syn-chro-ni-sa-tion comme les op^^Serations
+ []
+
+[58]
+Overfull \hbox (12.36285pt too wide) in paragraph at lines 1945--1950
+ \OT1/cmr/bx/n/10 Ques-tion[] \OT1/cmr/m/n/10 On veut rem-placer l'allocateur d
+e m^^Semoire d'un syst^^Reme d'exploitation
+ []
+
+
+Overfull \hbox (9.66724pt too wide) in paragraph at lines 1945--1950
+\OT1/cmr/m/n/10 Com-ment peut-on main-tenir des struc-tures \par pro-cesseur" e
+n m^^Semoire partag^^See?
+ []
+
+
+Overfull \hbox (3.19603pt too wide) in paragraph at lines 1957--1959
+ \OT1/cmr/bx/n/10 Ques-tion[] \OT1/cmr/m/n/10 Deux pro-cesseurs ef-fectuent les
+ op^^Serations suiv-antes dans un syst^^Reme
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1957--1959
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1960--1966
+
+ []
+
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 1984--1991
+
+ []
+
+
+Overfull \hbox (35.8628pt too wide) in paragraph at lines 2010--2012
+ \OT1/cmr/bx/n/10 Ques-tion[] \OT1/cmr/m/n/10 Don-nez des ex-em-ples de struc-t
+ures partag^^Sees dans un syst^^Reme d'exploitation
+ []
+
+[60] [61]
+Chapter 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2039--2041
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2042--2045
+
+ []
+
+
+Overfull \hbox (9.8962pt too wide) in paragraph at lines 2047--2048
+ \OT1/cmr/bx/n/10 char-act^^Seristique[] \OT1/cmr/m/n/10 OpenMP est un stan-dar
+d com-plet et portable, c'est disponible
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2047--2048
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2049--2050
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2057--2058
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2059--2060
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2061--2062
+
+ []
+
+[62
+
+]
+Overfull \hbox (12.50049pt too wide) in paragraph at lines 2079--2080
+[]\OT1/cmr/m/n/10 shared : D^^Sefinit les vari-ables que nous voulons partag^^S
+es sur les diff^^Serentes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2091--2092
+
+ []
+
+[63]
+Overfull \hbox (1.38399pt too wide) in paragraph at lines 2093--2095
+\OT1/cmr/m/n/10 des vari-antes en util-isant sont num^^Sero de fil d'ex^^Secuti
+on (omp[]get[]thread[]num()). 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 2104--2105
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2118--2119
+
+ []
+
+[64] [65]
+Underfull \hbox (badness 10000) in paragraph at lines 2178--2179
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2180--2181
+
+ []
+
+[66]
+Overfull \hbox (75.00427pt too wide) in paragraph at lines 2243--2244
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (63.00415pt too wide) in paragraph at lines 2246--2247
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (45.00397pt too wide) in paragraph at lines 2248--2249
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (51.00403pt too wide) in paragraph at lines 2253--2254
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 2262--2263
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[67]
+Underfull \hbox (badness 10000) in paragraph at lines 2278--2279
+
+ []
+
+
+Overfull \hbox (105.00458pt too wide) in paragraph at lines 2289--2290
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (105.00458pt too wide) in paragraph at lines 2293--2294
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (105.00458pt too wide) in paragraph at lines 2295--2296
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[68] [69]
+Underfull \hbox (badness 10000) in paragraph at lines 2380--2381
+
+ []
+
+[70] <reduction.png, id=254, 1393.205pt x 449.68pt>
+File: reduction.png Graphic file (type png)
+ <use reduction.png>
+Package pdftex.def Info: reduction.png used on input line 2391.
+(pdftex.def)             Requested size: 344.98405pt x 111.34932pt.
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 2403--2404
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[71 <./reduction.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2417--2418
+
+ []
+
+[72]
+Overfull \hbox (33.00385pt too wide) in paragraph at lines 2442--2443
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][] 
+ []
+
+
+Overfull \hbox (69.00421pt too wide) in paragraph at lines 2469--2470
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[73]
+Overfull \hbox (93.00446pt too wide) in paragraph at lines 2486--2487
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (45.00397pt too wide) in paragraph at lines 2494--2495
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (45.00397pt too wide) in paragraph at lines 2497--2498
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (51.00403pt too wide) in paragraph at lines 2500--2501
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][] 
+ []
+
+[74]
+Overfull \hbox (6.32837pt too wide) in paragraph at lines 2534--2535
+[]\OT1/cmr/m/n/10 omp[]get[]team[]size(level): nom-bre de thread dans la r^^Seg
+ion par-all^^Rele anc^etre. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2538--2539
+
+ []
+
+[75] [76] [77]
+Chapter 6.
+<controleA2016C.pdf, id=277, 614.295pt x 794.97pt>
+File: controleA2016C.pdf Graphic file (type pdf)
+ <use controleA2016C.pdf>
+Package pdftex.def Info: controleA2016C.pdf used on input line 2650.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: controleA2016C.pdf Graphic file (type pdf)
+
+<use controleA2016C.pdf>
+Package pdftex.def Info: controleA2016C.pdf used on input line 2650.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<controleA2016C.pdf, id=280, page=1, 614.295pt x 794.97pt>
+File: controleA2016C.pdf Graphic file (type pdf)
+
+<use controleA2016C.pdf, page 1>
+Package pdftex.def Info: controleA2016C.pdf, page1 used on input line 2650.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: controleA2016C.pdf Graphic file (type pdf)
+ <use controleA2016C.pdf, page 1>
+Package pdftex.def Info: controleA2016C.pdf, page1 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [78
+
+]
+File: controleA2016C.pdf Graphic file (type pdf)
+
+<use controleA2016C.pdf, page 1>
+Package pdftex.def Info: controleA2016C.pdf, page1 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2016C.pdf Graphic file (type pdf)
+ <use controleA2016C.pdf, page 1>
+Package pdftex.def Info: controleA2016C.pdf, page1 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2016C.pdf Graphic file (type pdf)
+
+<use controleA2016C.pdf, page 1>
+Package pdftex.def Info: controleA2016C.pdf, page1 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [79 <./controleA2016C.pdf>]
+<controleA2016C.pdf, id=324, page=2, 614.295pt x 794.97pt>
+File: controleA2016C.pdf Graphic file (type pdf)
+
+<use controleA2016C.pdf, page 2>
+Package pdftex.def Info: controleA2016C.pdf, page2 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2016C.pdf Graphic file (type pdf)
+ <use controleA2016C.pdf, page 2>
+Package pdftex.def Info: controleA2016C.pdf, page2 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2016C.pdf Graphic file (type pdf)
+
+<use controleA2016C.pdf, page 2>
+Package pdftex.def Info: controleA2016C.pdf, page2 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [80 <./controleA2016C.pdf>]
+<controleA2016C.pdf, id=338, page=3, 614.295pt x 794.97pt>
+File: controleA2016C.pdf Graphic file (type pdf)
+
+<use controleA2016C.pdf, page 3>
+Package pdftex.def Info: controleA2016C.pdf, page3 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2016C.pdf Graphic file (type pdf)
+ <use controleA2016C.pdf, page 3>
+Package pdftex.def Info: controleA2016C.pdf, page3 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2016C.pdf Graphic file (type pdf)
+
+<use controleA2016C.pdf, page 3>
+Package pdftex.def Info: controleA2016C.pdf, page3 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [81 <./controleA2016C.pdf>]
+<controleA2016C.pdf, id=342, page=4, 614.295pt x 794.97pt>
+File: controleA2016C.pdf Graphic file (type pdf)
+
+<use controleA2016C.pdf, page 4>
+Package pdftex.def Info: controleA2016C.pdf, page4 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2016C.pdf Graphic file (type pdf)
+ <use controleA2016C.pdf, page 4>
+Package pdftex.def Info: controleA2016C.pdf, page4 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2016C.pdf Graphic file (type pdf)
+
+<use controleA2016C.pdf, page 4>
+Package pdftex.def Info: controleA2016C.pdf, page4 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [82 <./controleA2016C.pdf>]
+<controleA2016C.pdf, id=346, page=5, 614.295pt x 794.97pt>
+File: controleA2016C.pdf Graphic file (type pdf)
+
+<use controleA2016C.pdf, page 5>
+Package pdftex.def Info: controleA2016C.pdf, page5 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2016C.pdf Graphic file (type pdf)
+ <use controleA2016C.pdf, page 5>
+Package pdftex.def Info: controleA2016C.pdf, page5 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2016C.pdf Graphic file (type pdf)
+
+<use controleA2016C.pdf, page 5>
+Package pdftex.def Info: controleA2016C.pdf, page5 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [83 <./controleA2016C.pdf>]
+<controleA2016C.pdf, id=350, page=6, 614.295pt x 794.97pt>
+File: controleA2016C.pdf Graphic file (type pdf)
+
+<use controleA2016C.pdf, page 6>
+Package pdftex.def Info: controleA2016C.pdf, page6 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2016C.pdf Graphic file (type pdf)
+ <use controleA2016C.pdf, page 6>
+Package pdftex.def Info: controleA2016C.pdf, page6 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2016C.pdf Graphic file (type pdf)
+
+<use controleA2016C.pdf, page 6>
+Package pdftex.def Info: controleA2016C.pdf, page6 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [84 <./controleA2016C.pdf>]
+<controleA2016C.pdf, id=355, page=7, 614.295pt x 794.97pt>
+File: controleA2016C.pdf Graphic file (type pdf)
+
+<use controleA2016C.pdf, page 7>
+Package pdftex.def Info: controleA2016C.pdf, page7 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2016C.pdf Graphic file (type pdf)
+ <use controleA2016C.pdf, page 7>
+Package pdftex.def Info: controleA2016C.pdf, page7 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2016C.pdf Graphic file (type pdf)
+
+<use controleA2016C.pdf, page 7>
+Package pdftex.def Info: controleA2016C.pdf, page7 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [85 <./controleA2016C.pdf>]
+<controleA2016C.pdf, id=359, page=8, 614.295pt x 794.97pt>
+File: controleA2016C.pdf Graphic file (type pdf)
+
+<use controleA2016C.pdf, page 8>
+Package pdftex.def Info: controleA2016C.pdf, page8 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2016C.pdf Graphic file (type pdf)
+ <use controleA2016C.pdf, page 8>
+Package pdftex.def Info: controleA2016C.pdf, page8 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2016C.pdf Graphic file (type pdf)
+
+<use controleA2016C.pdf, page 8>
+Package pdftex.def Info: controleA2016C.pdf, page8 used on input line 2650.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [86 <./controleA2016C.pdf>]
+<controleA2014C.pdf, id=364, 614.295pt x 794.97pt>
+File: controleA2014C.pdf Graphic file (type pdf)
+ <use controleA2014C.pdf>
+Package pdftex.def Info: controleA2014C.pdf used on input line 2652.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf>
+Package pdftex.def Info: controleA2014C.pdf used on input line 2652.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<controleA2014C.pdf, id=367, page=1, 614.295pt x 794.97pt>
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf, page 1>
+Package pdftex.def Info: controleA2014C.pdf, page1 used on input line 2652.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+ <use controleA2014C.pdf, page 1>
+Package pdftex.def Info: controleA2014C.pdf, page1 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [87]
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf, page 1>
+Package pdftex.def Info: controleA2014C.pdf, page1 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+ <use controleA2014C.pdf, page 1>
+Package pdftex.def Info: controleA2014C.pdf, page1 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf, page 1>
+Package pdftex.def Info: controleA2014C.pdf, page1 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [88 <./controleA2014C.pdf>]
+<controleA2014C.pdf, id=577, page=2, 614.295pt x 794.97pt>
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf, page 2>
+Package pdftex.def Info: controleA2014C.pdf, page2 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+ <use controleA2014C.pdf, page 2>
+Package pdftex.def Info: controleA2014C.pdf, page2 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf, page 2>
+Package pdftex.def Info: controleA2014C.pdf, page2 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [89 <./controleA2014C.pdf>]
+<controleA2014C.pdf, id=696, page=3, 614.295pt x 794.97pt>
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf, page 3>
+Package pdftex.def Info: controleA2014C.pdf, page3 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+ <use controleA2014C.pdf, page 3>
+Package pdftex.def Info: controleA2014C.pdf, page3 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf, page 3>
+Package pdftex.def Info: controleA2014C.pdf, page3 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [90 <./controleA2014C.pdf>]
+<controleA2014C.pdf, id=782, page=4, 614.295pt x 794.97pt>
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf, page 4>
+Package pdftex.def Info: controleA2014C.pdf, page4 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+ <use controleA2014C.pdf, page 4>
+Package pdftex.def Info: controleA2014C.pdf, page4 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf, page 4>
+Package pdftex.def Info: controleA2014C.pdf, page4 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [91 <./controleA2014C.pdf>]
+<controleA2014C.pdf, id=791, page=5, 614.295pt x 794.97pt>
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf, page 5>
+Package pdftex.def Info: controleA2014C.pdf, page5 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+ <use controleA2014C.pdf, page 5>
+Package pdftex.def Info: controleA2014C.pdf, page5 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf, page 5>
+Package pdftex.def Info: controleA2014C.pdf, page5 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [92 <./controleA2014C.pdf>]
+<controleA2014C.pdf, id=795, page=6, 614.295pt x 794.97pt>
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf, page 6>
+Package pdftex.def Info: controleA2014C.pdf, page6 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+ <use controleA2014C.pdf, page 6>
+Package pdftex.def Info: controleA2014C.pdf, page6 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf, page 6>
+Package pdftex.def Info: controleA2014C.pdf, page6 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [93 <./controleA2014C.pdf>]
+<controleA2014C.pdf, id=799, page=7, 614.295pt x 794.97pt>
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf, page 7>
+Package pdftex.def Info: controleA2014C.pdf, page7 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+ <use controleA2014C.pdf, page 7>
+Package pdftex.def Info: controleA2014C.pdf, page7 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf, page 7>
+Package pdftex.def Info: controleA2014C.pdf, page7 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [94 <./controleA2014C.pdf>]
+<controleA2014C.pdf, id=803, page=8, 614.295pt x 794.97pt>
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf, page 8>
+Package pdftex.def Info: controleA2014C.pdf, page8 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+ <use controleA2014C.pdf, page 8>
+Package pdftex.def Info: controleA2014C.pdf, page8 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf, page 8>
+Package pdftex.def Info: controleA2014C.pdf, page8 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [95 <./controleA2014C.pdf>]
+<controleA2014C.pdf, id=807, page=9, 614.295pt x 794.97pt>
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf, page 9>
+Package pdftex.def Info: controleA2014C.pdf, page9 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+ <use controleA2014C.pdf, page 9>
+Package pdftex.def Info: controleA2014C.pdf, page9 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2014C.pdf Graphic file (type pdf)
+
+<use controleA2014C.pdf, page 9>
+Package pdftex.def Info: controleA2014C.pdf, page9 used on input line 2652.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [96 <./controleA2014C.pdf>]
+<controleA2013C.pdf, id=812, 614.295pt x 794.97pt>
+File: controleA2013C.pdf Graphic file (type pdf)
+ <use controleA2013C.pdf>
+Package pdftex.def Info: controleA2013C.pdf used on input line 2654.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: controleA2013C.pdf Graphic file (type pdf)
+
+<use controleA2013C.pdf>
+Package pdftex.def Info: controleA2013C.pdf used on input line 2654.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<controleA2013C.pdf, id=815, page=1, 614.295pt x 794.97pt>
+File: controleA2013C.pdf Graphic file (type pdf)
+
+<use controleA2013C.pdf, page 1>
+Package pdftex.def Info: controleA2013C.pdf, page1 used on input line 2654.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: controleA2013C.pdf Graphic file (type pdf)
+ <use controleA2013C.pdf, page 1>
+Package pdftex.def Info: controleA2013C.pdf, page1 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [97]
+File: controleA2013C.pdf Graphic file (type pdf)
+
+<use controleA2013C.pdf, page 1>
+Package pdftex.def Info: controleA2013C.pdf, page1 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2013C.pdf Graphic file (type pdf)
+ <use controleA2013C.pdf, page 1>
+Package pdftex.def Info: controleA2013C.pdf, page1 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2013C.pdf Graphic file (type pdf)
+
+<use controleA2013C.pdf, page 1>
+Package pdftex.def Info: controleA2013C.pdf, page1 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [98 <./controleA2013C.pdf>]
+<controleA2013C.pdf, id=842, page=2, 614.295pt x 794.97pt>
+File: controleA2013C.pdf Graphic file (type pdf)
+
+<use controleA2013C.pdf, page 2>
+Package pdftex.def Info: controleA2013C.pdf, page2 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2013C.pdf Graphic file (type pdf)
+ <use controleA2013C.pdf, page 2>
+Package pdftex.def Info: controleA2013C.pdf, page2 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2013C.pdf Graphic file (type pdf)
+
+<use controleA2013C.pdf, page 2>
+Package pdftex.def Info: controleA2013C.pdf, page2 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [99 <./controleA2013C.pdf>]
+<controleA2013C.pdf, id=853, page=3, 614.295pt x 794.97pt>
+File: controleA2013C.pdf Graphic file (type pdf)
+
+<use controleA2013C.pdf, page 3>
+Package pdftex.def Info: controleA2013C.pdf, page3 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2013C.pdf Graphic file (type pdf)
+ <use controleA2013C.pdf, page 3>
+Package pdftex.def Info: controleA2013C.pdf, page3 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2013C.pdf Graphic file (type pdf)
+
+<use controleA2013C.pdf, page 3>
+Package pdftex.def Info: controleA2013C.pdf, page3 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [100 <./controleA2013C.pdf>]
+<controleA2013C.pdf, id=857, page=4, 614.295pt x 794.97pt>
+File: controleA2013C.pdf Graphic file (type pdf)
+
+<use controleA2013C.pdf, page 4>
+Package pdftex.def Info: controleA2013C.pdf, page4 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2013C.pdf Graphic file (type pdf)
+ <use controleA2013C.pdf, page 4>
+Package pdftex.def Info: controleA2013C.pdf, page4 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2013C.pdf Graphic file (type pdf)
+
+<use controleA2013C.pdf, page 4>
+Package pdftex.def Info: controleA2013C.pdf, page4 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [101 <./controleA2013C.pdf>]
+<controleA2013C.pdf, id=861, page=5, 614.295pt x 794.97pt>
+File: controleA2013C.pdf Graphic file (type pdf)
+
+<use controleA2013C.pdf, page 5>
+Package pdftex.def Info: controleA2013C.pdf, page5 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2013C.pdf Graphic file (type pdf)
+ <use controleA2013C.pdf, page 5>
+Package pdftex.def Info: controleA2013C.pdf, page5 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2013C.pdf Graphic file (type pdf)
+
+<use controleA2013C.pdf, page 5>
+Package pdftex.def Info: controleA2013C.pdf, page5 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [102 <./controleA2013C.pdf>]
+<controleA2013C.pdf, id=871, page=6, 614.295pt x 794.97pt>
+File: controleA2013C.pdf Graphic file (type pdf)
+
+<use controleA2013C.pdf, page 6>
+Package pdftex.def Info: controleA2013C.pdf, page6 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2013C.pdf Graphic file (type pdf)
+ <use controleA2013C.pdf, page 6>
+Package pdftex.def Info: controleA2013C.pdf, page6 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2013C.pdf Graphic file (type pdf)
+
+<use controleA2013C.pdf, page 6>
+Package pdftex.def Info: controleA2013C.pdf, page6 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [103 <./controleA2013C.pdf>]
+<controleA2013C.pdf, id=875, page=7, 614.295pt x 794.97pt>
+File: controleA2013C.pdf Graphic file (type pdf)
+
+<use controleA2013C.pdf, page 7>
+Package pdftex.def Info: controleA2013C.pdf, page7 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2013C.pdf Graphic file (type pdf)
+ <use controleA2013C.pdf, page 7>
+Package pdftex.def Info: controleA2013C.pdf, page7 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2013C.pdf Graphic file (type pdf)
+
+<use controleA2013C.pdf, page 7>
+Package pdftex.def Info: controleA2013C.pdf, page7 used on input line 2654.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [104 <./controleA2013C.pdf>]
+<controleA2012C.pdf, id=884, 614.295pt x 794.97pt>
+File: controleA2012C.pdf Graphic file (type pdf)
+ <use controleA2012C.pdf>
+Package pdftex.def Info: controleA2012C.pdf used on input line 2656.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: controleA2012C.pdf Graphic file (type pdf)
+
+<use controleA2012C.pdf>
+Package pdftex.def Info: controleA2012C.pdf used on input line 2656.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<controleA2012C.pdf, id=887, page=1, 614.295pt x 794.97pt>
+File: controleA2012C.pdf Graphic file (type pdf)
+
+<use controleA2012C.pdf, page 1>
+Package pdftex.def Info: controleA2012C.pdf, page1 used on input line 2656.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: controleA2012C.pdf Graphic file (type pdf)
+ <use controleA2012C.pdf, page 1>
+Package pdftex.def Info: controleA2012C.pdf, page1 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [105]
+File: controleA2012C.pdf Graphic file (type pdf)
+
+<use controleA2012C.pdf, page 1>
+Package pdftex.def Info: controleA2012C.pdf, page1 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2012C.pdf Graphic file (type pdf)
+ <use controleA2012C.pdf, page 1>
+Package pdftex.def Info: controleA2012C.pdf, page1 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2012C.pdf Graphic file (type pdf)
+
+<use controleA2012C.pdf, page 1>
+Package pdftex.def Info: controleA2012C.pdf, page1 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [106 <./controleA2012C.pdf>]
+<controleA2012C.pdf, id=916, page=2, 614.295pt x 794.97pt>
+File: controleA2012C.pdf Graphic file (type pdf)
+
+<use controleA2012C.pdf, page 2>
+Package pdftex.def Info: controleA2012C.pdf, page2 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2012C.pdf Graphic file (type pdf)
+ <use controleA2012C.pdf, page 2>
+Package pdftex.def Info: controleA2012C.pdf, page2 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2012C.pdf Graphic file (type pdf)
+
+<use controleA2012C.pdf, page 2>
+Package pdftex.def Info: controleA2012C.pdf, page2 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [107 <./controleA2012C.pdf>]
+<controleA2012C.pdf, id=920, page=3, 614.295pt x 794.97pt>
+File: controleA2012C.pdf Graphic file (type pdf)
+
+<use controleA2012C.pdf, page 3>
+Package pdftex.def Info: controleA2012C.pdf, page3 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2012C.pdf Graphic file (type pdf)
+ <use controleA2012C.pdf, page 3>
+Package pdftex.def Info: controleA2012C.pdf, page3 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2012C.pdf Graphic file (type pdf)
+
+<use controleA2012C.pdf, page 3>
+Package pdftex.def Info: controleA2012C.pdf, page3 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [108 <./controleA2012C.pdf>]
+<controleA2012C.pdf, id=928, page=4, 614.295pt x 794.97pt>
+File: controleA2012C.pdf Graphic file (type pdf)
+
+<use controleA2012C.pdf, page 4>
+Package pdftex.def Info: controleA2012C.pdf, page4 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2012C.pdf Graphic file (type pdf)
+ <use controleA2012C.pdf, page 4>
+Package pdftex.def Info: controleA2012C.pdf, page4 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2012C.pdf Graphic file (type pdf)
+
+<use controleA2012C.pdf, page 4>
+Package pdftex.def Info: controleA2012C.pdf, page4 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [109 <./controleA2012C.pdf>]
+<controleA2012C.pdf, id=932, page=5, 614.295pt x 794.97pt>
+File: controleA2012C.pdf Graphic file (type pdf)
+
+<use controleA2012C.pdf, page 5>
+Package pdftex.def Info: controleA2012C.pdf, page5 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2012C.pdf Graphic file (type pdf)
+ <use controleA2012C.pdf, page 5>
+Package pdftex.def Info: controleA2012C.pdf, page5 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2012C.pdf Graphic file (type pdf)
+
+<use controleA2012C.pdf, page 5>
+Package pdftex.def Info: controleA2012C.pdf, page5 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [110 <./controleA2012C.pdf>]
+<controleA2012C.pdf, id=936, page=6, 614.295pt x 794.97pt>
+File: controleA2012C.pdf Graphic file (type pdf)
+
+<use controleA2012C.pdf, page 6>
+Package pdftex.def Info: controleA2012C.pdf, page6 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2012C.pdf Graphic file (type pdf)
+ <use controleA2012C.pdf, page 6>
+Package pdftex.def Info: controleA2012C.pdf, page6 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2012C.pdf Graphic file (type pdf)
+
+<use controleA2012C.pdf, page 6>
+Package pdftex.def Info: controleA2012C.pdf, page6 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [111 <./controleA2012C.pdf>]
+<controleA2012C.pdf, id=940, page=7, 614.295pt x 794.97pt>
+File: controleA2012C.pdf Graphic file (type pdf)
+
+<use controleA2012C.pdf, page 7>
+Package pdftex.def Info: controleA2012C.pdf, page7 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2012C.pdf Graphic file (type pdf)
+ <use controleA2012C.pdf, page 7>
+Package pdftex.def Info: controleA2012C.pdf, page7 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2012C.pdf Graphic file (type pdf)
+
+<use controleA2012C.pdf, page 7>
+Package pdftex.def Info: controleA2012C.pdf, page7 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [112 <./controleA2012C.pdf>]
+<controleA2012C.pdf, id=944, page=8, 614.295pt x 794.97pt>
+File: controleA2012C.pdf Graphic file (type pdf)
+
+<use controleA2012C.pdf, page 8>
+Package pdftex.def Info: controleA2012C.pdf, page8 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2012C.pdf Graphic file (type pdf)
+ <use controleA2012C.pdf, page 8>
+Package pdftex.def Info: controleA2012C.pdf, page8 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: controleA2012C.pdf Graphic file (type pdf)
+
+<use controleA2012C.pdf, page 8>
+Package pdftex.def Info: controleA2012C.pdf, page8 used on input line 2656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [113 <./controleA2012C.pdf>]
+Chapter 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2659--2660
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2661--2662
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2663--2664
+
+ []
+
+<processeur_vectoriel.png, id=948, 442.65375pt x 371.3875pt>
+File: processeur_vectoriel.png Graphic file (type png)
+
+<use processeur_vectoriel.png>
+Package pdftex.def Info: processeur_vectoriel.png used on input line 2667.
+(pdftex.def)             Requested size: 199.16928pt x 167.10582pt.
+
+Overfull \hbox (5.16718pt too wide) in paragraph at lines 2677--2680
+[]\OT1/cmr/m/n/10 Plusieurs in-struc-tions vec-to-rielles peu-vent s'ex^^Secute
+r presqu'en m^eme temps
+ []
+
+<exemple_pipeline.png, id=949, 578.16pt x 299.1175pt>
+File: exemple_pipeline.png Graphic file (type png)
+
+<use exemple_pipeline.png>
+Package pdftex.def Info: exemple_pipeline.png used on input line 2690.
+(pdftex.def)             Requested size: 199.16928pt x 103.04045pt.
+
+<repertoire_mips.png, id=950, 814.04124pt x 647.41875pt>
+File: repertoire_mips.png Graphic file (type png)
+
+<use repertoire_mips.png>
+Package pdftex.def Info: repertoire_mips.png used on input line 2699.
+(pdftex.def)             Requested size: 345.0pt x 274.38371pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2704--2705
+
+ []
+
+[114
+
+]
+Overfull \hbox (225.0058pt too wide) in paragraph at lines 2713--2715
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][] 
+ []
+
+
+Overfull \hbox (105.00458pt too wide) in paragraph at lines 2715--2716
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[115 <./processeur_vectoriel.png> <./exemple_pipeline.png>]
+Overfull \hbox (117.0047pt too wide) in paragraph at lines 2716--2717
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (99.00452pt too wide) in paragraph at lines 2717--2718
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 2726--2727
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (111.00464pt too wide) in paragraph at lines 2730--2732
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[116 <./repertoire_mips.png>]
+Overfull \hbox (105.00458pt too wide) in paragraph at lines 2737--2738
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (99.00452pt too wide) in paragraph at lines 2748--2749
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+ []
+
+
+Overfull \hbox (57.00409pt too wide) in paragraph at lines 2752--2753
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2761--2762
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2763--2764
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2765--2766
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2768--2769
+
+ []
+
+[117]
+Underfull \hbox (badness 10000) in paragraph at lines 2790--2791
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2792--2795
+
+ []
+
+
+Overfull \hbox (15.63951pt too wide) in paragraph at lines 2796--2799
+[]\OT1/cmr/m/n/10 Toutes les in-struc-tions peu-vent ^etre con-di-tion-nelles e
+t d^^Sependre d'un bit d'activation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2796--2799
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2800--2803
+
+ []
+
+<Solutions5-Vecteur.pdf, id=964, 614.295pt x 794.97pt>
+File: Solutions5-Vecteur.pdf Graphic file (type pdf)
+
+<use Solutions5-Vecteur.pdf>
+Package pdftex.def Info: Solutions5-Vecteur.pdf used on input line 2810.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Solutions5-Vecteur.pdf Graphic file (type pdf)
+ <use Solutions5-Vecteur.pdf>
+Package pdftex.def Info: Solutions5-Vecteur.pdf used on input line 2810.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<Solutions5-Vecteur.pdf, id=967, page=1, 614.295pt x 794.97pt>
+File: Solutions5-Vecteur.pdf Graphic file (type pdf)
+
+<use Solutions5-Vecteur.pdf, page 1>
+Package pdftex.def Info: Solutions5-Vecteur.pdf, page1 used on input line 2810.
+
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Solutions5-Vecteur.pdf Graphic file (type pdf)
+ <use Solutions5-Vecteur.pdf, page 1>
+Package pdftex.def Info: Solutions5-Vecteur.pdf, page1 used on input line 2810.
+
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+[118] [119]
+File: Solutions5-Vecteur.pdf Graphic file (type pdf)
+ <use Solutions5-Vecteur.pdf, page 1>
+Package pdftex.def Info: Solutions5-Vecteur.pdf, page1 used on input line 2810.
+
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions5-Vecteur.pdf Graphic file (type pdf)
+
+<use Solutions5-Vecteur.pdf, page 1>
+Package pdftex.def Info: Solutions5-Vecteur.pdf, page1 used on input line 2810.
+
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions5-Vecteur.pdf Graphic file (type pdf)
+ <use Solutions5-Vecteur.pdf, page 1>
+Package pdftex.def Info: Solutions5-Vecteur.pdf, page1 used on input line 2810.
+
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+[120 <./Solutions5-Vecteur.pdf>]
+<Solutions5-Vecteur.pdf, id=1000, page=2, 614.295pt x 794.97pt>
+File: Solutions5-Vecteur.pdf Graphic file (type pdf)
+
+<use Solutions5-Vecteur.pdf, page 2>
+Package pdftex.def Info: Solutions5-Vecteur.pdf, page2 used on input line 2810.
+
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions5-Vecteur.pdf Graphic file (type pdf)
+ <use Solutions5-Vecteur.pdf, page 2>
+Package pdftex.def Info: Solutions5-Vecteur.pdf, page2 used on input line 2810.
+
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions5-Vecteur.pdf Graphic file (type pdf)
+
+<use Solutions5-Vecteur.pdf, page 2>
+Package pdftex.def Info: Solutions5-Vecteur.pdf, page2 used on input line 2810.
+
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [121 <./Solutions5-Vecteur.pdf>]
+Chapter 8.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2812--2813
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2814--2815
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2816--2817
+
+ []
+
+
+Overfull \hbox (1.41731pt too wide) in paragraph at lines 2818--2819
+[]\OT1/cmr/m/n/10 Sa of-fre un en-vi-ron-nement et lan-gage nor-malis^^Se pour 
+utiliser de mani^^Rere portable,
+ []
+
+
+Overfull \hbox (4.29684pt too wide) in paragraph at lines 2818--2819
+\OT1/cmr/m/n/10 ces syst^^Remes par-all^^Reles h^^Set^^Serog^^Rene. C'est un st
+an-dard ou-vert avec impl^^Sementation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2818--2819
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2820--2821
+
+ []
+
+<ati_radeon.png, id=1005, 453.695pt x 370.38374pt>
+File: ati_radeon.png Graphic file (type png)
+ <use ati_radeon.png>
+Package pdftex.def Info: ati_radeon.png used on input line 2834.
+(pdftex.def)             Requested size: 199.16928pt x 162.59633pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2839--2840
+
+ []
+
+[122
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 2841--2842
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2843--2844
+
+ []
+
+<opencl_memory.png, id=1009, 403.5075pt x 364.36125pt>
+File: opencl_memory.png Graphic file (type png)
+ <use opencl_memory.png>
+Package pdftex.def Info: opencl_memory.png used on input line 2862.
+(pdftex.def)             Requested size: 199.16928pt x 179.8451pt.
+
+<opencl_table.png, id=1010, 554.07pt x 231.86626pt>
+File: opencl_table.png Graphic file (type png)
+ <use opencl_table.png>
+Package pdftex.def Info: opencl_table.png used on input line 2869.
+(pdftex.def)             Requested size: 199.16928pt x 83.34795pt.
+
+Overfull \hbox (5.63942pt too wide) in paragraph at lines 2874--2876
+[]\OT1/cmr/m/n/10 Il faut faire cer-taine dis-tinc-tion en-tre les diff^^Serent
+es m^^Semoire de la carte graphique.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2874--2876
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2877--2879
+
+ []
+
+[123 <./ati_radeon.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2880--2882
+
+ []
+
+[124 <./opencl_memory.png> <./opencl_table.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2899--2900
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2901--2902
+
+ []
+
+
+Overfull \hbox (1.32721pt too wide) in paragraph at lines 2903--2904
+[]\OT1/cmr/m/n/10 CL[]DEVICE[]TYPE[]GPU sp^^Secifie qu'on cherche un GPU, n'imp
+orte lequel 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2903--2904
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2912--2913
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2914--2915
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2916--2917
+
+ []
+
+[125]
+Underfull \hbox (badness 10000) in paragraph at lines 2935--2936
+
+ []
+
+
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 2975--2977
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[126]
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 2983--2984
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 2986--2987
+[][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.00385pt too wide) in paragraph at lines 2987--2988
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 2994--2996
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 2997--2998
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 2998--2999
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 3001--3002
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (51.00403pt too wide) in paragraph at lines 3002--3003
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 3003--3005
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 3005--3006
+[][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 3013--3014
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 3027--3028
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[127]
+Underfull \hbox (badness 10000) in paragraph at lines 3035--3036
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3037--3038
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3039--3040
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3041--3042
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3043--3044
+
+ []
+
+
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 3050--3051
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 3055--3056
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 3056--3057
+[][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 3061--3062
+[][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 3062--3063
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 3063--3064
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 3066--3068
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 3068--3069
+[][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 3069--3070
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (51.00403pt too wide) in paragraph at lines 3070--3071
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+[128]
+Overfull \hbox (6.47276pt too wide) in paragraph at lines 3074--3075
+[]\OT1/cmr/m/n/10 Une im-age dans le con-texte d'OpenCL, peut ^etre d^^Sefini c
+omme une sorte sp^^Secifique
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3074--3075
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3076--3077
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3078--3079
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3081--3082
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3083--3084
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3085--3086
+
+ []
+
+
+Overfull \hbox (51.00403pt too wide) in paragraph at lines 3092--3093
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 3099--3100
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 3100--3101
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 3105--3106
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 3106--3107
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 3107--3108
+[][][][][][][][][][][][][][][] 
+ []
+
+[129]
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 3121--3122
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 3122--3124
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 3124--3125
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 3131--3133
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 3133--3134
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 3137--3138
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 3141--3142
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 3146--3147
+[][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3154--3155
+
+ []
+
+[130]
+Underfull \hbox (badness 10000) in paragraph at lines 3156--3157
+
+ []
+
+
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 3160--3162
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 3162--3163
+[][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 3164--3165
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (45.00397pt too wide) in paragraph at lines 3166--3167
+[][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 3172--3173
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 3177--3178
+[][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 3178--3179
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (45.00397pt too wide) in paragraph at lines 3181--3182
+[][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3186--3187
+
+ []
+
+[131]
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 3202--3203
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3215--3216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3217--3218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3219--3220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3221--3222
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3223--3224
+
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 3232--3233
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 3233--3235
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+[132]
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 3240--3241
+[][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3245--3246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3247--3248
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3249--3250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3251--3252
+
+ []
+
+
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 3259--3260
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 3279--3281
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[133]
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 3287--3288
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 3292--3293
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3310--3311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3312--3313
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3314--3315
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3316--3317
+
+ []
+
+[134]
+Underfull \hbox (badness 10000) in paragraph at lines 3341--3342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3343--3344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3345--3346
+
+ []
+
+
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 3362--3363
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3365--3366
+
+ []
+
+[135]
+Underfull \hbox (badness 10000) in paragraph at lines 3367--3368
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3369--3370
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3371--3372
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3392--3393
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3401--3402
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3403--3404
+
+ []
+
+[136]
+Underfull \hbox (badness 10000) in paragraph at lines 3405--3406
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3407--3408
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3409--3410
+
+ []
+
+
+Overfull \hbox (51.00403pt too wide) in paragraph at lines 3418--3419
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 3419--3421
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (51.00403pt too wide) in paragraph at lines 3423--3424
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 3424--3426
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (39.0039pt too wide) in paragraph at lines 3426--3427
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[137]
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 3460--3461
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (39.0039pt too wide) in paragraph at lines 3461--3462
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.00385pt too wide) in paragraph at lines 3462--3463
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3466--3467
+
+ []
+
+
+Overfull \hbox (6.55609pt too wide) in paragraph at lines 3468--3469
+[]\OT1/cmr/m/n/10 Selon la quan-tit^^Se de reg-istre et de m^^Semoire disponibl
+e sur un SIMD, cela d^^Setermine
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3468--3469
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3470--3471
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3476--3479
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3480--3482
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3483--3486
+
+ []
+
+[138]
+Overfull \hbox (45.00397pt too wide) in paragraph at lines 3494--3495
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (267.00623pt too wide) in paragraph at lines 3498--3499
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (177.00531pt too wide) in paragraph at lines 3500--3501
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (177.00531pt too wide) in paragraph at lines 3527--3528
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (57.00409pt too wide) in paragraph at lines 3528--3529
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (117.0047pt too wide) in paragraph at lines 3529--3530
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 3531--3532
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+[139]
+Overfull \hbox (219.00574pt too wide) in paragraph at lines 3570--3571
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 3571--3572
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 3572--3573
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.00385pt too wide) in paragraph at lines 3573--3574
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 3574--3575
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (51.00403pt too wide) in paragraph at lines 3575--3576
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (135.00488pt too wide) in paragraph at lines 3576--3577
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (39.0039pt too wide) in paragraph at lines 3577--3578
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (189.00543pt too wide) in paragraph at lines 3580--3581
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 3581--3583
+[][][][][][][][][][][][][][][][] 
+ []
+
+[140] <Solutions5-OpenCL.pdf, id=1069, 614.295pt x 794.97pt>
+File: Solutions5-OpenCL.pdf Graphic file (type pdf)
+
+<use Solutions5-OpenCL.pdf>
+Package pdftex.def Info: Solutions5-OpenCL.pdf used on input line 3594.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Solutions5-OpenCL.pdf Graphic file (type pdf)
+ <use Solutions5-OpenCL.pdf>
+Package pdftex.def Info: Solutions5-OpenCL.pdf used on input line 3594.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<Solutions5-OpenCL.pdf, id=1072, page=1, 614.295pt x 794.97pt>
+File: Solutions5-OpenCL.pdf Graphic file (type pdf)
+
+<use Solutions5-OpenCL.pdf, page 1>
+Package pdftex.def Info: Solutions5-OpenCL.pdf, page1 used on input line 3594.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Solutions5-OpenCL.pdf Graphic file (type pdf)
+ <use Solutions5-OpenCL.pdf, page 1>
+Package pdftex.def Info: Solutions5-OpenCL.pdf, page1 used on input line 3594.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+[141]
+File: Solutions5-OpenCL.pdf Graphic file (type pdf)
+ <use Solutions5-OpenCL.pdf, page 1>
+Package pdftex.def Info: Solutions5-OpenCL.pdf, page1 used on input line 3594.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions5-OpenCL.pdf Graphic file (type pdf)
+ <use Solutions5-OpenCL.pdf, page 1>
+Package pdftex.def Info: Solutions5-OpenCL.pdf, page1 used on input line 3594.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions5-OpenCL.pdf Graphic file (type pdf)
+
+<use Solutions5-OpenCL.pdf, page 1>
+Package pdftex.def Info: Solutions5-OpenCL.pdf, page1 used on input line 3594.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [142 <./Solutions5-OpenCL.pdf>]
+<Solutions5-OpenCL.pdf, id=1096, page=2, 614.295pt x 794.97pt>
+File: Solutions5-OpenCL.pdf Graphic file (type pdf)
+
+<use Solutions5-OpenCL.pdf, page 2>
+Package pdftex.def Info: Solutions5-OpenCL.pdf, page2 used on input line 3594.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions5-OpenCL.pdf Graphic file (type pdf)
+ <use Solutions5-OpenCL.pdf, page 2>
+Package pdftex.def Info: Solutions5-OpenCL.pdf, page2 used on input line 3594.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions5-OpenCL.pdf Graphic file (type pdf)
+
+<use Solutions5-OpenCL.pdf, page 2>
+Package pdftex.def Info: Solutions5-OpenCL.pdf, page2 used on input line 3594.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [143 <./Solutions5-OpenCL.pdf>]
+<Solutions5-OpenCL.pdf, id=1101, page=3, 614.295pt x 794.97pt>
+File: Solutions5-OpenCL.pdf Graphic file (type pdf)
+
+<use Solutions5-OpenCL.pdf, page 3>
+Package pdftex.def Info: Solutions5-OpenCL.pdf, page3 used on input line 3594.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions5-OpenCL.pdf Graphic file (type pdf)
+ <use Solutions5-OpenCL.pdf, page 3>
+Package pdftex.def Info: Solutions5-OpenCL.pdf, page3 used on input line 3594.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions5-OpenCL.pdf Graphic file (type pdf)
+
+<use Solutions5-OpenCL.pdf, page 3>
+Package pdftex.def Info: Solutions5-OpenCL.pdf, page3 used on input line 3594.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [144 <./Solutions5-OpenCL.pdf>]
+<Solutions5-OpenCL.pdf, id=1107, page=4, 614.295pt x 794.97pt>
+File: Solutions5-OpenCL.pdf Graphic file (type pdf)
+
+<use Solutions5-OpenCL.pdf, page 4>
+Package pdftex.def Info: Solutions5-OpenCL.pdf, page4 used on input line 3594.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions5-OpenCL.pdf Graphic file (type pdf)
+ <use Solutions5-OpenCL.pdf, page 4>
+Package pdftex.def Info: Solutions5-OpenCL.pdf, page4 used on input line 3594.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions5-OpenCL.pdf Graphic file (type pdf)
+
+<use Solutions5-OpenCL.pdf, page 4>
+Package pdftex.def Info: Solutions5-OpenCL.pdf, page4 used on input line 3594.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [145 <./Solutions5-OpenCL.pdf>]
+Chapter 9.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3598--3599
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3600--3601
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3602--3603
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3604--3605
+
+ []
+
+
+Overfull \hbox (1.5005pt too wide) in paragraph at lines 3606--3607
+[]\OT1/cmr/m/n/10 Des ver-sion op-ti-mis^^Sees et out-ils sont of-fert par les 
+grands four-nisseurs de mat^^Seriel.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3606--3607
+
+ []
+
+[146
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 3634--3635
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3636--3637
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3638--3639
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3640--3641
+
+ []
+
+
+Overfull \hbox (16.43842pt too wide) in paragraph at lines 3644--3646
+[]\OT1/cmr/m/n/10 Primitifs: MPI[]CHAR, MPI[]UNSIGNED[]CHAR (and SHORT, INT, LO
+NG),
+ []
+
+
+Overfull \hbox (73.2535pt too wide) in paragraph at lines 3646--3649
+[]\OT1/cmr/m/n/10 S^^Sequences: MPI[]TYPE[]CONTIGUOUS, MPI[]TYPE[]VECTOR, MPI[]
+TYPE[]HVECTOR,
+ []
+
+
+Overfull \hbox (56.1868pt too wide) in paragraph at lines 3651--3654
+[]\OT1/cmr/m/n/10 Divers: MPI[]TYPE[]FREE, MPI[]GET[]ADRESS, MPI[]TYPE[]CREATE[
+]SUBARRAY,
+ []
+
+[147]
+Overfull \hbox (33.00385pt too wide) in paragraph at lines 3672--3674
+[][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3678--3679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3680--3681
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3684--3685
+
+ []
+
+
+Overfull \hbox (0.72826pt too wide) in paragraph at lines 3688--3691
+\OT1/cmr/m/n/10 sur l'attente d'un mes-sage de source avec tag ou MPI[]ANY[]SOU
+RCE,
+ []
+
+
+Overfull \hbox (13.82288pt too wide) in paragraph at lines 3692--3695
+[]\OT1/cmr/m/n/10 MPI[]SENDRECV(sendbuf, send-count, send-type, dest, send-tag,
+ recvbuf,
+ []
+
+
+Overfull \hbox (6.80612pt too wide) in paragraph at lines 3692--3695
+\OT1/cmr/m/n/10 recv-count, recv-type, source, recv-tag, comm, sta-tus) aller-r
+etour comme
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3700--3701
+
+ []
+
+
+Overfull \hbox (0.6949pt too wide) in paragraph at lines 3706--3709
+\OT1/cmr/m/n/10 r^^Seception est de-mand^^See, buf ne peut ^etre acc^^Sed^^Se a
+vant que la r^^Seception
+ []
+
+[148]
+Overfull \hbox (88.98683pt too wide) in paragraph at lines 3710--3714
+\OT1/cmr/m/n/10 MPI[]REQUEST[]GET[]STATUS(request, flag, sta-tus) et MPI[]REQUE
+ST[]FREE(request)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3716--3717
+
+ []
+
+
+Overfull \hbox (49.06737pt too wide) in paragraph at lines 3718--3721
+[]\OT1/cmr/m/n/10 MPI[]WAITANY(count, ar-ray[]of[]request, in-dex, sta-tus), MP
+I[]TESTANY(count,
+ []
+
+
+Overfull \hbox (53.32295pt too wide) in paragraph at lines 3721--3724
+[]\OT1/cmr/m/n/10 MPI[]WAITALL(count, ar-ray[]of[]request, ar-ray[]of[]status),
+ MPI[]TESTALL(count,
+ []
+
+
+Overfull \hbox (6.69514pt too wide) in paragraph at lines 3725--3729
+[]\OT1/cmr/m/n/10 MPI[]WAITSOME(incount, ar-ray[]of[]request, out-count, ar-ray
+[]of[]index,
+ []
+
+
+Overfull \hbox (27.25632pt too wide) in paragraph at lines 3725--3729
+\OT1/cmr/m/n/10 ar-ray[]of[]status), MPI[]TESTSOME(count, ar-ray[]of[]request, 
+ar-ray[]of[]index,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3731--3732
+
+ []
+
+
+Overfull \hbox (53.80069pt too wide) in paragraph at lines 3736--3739
+[]\OT1/cmr/m/n/10 MPI[]CANCEL(request) an-nule une op^^Seration, MPI[]TEST[]CAN
+CELLED(status,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3741--3742
+
+ []
+
+
+Overfull \hbox (25.95613pt too wide) in paragraph at lines 3748--3750
+[]\OT1/cmr/m/n/10 MPI[]START(request), MPI[]STARTALL(count, ar-ray[]of[]request
+), d^^Semarre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3751--3752
+
+ []
+
+
+Overfull \hbox (72.7563pt too wide) in paragraph at lines 3763--3765
+[]\OT1/cmr/m/n/10 MPI[]IBSEND, MPI[]ISSEND, MPI[]IRSEND, MPI[]BSEND[]INIT, MPI[
+]SSEND[]INIT,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3766--3767
+
+ []
+
+[149]
+Overfull \hbox (2.42273pt too wide) in paragraph at lines 3769--3772
+[]\OT1/cmr/m/n/10 MPI[]BUFFER[]ATTACH(buffer, size) sp^^Secifier manuelle-ment 
+l'espace
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3776--3777
+
+ []
+
+
+Overfull \hbox (57.00409pt too wide) in paragraph at lines 3799--3800
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (87.0044pt too wide) in paragraph at lines 3802--3803
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[150]
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 3814--3815
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 3815--3816
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 3823--3824
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.00385pt too wide) in paragraph at lines 3824--3825
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 3825--3826
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (39.0039pt too wide) in paragraph at lines 3827--3828
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (87.0044pt too wide) in paragraph at lines 3832--3833
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.00385pt too wide) in paragraph at lines 3837--3838
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3844--3845
+
+ []
+
+<global_comms.png, id=1128, 229.85875pt x 371.3875pt>
+File: global_comms.png Graphic file (type png)
+ <use global_comms.png>
+Package pdftex.def Info: global_comms.png used on input line 3848.
+(pdftex.def)             Requested size: 142.26378pt x 229.87251pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3853--3854
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3855--3856
+
+ []
+
+[151]
+Overfull \hbox (3.76985pt too wide) in paragraph at lines 3872--3876
+[]\OT1/cmr/m/n/10 MPI[]GATHERV, MPI[]SCATTERV, vi-en-nent avec un vecteur de re
+cv-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3878--3879
+
+ []
+
+
+Overfull \hbox (6.3645pt too wide) in paragraph at lines 3880--3884
+[]\OT1/cmr/m/n/10 MPI[]ALLGATHER(sendbuf, send-count, send-type, recvbuf, recv-
+count,
+ []
+
+
+Overfull \hbox (23.46632pt too wide) in paragraph at lines 3880--3884
+\OT1/cmr/m/n/10 il n'y a pas de root, re-coivent toutes les in-for-ma-tions. MP
+I[]ALLGATHERV
+ []
+
+
+Overfull \hbox (7.96793pt too wide) in paragraph at lines 3885--3890
+\OT1/cmr/m/n/10 dans le bloc i du pro-ces-sus j. MPI[]ALLTOALLV et MPI[]ALLTOAL
+LW
+ []
+
+[152 <./global_comms.png>]
+Overfull \hbox (8.08372pt too wide) in paragraph at lines 3894--3902
+\OT1/cmr/m/n/10 les ^^Sel^^Sements de chaque pro-ces-sus sont com-bin^^Ses en-s
+em-ble dans l'^^Sel^^Sement
+ []
+
+
+Overfull \hbox (2.00056pt too wide) in paragraph at lines 3894--3902
+\OT1/cmr/m/n/10 SUM, PROD, LAND, BAND, LOR, BOR, LXOR, BXOR, MAXLOC,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3908--3909
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3920--3921
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3923--3924
+
+ []
+
+
+Overfull \hbox (9.13121pt too wide) in paragraph at lines 3926--3927
+[]\OT1/cmr/m/n/10 MPI[]GROUP[]RANK(group, rank), re-tourne la po-si-tion dans l
+e groupe. 
+ []
+
+
+Overfull \hbox (21.62016pt too wide) in paragraph at lines 3927--3931
+[]\OT1/cmr/m/n/10 MPI[]GROUP[]TRANSLATE[]RANKS(group1, n, ranks1, group2, ranks
+2),
+ []
+
+
+Overfull \hbox (25.87843pt too wide) in paragraph at lines 3927--3931
+\OT1/cmr/m/n/10 tourne le rang cor-re-spon-dant de group2 dans ranks2, ou MPI[]
+UNDEFINED
+ []
+
+
+Overfull \hbox (11.63118pt too wide) in paragraph at lines 3931--3934
+[]\OT1/cmr/m/n/10 MPI[]GROUP[]COMPARE(group1, group2, re-sult), com-pare les gr
+oupes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3935--3936
+
+ []
+
+[153]
+Overfull \hbox (198.36491pt too wide) in paragraph at lines 3939--3941
+[]\OT1/cmr/m/n/10 MPI[]GROUP[]UNION(group1, group2, new-group),MPI[]GROUP[]INTE
+RSECTION,MPI[]GROUP[]DIFFERENCE
+ []
+
+
+Overfull \hbox (9.65063pt too wide) in paragraph at lines 3941--3944
+[]\OT1/cmr/m/n/10 MPI[]GROUP[]INCL(group, n, ranks, new-group), MPI[]GROUP[]EXC
+L,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3946--3947
+
+ []
+
+
+Overfull \hbox (10.33383pt too wide) in paragraph at lines 3950--3953
+\OT1/cmr/m/n/10 mu-ni-ca-teurs (listes de mem-bres) sont iden-tiques, sim-i-lai
+res ou diff^^Serents. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3961--3962
+
+ []
+
+
+Overfull \hbox (21.32286pt too wide) in paragraph at lines 3963--3967
+[]\OT1/cmr/m/n/10 MPI[]COMM[]CREATE[]KEYVAL(copy[]fn, delete[]fn, key, fn[]data
+) r^^Seserve
+ []
+
+
+Overfull \hbox (46.55902pt too wide) in paragraph at lines 3969--3973
+[]\OT1/cmr/m/n/10 MPI[]COMM[]SET[]ATTR(comm, key, value), MPI[]COMM[]GET[]ATTR(
+comm,
+ []
+
+
+Overfull \hbox (47.04239pt too wide) in paragraph at lines 3978--3981
+[]\OT1/cmr/m/n/10 MPI[]COMM[]TEST[]INTER(comm, flag), MPI[]COMM[]SIZE/GROUP/RAN
+K,
+ []
+
+
+Overfull \hbox (10.50064pt too wide) in paragraph at lines 3982--3986
+[]\OT1/cmr/m/n/10 MPI[]INTERCOMM[]CREATE(local[]comm, lo-cal[]leader, bridge[]c
+omm,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3989--3990
+
+ []
+
+[154]
+Overfull \hbox (32.95622pt too wide) in paragraph at lines 3991--3996
+[]\OT1/cmr/m/n/10 MPI[]CART[]CREATE(comm[]old, ndims, dims, pe-ri-ods, re-order
+, comm[]cart)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4012--4013
+
+ []
+
+
+Overfull \hbox (77.75624pt too wide) in paragraph at lines 4020--4023
+[]\OT1/cmr/m/n/10 MPI[]GRAPHDIMS[]GET, MPI[]GRAPH[]GET, MPI[]GRAPH[]NEIGHBORS[]
+COUNT,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4028--4029
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4042--4043
+
+ []
+
+[155]
+Underfull \hbox (badness 10000) in paragraph at lines 4055--4056
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4058--4059
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4075--4076
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4077--4078
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4079--4080
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4083--4084
+
+ []
+
+[156] <Solutions6-MPI.pdf, id=1148, 614.295pt x 794.97pt>
+File: Solutions6-MPI.pdf Graphic file (type pdf)
+
+<use Solutions6-MPI.pdf>
+Package pdftex.def Info: Solutions6-MPI.pdf used on input line 4089.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Solutions6-MPI.pdf Graphic file (type pdf)
+ <use Solutions6-MPI.pdf>
+Package pdftex.def Info: Solutions6-MPI.pdf used on input line 4089.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<Solutions6-MPI.pdf, id=1151, page=1, 614.295pt x 794.97pt>
+File: Solutions6-MPI.pdf Graphic file (type pdf)
+
+<use Solutions6-MPI.pdf, page 1>
+Package pdftex.def Info: Solutions6-MPI.pdf, page1 used on input line 4089.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Solutions6-MPI.pdf Graphic file (type pdf)
+ <use Solutions6-MPI.pdf, page 1>
+Package pdftex.def Info: Solutions6-MPI.pdf, page1 used on input line 4089.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [157]
+File: Solutions6-MPI.pdf Graphic file (type pdf)
+
+<use Solutions6-MPI.pdf, page 1>
+Package pdftex.def Info: Solutions6-MPI.pdf, page1 used on input line 4089.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions6-MPI.pdf Graphic file (type pdf)
+ <use Solutions6-MPI.pdf, page 1>
+Package pdftex.def Info: Solutions6-MPI.pdf, page1 used on input line 4089.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions6-MPI.pdf Graphic file (type pdf)
+
+<use Solutions6-MPI.pdf, page 1>
+Package pdftex.def Info: Solutions6-MPI.pdf, page1 used on input line 4089.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [158 <./Solutions6-MPI.pdf>]
+<Solutions6-MPI.pdf, id=1183, page=2, 614.295pt x 794.97pt>
+File: Solutions6-MPI.pdf Graphic file (type pdf)
+
+<use Solutions6-MPI.pdf, page 2>
+Package pdftex.def Info: Solutions6-MPI.pdf, page2 used on input line 4089.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions6-MPI.pdf Graphic file (type pdf)
+ <use Solutions6-MPI.pdf, page 2>
+Package pdftex.def Info: Solutions6-MPI.pdf, page2 used on input line 4089.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions6-MPI.pdf Graphic file (type pdf)
+
+<use Solutions6-MPI.pdf, page 2>
+Package pdftex.def Info: Solutions6-MPI.pdf, page2 used on input line 4089.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [159 <./Solutions6-MPI.pdf>]
+<Solutions6-MPI.pdf, id=1188, page=3, 614.295pt x 794.97pt>
+File: Solutions6-MPI.pdf Graphic file (type pdf)
+
+<use Solutions6-MPI.pdf, page 3>
+Package pdftex.def Info: Solutions6-MPI.pdf, page3 used on input line 4089.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions6-MPI.pdf Graphic file (type pdf)
+ <use Solutions6-MPI.pdf, page 3>
+Package pdftex.def Info: Solutions6-MPI.pdf, page3 used on input line 4089.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions6-MPI.pdf Graphic file (type pdf)
+
+<use Solutions6-MPI.pdf, page 3>
+Package pdftex.def Info: Solutions6-MPI.pdf, page3 used on input line 4089.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [160 <./Solutions6-MPI.pdf>]
+<Solutions6-MPI.pdf, id=1194, page=4, 614.295pt x 794.97pt>
+File: Solutions6-MPI.pdf Graphic file (type pdf)
+
+<use Solutions6-MPI.pdf, page 4>
+Package pdftex.def Info: Solutions6-MPI.pdf, page4 used on input line 4089.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions6-MPI.pdf Graphic file (type pdf)
+ <use Solutions6-MPI.pdf, page 4>
+Package pdftex.def Info: Solutions6-MPI.pdf, page4 used on input line 4089.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Solutions6-MPI.pdf Graphic file (type pdf)
+
+<use Solutions6-MPI.pdf, page 4>
+Package pdftex.def Info: Solutions6-MPI.pdf, page4 used on input line 4089.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [161 <./Solutions6-MPI.pdf>]
+Chapter 10.
+
+Overfull \hbox (10.88951pt too wide) in paragraph at lines 4103--4104
+\OT1/cmr/m/n/10 long quand tu com-mence a n'en faire plusieurs par sec-on-des (
+beau-coup d'overhead).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4103--4104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4105--4106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4107--4108
+
+ []
+
+[162
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4111--4112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4113--4114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4115--4116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4117--4118
+
+ []
+
+<gcov_results.png, id=1203, 532.99126pt x 362.35374pt>
+File: gcov_results.png Graphic file (type png)
+ <use gcov_results.png>
+Package pdftex.def Info: gcov_results.png used on input line 4121.
+(pdftex.def)             Requested size: 199.16928pt x 135.40129pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4128--4129
+
+ []
+
+[163 <./gcov_results.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4130--4131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4132--4133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4134--4135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4136--4137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4138--4139
+
+ []
+
+<gprof.png, id=1207, 545.03625pt x 368.37625pt>
+File: gprof.png Graphic file (type png)
+ <use gprof.png>
+Package pdftex.def Info: gprof.png used on input line 4142.
+(pdftex.def)             Requested size: 199.16928pt x 134.61078pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4147--4148
+
+ []
+
+[164 <./gprof.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4152--4153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4154--4155
+
+ []
+
+<oprofile.png, id=1211, 520.94624pt x 297.11pt>
+File: oprofile.png Graphic file (type png)
+ <use oprofile.png>
+Package pdftex.def Info: oprofile.png used on input line 4158.
+(pdftex.def)             Requested size: 199.16928pt x 113.59206pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4163--4164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4165--4166
+
+ []
+
+<oprofile_assembleur.png, id=1212, 551.05875pt x 336.25626pt>
+File: oprofile_assembleur.png Graphic file (type png)
+
+<use oprofile_assembleur.png>
+Package pdftex.def Info: oprofile_assembleur.png used on input line 4169.
+(pdftex.def)             Requested size: 199.16928pt x 121.53445pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4177--4178
+
+ []
+
+[165 <./oprofile.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4180--4181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4182--4183
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4184--4185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4186--4187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4188--4189
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4202--4203
+
+ []
+
+[166 <./oprofile_assembleur.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4204--4205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4206--4207
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4210--4211
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4212--4213
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4214--4215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4216--4217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4218--4219
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4220--4221
+
+ []
+
+[167]
+Underfull \hbox (badness 10000) in paragraph at lines 4228--4229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4230--4231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4232--4233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4234--4235
+
+ []
+
+<detection_course.png, id=1222, 585.18625pt x 344.28625pt>
+File: detection_course.png Graphic file (type png)
+
+<use detection_course.png>
+Package pdftex.def Info: detection_course.png used on input line 4238.
+(pdftex.def)             Requested size: 199.16928pt x 117.17659pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4243--4244
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4245--4246
+
+ []
+
+[168 <./detection_course.png>]
+<ordre_verrous.png, id=1227, 484.81125pt x 170.6375pt>
+File: ordre_verrous.png Graphic file (type png)
+ <use ordre_verrous.png>
+Package pdftex.def Info: ordre_verrous.png used on input line 4249.
+(pdftex.def)             Requested size: 199.16928pt x 70.10242pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4255--4258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4259--4260
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4263--4264
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4265--4266
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4267--4268
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4270--4271
+
+ []
+
+[169 <./ordre_verrous.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4272--4273
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4274--4275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4279--4280
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4284--4285
+
+ []
+
+[170]
+Underfull \hbox (badness 10000) in paragraph at lines 4296--4297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4298--4299
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4300--4301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4302--4303
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4304--4305
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4306--4307
+
+ []
+
+<definition_trace.png, id=1234, 311.1625pt x 172.645pt>
+File: definition_trace.png Graphic file (type png)
+
+<use definition_trace.png>
+Package pdftex.def Info: definition_trace.png used on input line 4310.
+(pdftex.def)             Requested size: 199.16928pt x 110.50821pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4313--4314
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4318--4319
+
+ []
+
+[171] <trace_simultane.png, id=1238, 592.2125pt x 348.30125pt>
+File: trace_simultane.png Graphic file (type png)
+
+<use trace_simultane.png>
+Package pdftex.def Info: trace_simultane.png used on input line 4322.
+(pdftex.def)             Requested size: 199.16928pt x 117.14003pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4325--4326
+
+ []
+
+<session_usager_different.png, id=1239, 456.70625pt x 343.2825pt>
+File: session_usager_different.png Graphic file (type png)
+
+<use session_usager_different.png>
+Package pdftex.def Info: session_usager_different.png used on input line 4329.
+(pdftex.def)             Requested size: 199.16928pt x 149.70381pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4335--4336
+
+ []
+
+<low_overhead.png, id=1240, 718.685pt x 455.7025pt>
+File: low_overhead.png Graphic file (type png)
+ <use low_overhead.png>
+Package pdftex.def Info: low_overhead.png used on input line 4340.
+(pdftex.def)             Requested size: 199.16928pt x 126.28857pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4344--4345
+
+ []
+
+<strace_code.png, id=1241, 633.36626pt x 415.5525pt>
+File: strace_code.png Graphic file (type png)
+ <use strace_code.png>
+Package pdftex.def Info: strace_code.png used on input line 4348.
+(pdftex.def)             Requested size: 199.16928pt x 130.67145pt.
+
+<strace.png, id=1242, 511.9125pt x 325.215pt>
+File: strace.png Graphic file (type png)
+ <use strace.png>
+Package pdftex.def Info: strace.png used on input line 4354.
+(pdftex.def)             Requested size: 199.16928pt x 126.53062pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4357--4358
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4359--4360
+
+ []
+
+<strace_performance.png, id=1243, 557.08125pt x 775.89874pt>
+File: strace_performance.png Graphic file (type png)
+
+<use strace_performance.png>
+Package pdftex.def Info: strace_performance.png used on input line 4363.
+(pdftex.def)             Requested size: 170.71652pt x 237.76758pt.
+ [172 <./definition_trace.png> <./trace_simultane.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4368--4369
+
+ []
+
+[173 <./session_usager_different.png> <./low_overhead.png> <./strace_code.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 4370--4371
+
+ []
+
+[174 <./strace.png> <./strace_performance.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4372--4373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4374--4375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4378--4379
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4381--4382
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4383--4384
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4385--4386
+
+ []
+
+<convex_hull.png, id=1254, 605.26125pt x 420.57124pt>
+File: convex_hull.png Graphic file (type png)
+ <use convex_hull.png>
+Package pdftex.def Info: convex_hull.png used on input line 4389.
+(pdftex.def)             Requested size: 199.16928pt x 138.39105pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4393--4394
+
+ []
+
+
+Overfull \hbox (10.97154pt too wide) in paragraph at lines 4395--4396
+[]\OT1/cmr/m/n/10 Avec sa, on peut mod^^Seliser l'acc^^Res ressources en XML av
+ec les diff^^Serents ^^Sev^^Senements
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4395--4396
+
+ []
+
+<modelisation_etat.png, id=1255, 576.1525pt x 350.30875pt>
+File: modelisation_etat.png Graphic file (type png)
+
+<use modelisation_etat.png>
+Package pdftex.def Info: modelisation_etat.png used on input line 4399.
+(pdftex.def)             Requested size: 199.16928pt x 121.09718pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4402--4403
+
+ []
+
+[175] <53_55.png, id=1259, 424.58624pt x 603.25375pt>
+File: 53_55.png Graphic file (type png)
+ <use 53_55.png>
+Package pdftex.def Info: 53_55.png used on input line 4406.
+(pdftex.def)             Requested size: 199.16928pt x 282.977pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4410--4411
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4412--4413
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4414--4415
+
+ []
+
+[176 <./convex_hull.png> <./modelisation_etat.png>]
+<59-60.png, id=1263, 395.4775pt x 610.28pt>
+File: 59-60.png Graphic file (type png)
+ <use 59-60.png>
+Package pdftex.def Info: 59-60.png used on input line 4418.
+(pdftex.def)             Requested size: 199.16928pt x 307.34622pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4421--4422
+
+ []
+
+<62.png, id=1264, 489.83pt x 177.66376pt>
+File: 62.png Graphic file (type png)
+ <use 62.png>
+Package pdftex.def Info: 62.png used on input line 4425.
+(pdftex.def)             Requested size: 199.16928pt x 72.23807pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4429--4430
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4432--4433
+
+ []
+
+[177 <./53_55.png>] [178 <./59-60.png> <./62.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4438--4439
+
+ []
+
+
+Overfull \hbox (1.50058pt too wide) in paragraph at lines 4440--4441
+\OT1/cmr/m/n/10 peut voir les ^^Sev^^Senement en fonc-tion du temps/ autres m^^
+Setrique par ar-bre d'appels
+ []
+
+
+Overfull \hbox (25.54697pt too wide) in paragraph at lines 4440--4441
+\OT1/cmr/m/n/10 autres li-brairies de par-al-lelisme dis-tribu^^Ses. On peut d^
+^Sefinir nos m^^Setriques d'^^Sevaluations
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4443--4444
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4447--4448
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4449--4450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4451--4452
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4456--4457
+
+ []
+
+[179]
+Underfull \hbox (badness 10000) in paragraph at lines 4464--4465
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4466--4467
+
+ []
+
+<promela.png, id=1274, 493.845pt x 380.42125pt>
+File: promela.png Graphic file (type png)
+ <use promela.png>
+Package pdftex.def Info: promela.png used on input line 4470.
+(pdftex.def)             Requested size: 199.16928pt x 153.41962pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4479--4480
+
+ []
+
+[180]
+Underfull \hbox (badness 10000) in paragraph at lines 4481--4482
+
+ []
+
+[181 <./promela.png>]
+Chapter 11.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4504--4505
+
+ []
+
+[182
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4506--4507
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4508--4509
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4510--4511
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4512--4513
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4514--4515
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4516--4517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4518--4519
+
+ []
+
+<cablage.png, id=1285, 334.24875pt x 612.2875pt>
+File: cablage.png Graphic file (type png)
+ <use cablage.png>
+Package pdftex.def Info: cablage.png used on input line 4522.
+(pdftex.def)             Requested size: 199.16928pt x 364.8528pt.
+
+Overfull \hbox (7.32463pt too wide) in paragraph at lines 4526--4527
+\OT1/cmr/m/n/10 syst^^Remes. Sa prend par con-tre, une con-sole de ges-tion qui
+ nous per-met d'interroger
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4526--4527
+
+ []
+
+[183]
+Underfull \hbox (badness 10000) in paragraph at lines 4536--4537
+
+ []
+
+[184 <./cablage.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4548--4549
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4550--4551
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4552--4553
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4555--4556
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4558--4559
+
+ []
+
+[185]
+Underfull \hbox (badness 10000) in paragraph at lines 4561--4562
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4564--4565
+
+ []
+
+<18.png, id=1295, 452.69125pt x 339.2675pt>
+File: 18.png Graphic file (type png)
+ <use 18.png>
+Package pdftex.def Info: 18.png used on input line 4568.
+(pdftex.def)             Requested size: 199.16928pt x 149.26262pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4572--4573
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4578--4579
+
+ []
+
+[186 <./18.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4580--4581
+
+ []
+
+<23.png, id=1300, 570.13pt x 342.27875pt>
+File: 23.png Graphic file (type png)
+ <use 23.png>
+Package pdftex.def Info: 23.png used on input line 4584.
+(pdftex.def)             Requested size: 199.16928pt x 119.56955pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4588--4589
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4590--4591
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4593--4594
+
+ []
+
+<quotas.png, id=1301, 527.9725pt x 362.35374pt>
+File: quotas.png Graphic file (type png)
+ <use quotas.png>
+Package pdftex.def Info: quotas.png used on input line 4597.
+(pdftex.def)             Requested size: 199.16928pt x 136.68956pt.
+
+Overfull \hbox (21.25064pt too wide) in paragraph at lines 4600--4601
+[]\OT1/cmr/m/n/10 On peut aussi sp^^Secifier d'autre param^etre sub-til comme l
+a con-som-ma-tion d'^^Selectricit^^Se.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4600--4601
+
+ []
+
+[187 <./23.png> <./quotas.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4602--4603
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4605--4606
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4609--4610
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4611--4612
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4613--4614
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4616--4617
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4618--4619
+
+ []
+
+[188]
+Underfull \hbox (badness 10000) in paragraph at lines 4620--4621
+
+ []
+
+
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 4628--4629
+\OT1/cmr/m/n/10 Si les con-teneurs ne fonc-tion-nent pas, on peut se servir de 
+sim-u-lat-uer d'ex^^Secution.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4628--4629
+
+ []
+
+
+Overfull \hbox (14.58398pt too wide) in paragraph at lines 4638--4639
+\OT1/cmr/m/n/10 Sa de-vient probl^^Rematique lorsqu'on es-saie d'avoir un acc^^
+Res au ssyt^^Reme d'exploitation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4638--4639
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4640--4641
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4642--4643
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4644--4645
+
+ []
+
+[189]
+Underfull \hbox (badness 10000) in paragraph at lines 4651--4652
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4654--4655
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4658--4659
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4660--4661
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4662--4663
+
+ []
+
+[190]
+Underfull \hbox (badness 10000) in paragraph at lines 4664--4665
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4669--4670
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4674--4675
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4676--4677
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4678--4679
+
+ []
+
+[191]
+Underfull \hbox (badness 10000) in paragraph at lines 4688--4689
+
+ []
+
+
+Overfull \hbox (4.44467pt too wide) in paragraph at lines 4691--4692
+ \OT1/cmr/bx/n/10 VLAN[] \OT1/cmr/m/n/10 R^^Seseau lo-cal virtuel s^^Separ^^Se 
+du reste du r^^Seseaux lo-cal, c'est des ^^Setiquettes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4693--4694
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4695--4696
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4698--4699
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4700--4701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4702--4703
+
+ []
+
+[192]
+Underfull \hbox (badness 10000) in paragraph at lines 4704--4705
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4720--4721
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4722--4723
+
+ []
+
+[193]
+Underfull \hbox (badness 10000) in paragraph at lines 4727--4728
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4729--4730
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4731--4732
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4733--4734
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4748--4749
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4750--4751
+
+ []
+
+[194] [195] [196]
+Underfull \hbox (badness 10000) in paragraph at lines 4818--4819
+
+ []
+
+[197]
+Overfull \hbox (5.19511pt too wide) in paragraph at lines 4820--4821
+[]\OT1/cmr/m/n/10 Le d^^Semarrage, r^^Seinitialisation, red-i-men-sion-nement, 
+sus-pen-sion ou arr^^Ret d'instance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4824--4825
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4829--4830
+
+ []
+
+[198]
+Overfull \hbox (9.8061pt too wide) in paragraph at lines 4845--4846
+\OT1/cmr/m/n/10 C'est un syst^^Reme mod-u-laire et flex-i-ble qui col-lecte et 
+aggr^^Rege les donnes d'op^^Seration
+ []
+
+
+Overfull \hbox (12.19504pt too wide) in paragraph at lines 4847--4848
+\OT1/cmr/m/n/10 Un autre ser-vice qui four-nit des re-cettes pour don-ner des c
+on-fig-u-ra-tions d'openstack
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4847--4848
+
+ []
+
+<exemple_parametre.png, id=1340, 437.635pt x 372.39125pt>
+File: exemple_parametre.png Graphic file (type png)
+
+<use exemple_parametre.png>
+Package pdftex.def Info: exemple_parametre.png used on input line 4853.
+(pdftex.def)             Requested size: 199.16928pt x 169.47806pt.
+ [199 <./exemple_parametre.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4864--4865
+
+ []
+
+[200]
+Chapter 12.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4869--4870
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4871--4872
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4873--4874
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4875--4876
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4877--4878
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4879--4880
+
+ []
+
+[201
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4881--4882
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4883--4884
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4885--4886
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4888--4889
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4890--4891
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4892--4893
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4894--4895
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4896--4897
+
+ []
+
+[202]
+Chapter 13.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4902--4903
+
+ []
+
+[203
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4919--4920
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4921--4922
+
+ []
+
+<finalA2016C.pdf, id=1356, 614.295pt x 794.97pt>
+File: finalA2016C.pdf Graphic file (type pdf)
+ <use finalA2016C.pdf>
+Package pdftex.def Info: finalA2016C.pdf used on input line 4936.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf>
+Package pdftex.def Info: finalA2016C.pdf used on input line 4936.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ <finalA2016C.pdf, id=1359, page=1, 614.295pt x 794.97pt>
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf, page 1>
+Package pdftex.def Info: finalA2016C.pdf, page1 used on input line 4936.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+ <use finalA2016C.pdf, page 1>
+Package pdftex.def Info: finalA2016C.pdf, page1 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [204]
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf, page 1>
+Package pdftex.def Info: finalA2016C.pdf, page1 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+ <use finalA2016C.pdf, page 1>
+Package pdftex.def Info: finalA2016C.pdf, page1 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf, page 1>
+Package pdftex.def Info: finalA2016C.pdf, page1 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [205 <./finalA2016C.pdf>]
+<finalA2016C.pdf, id=1374, page=2, 614.295pt x 794.97pt>
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf, page 2>
+Package pdftex.def Info: finalA2016C.pdf, page2 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+ <use finalA2016C.pdf, page 2>
+Package pdftex.def Info: finalA2016C.pdf, page2 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf, page 2>
+Package pdftex.def Info: finalA2016C.pdf, page2 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [206 <./finalA2016C.pdf>]
+<finalA2016C.pdf, id=1382, page=3, 614.295pt x 794.97pt>
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf, page 3>
+Package pdftex.def Info: finalA2016C.pdf, page3 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+ <use finalA2016C.pdf, page 3>
+Package pdftex.def Info: finalA2016C.pdf, page3 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf, page 3>
+Package pdftex.def Info: finalA2016C.pdf, page3 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [207 <./finalA2016C.pdf>]
+<finalA2016C.pdf, id=1392, page=4, 614.295pt x 794.97pt>
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf, page 4>
+Package pdftex.def Info: finalA2016C.pdf, page4 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+ <use finalA2016C.pdf, page 4>
+Package pdftex.def Info: finalA2016C.pdf, page4 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf, page 4>
+Package pdftex.def Info: finalA2016C.pdf, page4 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [208 <./finalA2016C.pdf>]
+<finalA2016C.pdf, id=1402, page=5, 614.295pt x 794.97pt>
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf, page 5>
+Package pdftex.def Info: finalA2016C.pdf, page5 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+ <use finalA2016C.pdf, page 5>
+Package pdftex.def Info: finalA2016C.pdf, page5 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf, page 5>
+Package pdftex.def Info: finalA2016C.pdf, page5 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [209 <./finalA2016C.pdf>]
+<finalA2016C.pdf, id=1406, page=6, 614.295pt x 794.97pt>
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf, page 6>
+Package pdftex.def Info: finalA2016C.pdf, page6 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+ <use finalA2016C.pdf, page 6>
+Package pdftex.def Info: finalA2016C.pdf, page6 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf, page 6>
+Package pdftex.def Info: finalA2016C.pdf, page6 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [210 <./finalA2016C.pdf>]
+<finalA2016C.pdf, id=1411, page=7, 614.295pt x 794.97pt>
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf, page 7>
+Package pdftex.def Info: finalA2016C.pdf, page7 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+ <use finalA2016C.pdf, page 7>
+Package pdftex.def Info: finalA2016C.pdf, page7 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf, page 7>
+Package pdftex.def Info: finalA2016C.pdf, page7 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [211 <./finalA2016C.pdf>]
+<finalA2016C.pdf, id=1415, page=8, 614.295pt x 794.97pt>
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf, page 8>
+Package pdftex.def Info: finalA2016C.pdf, page8 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+ <use finalA2016C.pdf, page 8>
+Package pdftex.def Info: finalA2016C.pdf, page8 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf, page 8>
+Package pdftex.def Info: finalA2016C.pdf, page8 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [212 <./finalA2016C.pdf>]
+<finalA2016C.pdf, id=1419, page=9, 614.295pt x 794.97pt>
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf, page 9>
+Package pdftex.def Info: finalA2016C.pdf, page9 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+ <use finalA2016C.pdf, page 9>
+Package pdftex.def Info: finalA2016C.pdf, page9 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2016C.pdf Graphic file (type pdf)
+
+<use finalA2016C.pdf, page 9>
+Package pdftex.def Info: finalA2016C.pdf, page9 used on input line 4936.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [213 <./finalA2016C.pdf>]
+<finalA2014C.pdf, id=1423, 614.295pt x 794.97pt>
+File: finalA2014C.pdf Graphic file (type pdf)
+ <use finalA2014C.pdf>
+Package pdftex.def Info: finalA2014C.pdf used on input line 4939.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf>
+Package pdftex.def Info: finalA2014C.pdf used on input line 4939.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ <finalA2014C.pdf, id=1426, page=1, 614.295pt x 794.97pt>
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf, page 1>
+Package pdftex.def Info: finalA2014C.pdf, page1 used on input line 4939.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+ <use finalA2014C.pdf, page 1>
+Package pdftex.def Info: finalA2014C.pdf, page1 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [214]
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf, page 1>
+Package pdftex.def Info: finalA2014C.pdf, page1 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+ <use finalA2014C.pdf, page 1>
+Package pdftex.def Info: finalA2014C.pdf, page1 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf, page 1>
+Package pdftex.def Info: finalA2014C.pdf, page1 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [215 <./finalA2014C.pdf>]
+<finalA2014C.pdf, id=1440, page=2, 614.295pt x 794.97pt>
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf, page 2>
+Package pdftex.def Info: finalA2014C.pdf, page2 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+ <use finalA2014C.pdf, page 2>
+Package pdftex.def Info: finalA2014C.pdf, page2 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf, page 2>
+Package pdftex.def Info: finalA2014C.pdf, page2 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [216 <./finalA2014C.pdf>]
+<finalA2014C.pdf, id=1448, page=3, 614.295pt x 794.97pt>
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf, page 3>
+Package pdftex.def Info: finalA2014C.pdf, page3 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+ <use finalA2014C.pdf, page 3>
+Package pdftex.def Info: finalA2014C.pdf, page3 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf, page 3>
+Package pdftex.def Info: finalA2014C.pdf, page3 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [217 <./finalA2014C.pdf>]
+<finalA2014C.pdf, id=1458, page=4, 614.295pt x 794.97pt>
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf, page 4>
+Package pdftex.def Info: finalA2014C.pdf, page4 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+ <use finalA2014C.pdf, page 4>
+Package pdftex.def Info: finalA2014C.pdf, page4 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf, page 4>
+Package pdftex.def Info: finalA2014C.pdf, page4 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [218 <./finalA2014C.pdf>]
+<finalA2014C.pdf, id=1462, page=5, 614.295pt x 794.97pt>
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf, page 5>
+Package pdftex.def Info: finalA2014C.pdf, page5 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+ <use finalA2014C.pdf, page 5>
+Package pdftex.def Info: finalA2014C.pdf, page5 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf, page 5>
+Package pdftex.def Info: finalA2014C.pdf, page5 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [219 <./finalA2014C.pdf>]
+<finalA2014C.pdf, id=1466, page=6, 614.295pt x 794.97pt>
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf, page 6>
+Package pdftex.def Info: finalA2014C.pdf, page6 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+ <use finalA2014C.pdf, page 6>
+Package pdftex.def Info: finalA2014C.pdf, page6 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf, page 6>
+Package pdftex.def Info: finalA2014C.pdf, page6 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [220 <./finalA2014C.pdf>]
+<finalA2014C.pdf, id=1470, page=7, 614.295pt x 794.97pt>
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf, page 7>
+Package pdftex.def Info: finalA2014C.pdf, page7 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+ <use finalA2014C.pdf, page 7>
+Package pdftex.def Info: finalA2014C.pdf, page7 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf, page 7>
+Package pdftex.def Info: finalA2014C.pdf, page7 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [221 <./finalA2014C.pdf>]
+<finalA2014C.pdf, id=1474, page=8, 614.295pt x 794.97pt>
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf, page 8>
+Package pdftex.def Info: finalA2014C.pdf, page8 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+ <use finalA2014C.pdf, page 8>
+Package pdftex.def Info: finalA2014C.pdf, page8 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf, page 8>
+Package pdftex.def Info: finalA2014C.pdf, page8 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [222 <./finalA2014C.pdf>]
+<finalA2014C.pdf, id=1479, page=9, 614.295pt x 794.97pt>
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf, page 9>
+Package pdftex.def Info: finalA2014C.pdf, page9 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+ <use finalA2014C.pdf, page 9>
+Package pdftex.def Info: finalA2014C.pdf, page9 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2014C.pdf Graphic file (type pdf)
+
+<use finalA2014C.pdf, page 9>
+Package pdftex.def Info: finalA2014C.pdf, page9 used on input line 4939.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [223 <./finalA2014C.pdf>]
+<finalA2013C.pdf, id=1483, 614.295pt x 794.97pt>
+File: finalA2013C.pdf Graphic file (type pdf)
+ <use finalA2013C.pdf>
+Package pdftex.def Info: finalA2013C.pdf used on input line 4942.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf>
+Package pdftex.def Info: finalA2013C.pdf used on input line 4942.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ <finalA2013C.pdf, id=1486, page=1, 614.295pt x 794.97pt>
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 1>
+Package pdftex.def Info: finalA2013C.pdf, page1 used on input line 4942.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+ <use finalA2013C.pdf, page 1>
+Package pdftex.def Info: finalA2013C.pdf, page1 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [224]
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 1>
+Package pdftex.def Info: finalA2013C.pdf, page1 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+ <use finalA2013C.pdf, page 1>
+Package pdftex.def Info: finalA2013C.pdf, page1 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 1>
+Package pdftex.def Info: finalA2013C.pdf, page1 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [225 <./finalA2013C.pdf>]
+<finalA2013C.pdf, id=1506, page=2, 614.295pt x 794.97pt>
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 2>
+Package pdftex.def Info: finalA2013C.pdf, page2 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+ <use finalA2013C.pdf, page 2>
+Package pdftex.def Info: finalA2013C.pdf, page2 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 2>
+Package pdftex.def Info: finalA2013C.pdf, page2 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [226 <./finalA2013C.pdf>]
+<finalA2013C.pdf, id=1516, page=3, 614.295pt x 794.97pt>
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 3>
+Package pdftex.def Info: finalA2013C.pdf, page3 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+ <use finalA2013C.pdf, page 3>
+Package pdftex.def Info: finalA2013C.pdf, page3 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 3>
+Package pdftex.def Info: finalA2013C.pdf, page3 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [227 <./finalA2013C.pdf>]
+<finalA2013C.pdf, id=1523, page=4, 614.295pt x 794.97pt>
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 4>
+Package pdftex.def Info: finalA2013C.pdf, page4 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+ <use finalA2013C.pdf, page 4>
+Package pdftex.def Info: finalA2013C.pdf, page4 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 4>
+Package pdftex.def Info: finalA2013C.pdf, page4 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [228 <./finalA2013C.pdf>]
+<finalA2013C.pdf, id=1528, page=5, 614.295pt x 794.97pt>
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 5>
+Package pdftex.def Info: finalA2013C.pdf, page5 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+ <use finalA2013C.pdf, page 5>
+Package pdftex.def Info: finalA2013C.pdf, page5 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 5>
+Package pdftex.def Info: finalA2013C.pdf, page5 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [229 <./finalA2013C.pdf>]
+<finalA2013C.pdf, id=1532, page=6, 614.295pt x 794.97pt>
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 6>
+Package pdftex.def Info: finalA2013C.pdf, page6 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+ <use finalA2013C.pdf, page 6>
+Package pdftex.def Info: finalA2013C.pdf, page6 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 6>
+Package pdftex.def Info: finalA2013C.pdf, page6 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [230 <./finalA2013C.pdf>]
+<finalA2013C.pdf, id=1537, page=7, 614.295pt x 794.97pt>
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 7>
+Package pdftex.def Info: finalA2013C.pdf, page7 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+ <use finalA2013C.pdf, page 7>
+Package pdftex.def Info: finalA2013C.pdf, page7 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 7>
+Package pdftex.def Info: finalA2013C.pdf, page7 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [231 <./finalA2013C.pdf>]
+<finalA2013C.pdf, id=1544, page=8, 614.295pt x 794.97pt>
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 8>
+Package pdftex.def Info: finalA2013C.pdf, page8 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+ <use finalA2013C.pdf, page 8>
+Package pdftex.def Info: finalA2013C.pdf, page8 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 8>
+Package pdftex.def Info: finalA2013C.pdf, page8 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [232 <./finalA2013C.pdf>]
+<finalA2013C.pdf, id=1548, page=9, 614.295pt x 794.97pt>
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 9>
+Package pdftex.def Info: finalA2013C.pdf, page9 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+ <use finalA2013C.pdf, page 9>
+Package pdftex.def Info: finalA2013C.pdf, page9 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 9>
+Package pdftex.def Info: finalA2013C.pdf, page9 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [233 <./finalA2013C.pdf>]
+<finalA2013C.pdf, id=1552, page=10, 614.295pt x 794.97pt>
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 10>
+Package pdftex.def Info: finalA2013C.pdf, page10 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+ <use finalA2013C.pdf, page 10>
+Package pdftex.def Info: finalA2013C.pdf, page10 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2013C.pdf Graphic file (type pdf)
+
+<use finalA2013C.pdf, page 10>
+Package pdftex.def Info: finalA2013C.pdf, page10 used on input line 4942.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [234 <./finalA2013C.pdf>]
+<finalA2012C.pdf, id=1557, 614.295pt x 794.97pt>
+File: finalA2012C.pdf Graphic file (type pdf)
+ <use finalA2012C.pdf>
+Package pdftex.def Info: finalA2012C.pdf used on input line 4945.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: finalA2012C.pdf Graphic file (type pdf)
+
+<use finalA2012C.pdf>
+Package pdftex.def Info: finalA2012C.pdf used on input line 4945.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ <finalA2012C.pdf, id=1560, page=1, 614.295pt x 794.97pt>
+File: finalA2012C.pdf Graphic file (type pdf)
+
+<use finalA2012C.pdf, page 1>
+Package pdftex.def Info: finalA2012C.pdf, page1 used on input line 4945.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: finalA2012C.pdf Graphic file (type pdf)
+ <use finalA2012C.pdf, page 1>
+Package pdftex.def Info: finalA2012C.pdf, page1 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [235]
+File: finalA2012C.pdf Graphic file (type pdf)
+
+<use finalA2012C.pdf, page 1>
+Package pdftex.def Info: finalA2012C.pdf, page1 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2012C.pdf Graphic file (type pdf)
+ <use finalA2012C.pdf, page 1>
+Package pdftex.def Info: finalA2012C.pdf, page1 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2012C.pdf Graphic file (type pdf)
+
+<use finalA2012C.pdf, page 1>
+Package pdftex.def Info: finalA2012C.pdf, page1 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [236 <./finalA2012C.pdf>]
+<finalA2012C.pdf, id=1580, page=2, 614.295pt x 794.97pt>
+File: finalA2012C.pdf Graphic file (type pdf)
+
+<use finalA2012C.pdf, page 2>
+Package pdftex.def Info: finalA2012C.pdf, page2 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2012C.pdf Graphic file (type pdf)
+ <use finalA2012C.pdf, page 2>
+Package pdftex.def Info: finalA2012C.pdf, page2 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2012C.pdf Graphic file (type pdf)
+
+<use finalA2012C.pdf, page 2>
+Package pdftex.def Info: finalA2012C.pdf, page2 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [237 <./finalA2012C.pdf>]
+<finalA2012C.pdf, id=1587, page=3, 614.295pt x 794.97pt>
+File: finalA2012C.pdf Graphic file (type pdf)
+
+<use finalA2012C.pdf, page 3>
+Package pdftex.def Info: finalA2012C.pdf, page3 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2012C.pdf Graphic file (type pdf)
+ <use finalA2012C.pdf, page 3>
+Package pdftex.def Info: finalA2012C.pdf, page3 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2012C.pdf Graphic file (type pdf)
+
+<use finalA2012C.pdf, page 3>
+Package pdftex.def Info: finalA2012C.pdf, page3 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [238 <./finalA2012C.pdf>]
+<finalA2012C.pdf, id=1594, page=4, 614.295pt x 794.97pt>
+File: finalA2012C.pdf Graphic file (type pdf)
+
+<use finalA2012C.pdf, page 4>
+Package pdftex.def Info: finalA2012C.pdf, page4 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2012C.pdf Graphic file (type pdf)
+ <use finalA2012C.pdf, page 4>
+Package pdftex.def Info: finalA2012C.pdf, page4 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2012C.pdf Graphic file (type pdf)
+
+<use finalA2012C.pdf, page 4>
+Package pdftex.def Info: finalA2012C.pdf, page4 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [239 <./finalA2012C.pdf>]
+<finalA2012C.pdf, id=1598, page=5, 614.295pt x 794.97pt>
+File: finalA2012C.pdf Graphic file (type pdf)
+
+<use finalA2012C.pdf, page 5>
+Package pdftex.def Info: finalA2012C.pdf, page5 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2012C.pdf Graphic file (type pdf)
+ <use finalA2012C.pdf, page 5>
+Package pdftex.def Info: finalA2012C.pdf, page5 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2012C.pdf Graphic file (type pdf)
+
+<use finalA2012C.pdf, page 5>
+Package pdftex.def Info: finalA2012C.pdf, page5 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [240 <./finalA2012C.pdf>]
+<finalA2012C.pdf, id=1603, page=6, 614.295pt x 794.97pt>
+File: finalA2012C.pdf Graphic file (type pdf)
+
+<use finalA2012C.pdf, page 6>
+Package pdftex.def Info: finalA2012C.pdf, page6 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2012C.pdf Graphic file (type pdf)
+ <use finalA2012C.pdf, page 6>
+Package pdftex.def Info: finalA2012C.pdf, page6 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2012C.pdf Graphic file (type pdf)
+
+<use finalA2012C.pdf, page 6>
+Package pdftex.def Info: finalA2012C.pdf, page6 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [241 <./finalA2012C.pdf>]
+<finalA2012C.pdf, id=1607, page=7, 614.295pt x 794.97pt>
+File: finalA2012C.pdf Graphic file (type pdf)
+
+<use finalA2012C.pdf, page 7>
+Package pdftex.def Info: finalA2012C.pdf, page7 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2012C.pdf Graphic file (type pdf)
+ <use finalA2012C.pdf, page 7>
+Package pdftex.def Info: finalA2012C.pdf, page7 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2012C.pdf Graphic file (type pdf)
+
+<use finalA2012C.pdf, page 7>
+Package pdftex.def Info: finalA2012C.pdf, page7 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [242 <./finalA2012C.pdf>]
+<finalA2012C.pdf, id=1611, page=8, 614.295pt x 794.97pt>
+File: finalA2012C.pdf Graphic file (type pdf)
+
+<use finalA2012C.pdf, page 8>
+Package pdftex.def Info: finalA2012C.pdf, page8 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2012C.pdf Graphic file (type pdf)
+ <use finalA2012C.pdf, page 8>
+Package pdftex.def Info: finalA2012C.pdf, page8 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: finalA2012C.pdf Graphic file (type pdf)
+
+<use finalA2012C.pdf, page 8>
+Package pdftex.def Info: finalA2012C.pdf, page8 used on input line 4945.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [243 <./finalA2012C.pdf>] (./NotesINF8601.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 7556 strings out of 493029
+ 106178 string characters out of 6136233
+ 195399 words of memory out of 5000000
+ 10922 multiletter control sequences out of 15000+600000
+ 10934 words of font info for 39 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 40i,18n,51p,803b,1683s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on NotesINF8601.pdf (244 pages, 3340896 bytes).
+PDF statistics:
+ 1681 PDF objects out of 1728 (max. 8388607)
+ 878 compressed objects within 9 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 771 words of extra memory for PDF output out of 10000 (max. 10000000)
+
