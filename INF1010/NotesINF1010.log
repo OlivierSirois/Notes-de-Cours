@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.10)  16 DEC 2017 19:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.10)  10 JAN 2018 10:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**NotesLOG6308.tex
-(./NotesLOG6308.tex
+**NotesINF1010.tex
+(./NotesINF1010.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
@@ -576,12 +576,12 @@ File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
 \AM@templatesizebox=\box59
 )
 \@indexfile=\write3
-\openout3 = `NotesLOG6308.idx'.
+\openout3 = `NotesINF1010.idx'.
 
 
-Writing index file NotesLOG6308.idx
-(./NotesLOG6308.aux)
-\openout1 = `NotesLOG6308.aux'.
+Writing index file NotesINF1010.idx
+(./NotesINF1010.aux)
+\openout1 = `NotesINF1010.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
@@ -671,93 +671,129 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )) [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./NotesLOG6308.toc [1
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./NotesINF1010.toc)
+\tf@toc=\write4
+\openout4 = `NotesINF1010.toc'.
+
+ [1
 
 ]
-Overfull \hbox (1.8896pt too wide) in paragraph at lines 72--72
- [][] []\OT1/cmr/m/n/10 Collaborative Fil-ter-ing with Stacked De-nois-ing Au-t
-oEn-coders and 
+Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
  []
 
-[2])
-\tf@toc=\write4
-\openout4 = `NotesLOG6308.toc'.
 
- [3]
-Chapter 1.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 24.
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 34.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
-
-Overfull \hbox (14.70901pt too wide) in paragraph at lines 35--36
-[]\OT1/cmr/m/n/10 G^^Sen^^Seralement, la per-son-nal-i-sa-tion ^^Ra l'utilisate
-ur n^^Secessaite trois types d'information
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-
- []
-
-[4
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
+ [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 
-Overfull \hbox (2.83397pt too wide) in paragraph at lines 73--74
-\OT1/cmr/m/n/10 Comme par ex-em-ple de l'auto-compl^^Setion, du pr^^Se-chargeme
-nt(prefetching),
- []
-
-
-Overfull \hbox (27.8757pt too wide) in paragraph at lines 76--77
-[]\OT1/cmr/m/n/10 Environnement d'apprentissage: Comme vu pr^^Sec^^Sedemment, A
-LEKS, GradeSum-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
@@ -766,961 +802,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
-<grammaire_recursive.png, id=32, 771.88374pt x 374.39874pt>
-File: grammaire_recursive.png Graphic file (type png)
 
-<use grammaire_recursive.png>
-Package pdftex.def Info: grammaire_recursive.png used on input line 102.
-(pdftex.def)             Requested size: 199.16928pt x 96.60442pt.
- [7 <./grammaire_recursive.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
-<types_systeme_information.png, id=39, 765.86125pt x 523.9575pt>
-File: types_systeme_information.png Graphic file (type png)
 
-<use types_systeme_information.png>
-Package pdftex.def Info: types_systeme_information.png used on input line 130.
-(pdftex.def)             Requested size: 199.16928pt x 136.2577pt.
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
-Overfull \hbox (18.18907pt too wide) in paragraph at lines 137--138
- \OT1/cmr/bx/n/10 Syst^^Reme Ac-tif[] \OT1/cmr/m/n/10 Cherche ^^Ra cr^^Seer un 
-flot d'information en ex-trayant de l'information
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
- []
-
-[9 <./types_systeme_information.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
-
- []
-
-<matrice_features.png, id=46, 491.8375pt x 315.1775pt>
-File: matrice_features.png Graphic file (type png)
-
-<use matrice_features.png>
-Package pdftex.def Info: matrice_features.png used on input line 176.
-(pdftex.def)             Requested size: 199.16928pt x 127.63176pt.
- [10]
-<exemple_user_user.png, id=50, 204.765pt x 188.705pt>
-File: exemple_user_user.png Graphic file (type png)
-
-<use exemple_user_user.png>
-Package pdftex.def Info: exemple_user_user.png used on input line 187.
-(pdftex.def)             Requested size: 199.16928pt x 183.55904pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
-
- []
-
-[11 <./matrice_features.png> <./exemple_user_user.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
-
- []
-
-<resultats_user_user.png, id=54, 299.1175pt x 172.645pt>
-File: resultats_user_user.png Graphic file (type png)
-
-<use resultats_user_user.png>
-Package pdftex.def Info: resultats_user_user.png used on input line 224.
-(pdftex.def)             Requested size: 199.16928pt x 114.95763pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
-
- []
-
-<demarche_user_user.png, id=55, 534.99875pt x 124.465pt>
-File: demarche_user_user.png Graphic file (type png)
-
-<use demarche_user_user.png>
-Package pdftex.def Info: demarche_user_user.png used on input line 234.
-(pdftex.def)             Requested size: 199.16928pt x 46.3362pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
-
- []
-
-[12 <./resultats_user_user.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
-
- []
-
-<resultats_cosinus.png, id=65, 308.15125pt x 172.645pt>
-File: resultats_cosinus.png Graphic file (type png)
-
-<use resultats_cosinus.png>
-Package pdftex.def Info: resultats_cosinus.png used on input line 255.
-(pdftex.def)             Requested size: 199.16928pt x 111.58829pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
-
- []
-
-[13 <./demarche_user_user.png> <./resultats_cosinus.png>]
-<knn.png, id=70, 370.38374pt x 173.64874pt>
-File: knn.png Graphic file (type png)
- <use knn.png>
-Package pdftex.def Info: knn.png used on input line 274.
-(pdftex.def)             Requested size: 199.16928pt x 93.37941pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
-
- []
-
-
-Overfull \hbox (4.11176pt too wide) in paragraph at lines 294--295
-[]\OT1/cmr/m/n/10 compar^^Sement ^^Ra l'algorithme utilisateur-utilisateur, l'i
-tem-item utilise la m^eme
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-
- []
-
-[14 <./knn.png>] <item_item.png, id=74, 544.0325pt x 207.77625pt>
-File: item_item.png Graphic file (type png)
-
-<use item_item.png>
-Package pdftex.def Info: item_item.png used on input line 298.
-(pdftex.def)             Requested size: 199.16928pt x 76.06755pt.
- <probleme_item_item.png, id=75, 513.92pt x 324.21124pt>
-File: probleme_item_item.png Graphic file (type png)
-
-<use probleme_item_item.png>
-Package pdftex.def Info: probleme_item_item.png used on input line 306.
-(pdftex.def)             Requested size: 199.16928pt x 125.65034pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
-
- []
-
-[15 <./item_item.png> <./probleme_item_item.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
-
- []
-
-[16] <ROC.png, id=82, 385.44pt x 324.21124pt>
-File: ROC.png Graphic file (type png)
- <use ROC.png>
-Package pdftex.def Info: ROC.png used on input line 352.
-(pdftex.def)             Requested size: 199.16928pt x 167.52719pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
-
- []
-
-[17 <./ROC.png>]
-Chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
-
- []
-
-<contenu.png, id=86, 513.92pt x 332.24126pt>
-File: contenu.png Graphic file (type png)
- <use contenu.png>
-Package pdftex.def Info: contenu.png used on input line 377.
-(pdftex.def)             Requested size: 199.16928pt x 128.76242pt.
- [18
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 410--411
-
- []
-
-
-Overfull \hbox (35.38757pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE CONTENUE, PAGERANK ET UN PEU DE BAY[]ESI
-EN \OT1/cmr/m/n/10 19
- []
-
-[19 <./contenu.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 419--420
-
- []
-
-
-Overfull \hbox (1.38931pt too wide) in paragraph at lines 428--429
-[]\OT1/cmr/m/n/10 Le probl^^Reme avec ce cal-cul est que la com-bi-nai-son de f
-ac-teurs di-vise les fr^^Sequences
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 434--435
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 442--443
-
- []
-
-
-Overfull \hbox (4.58386pt too wide) in paragraph at lines 444--445
-[]\OT1/cmr/m/n/10 La valeur at-ten-due d'un vote (sur une ^^Sechelle or-donn^^S
-ee) est la somme pond^^Ser^^See
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 444--445
-
- []
-
-
-Overfull \hbox (1.77835pt too wide) in paragraph at lines 450--451
-[]\OT1/cmr/m/n/10 La for-mu-la-tion de cette ^^Sequation dans le con-texte d'es
-itmer le vote de l'utilisateur
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 450--451
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 459--460
-
- []
-
-
-Overfull \hbox (35.38757pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE CONTENUE, PAGERANK ET UN PEU DE BAY[]ESI
-EN \OT1/cmr/m/n/10 20
- []
-
-[20]
-Overfull \hbox (19.08388pt too wide) in paragraph at lines 465--466
-\OT1/cmr/m/n/10 blit^^Ses et de d^^Seterminer un nom-bre ad^^Sequat de classes 
-par des tech-niques d'exploration
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 465--466
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 467--468
-
- []
-
-<decision_tree.png, id=97, 511.9125pt x 246.9225pt>
-File: decision_tree.png Graphic file (type png)
- <use decision_tree.png>
-Package pdftex.def Info: decision_tree.png used on input line 471.
-(pdftex.def)             Requested size: 199.16928pt x 96.06953pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--477
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 482--483
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 484--485
-
- []
-
-
-Overfull \hbox (35.38757pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE CONTENUE, PAGERANK ET UN PEU DE BAY[]ESI
-EN \OT1/cmr/m/n/10 21
- []
-
-[21 <./decision_tree.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 509--510
-
- []
-
-<breese.png, id=101, 550.055pt x 291.0875pt>
-File: breese.png Graphic file (type png)
- <use breese.png>
-Package pdftex.def Info: breese.png used on input line 516.
-(pdftex.def)             Requested size: 199.16928pt x 105.39992pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 521--522
-
- []
-
-
-Overfull \hbox (35.38757pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE CONTENUE, PAGERANK ET UN PEU DE BAY[]ESI
-EN \OT1/cmr/m/n/10 22
- []
-
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 523--524
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--526
-
- []
-
-<corpus.png, id=105, 397.485pt x 272.01625pt>
-File: corpus.png Graphic file (type png)
- <use corpus.png>
-Package pdftex.def Info: corpus.png used on input line 529.
-(pdftex.def)             Requested size: 199.16928pt x 136.30247pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 536--537
-
- []
-
-
-Overfull \hbox (35.38757pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE CONTENUE, PAGERANK ET UN PEU DE BAY[]ESI
-EN \OT1/cmr/m/n/10 23
- []
-
-[23 <./breese.png> <./corpus.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 538--539
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 540--541
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 551--552
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 553--554
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 555--556
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--565
-
- []
-
-
-Overfull \hbox (35.38757pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE CONTENUE, PAGERANK ET UN PEU DE BAY[]ESI
-EN \OT1/cmr/m/n/10 24
- []
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 575--576
-
- []
-
-<pagerank_scores.png, id=113, 280.04625pt x 304.13625pt>
-File: pagerank_scores.png Graphic file (type png)
-
-<use pagerank_scores.png>
-Package pdftex.def Info: pagerank_scores.png used on input line 587.
-(pdftex.def)             Requested size: 199.16928pt x 216.3095pt.
-
-<matrice_adjacance.png, id=114, 228.855pt x 296.10625pt>
-File: matrice_adjacance.png Graphic file (type png)
-
-<use matrice_adjacance.png>
-Package pdftex.def Info: matrice_adjacance.png used on input line 594.
-(pdftex.def)             Requested size: 199.16928pt x 257.70523pt.
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--600
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 601--602
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 604--605
-
- []
-
-
-Overfull \hbox (35.38757pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE CONTENUE, PAGERANK ET UN PEU DE BAY[]ESI
-EN \OT1/cmr/m/n/10 25
- []
-
-[25] <transition.png, id=119, 387.4475pt x 203.76125pt>
-File: transition.png Graphic file (type png)
- <use transition.png>
-Package pdftex.def Info: transition.png used on input line 608.
-(pdftex.def)             Requested size: 199.16928pt x 104.74388pt.
-
-Overfull \hbox (35.38757pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE CONTENUE, PAGERANK ET UN PEU DE BAY[]ESI
-EN \OT1/cmr/m/n/10 26
- []
-
-[26 <./pagerank_scores.png>]
-Overfull \hbox (35.38757pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 CHAPTER 2.  M[]ETHODE CONTENUE, PAGERANK ET UN PEU DE BAY[]ESI
-EN \OT1/cmr/m/n/10 27
- []
-
-[27 <./matrice_adjacance.png> <./transition.png>]
-Chapter 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 618--619
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 620--621
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 622--623
-
- []
-
-<graphic_representation.png, id=126, 380.42125pt x 281.05pt>
-File: graphic_representation.png Graphic file (type png)
-
-<use graphic_representation.png>
-Package pdftex.def Info: graphic_representation.png used on input line 626.
-(pdftex.def)             Requested size: 199.16928pt x 147.14604pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 632--633
-
- []
-
-[28
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 638--639
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--641
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 648--649
-
- []
-
-[29 <./graphic_representation.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 661--662
-
- []
-
-<SVD.png, id=133, 835.12pt x 379.4175pt>
-File: SVD.png Graphic file (type png)
- <use SVD.png>
-Package pdftex.def Info: SVD.png used on input line 665.
-(pdftex.def)             Requested size: 345.0pt x 156.74323pt.
-
-Overfull \hbox (6.68828pt too wide) in paragraph at lines 674--675
- \OT1/cmr/bx/n/10 Ex-em-ple dans le do-maine de la RI[] \OT1/cmr/m/n/10 Le do-m
-aine de la recherche d'information
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 674--675
-
- []
-
-<recherche_information.png, id=134, 209.78375pt x 117.43875pt>
-File: recherche_information.png Graphic file (type png)
-
-<use recherche_information.png>
-Package pdftex.def Info: recherche_information.png used on input line 678.
-(pdftex.def)             Requested size: 85.35826pt x 47.78462pt.
-
-<exemple_contenu.png, id=135, 467.7475pt x 182.6825pt>
-File: exemple_contenu.png Graphic file (type png)
-
-<use exemple_contenu.png>
-Package pdftex.def Info: exemple_contenu.png used on input line 685.
-(pdftex.def)             Requested size: 113.81102pt x 44.44957pt.
- <matrice_terme.png, id=136, 457.71pt x 292.09125pt>
-File: matrice_terme.png Graphic file (type png)
-
-<use matrice_terme.png>
-Package pdftex.def Info: matrice_terme.png used on input line 692.
-(pdftex.def)             Requested size: 113.81102pt x 72.62595pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 697--698
-
- []
-
-[30 <./SVD.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 699--700
-
- []
-
-
-Overfull \hbox (19.56293pt too wide) in paragraph at lines 703--703
-[]\OT1/cmr/bx/n/14.4 Factorisation en Valeur non-n^^Segative + Valeurs
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 704--705
-
- []
-
-[31 <./recherche_information.png> <./exemple_contenu.png> <./matrice_terme.png>
-]
-Underfull \hbox (badness 10000) in paragraph at lines 710--711
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 712--713
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 714--715
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 723--724
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 730--731
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 736--737
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 742--743
-
- []
-
-[32]
-Underfull \hbox (badness 10000) in paragraph at lines 744--745
-
- []
-
-[33]
-Chapter 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 751--752
-
- []
-
-
-Overfull \hbox (36.53198pt too wide) in paragraph at lines 755--756
-[]\OT1/cmr/bx/n/10 Connaissances\OT1/cmr/m/n/10 : tr^^Res im-por-tant pour les 
-syst^^Remes d'aide, les guide d'apprentissage
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 759--760
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 761--762
-
- []
-
-
-Overfull \hbox (4.0839pt too wide) in paragraph at lines 766--767
-[]\OT1/cmr/m/n/10 Exerciseur: adapte la dif-fi-cult^^Se des ex-er-ci-ces/items 
-au niveau de l'apprenant 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 769--770
-
- []
-
-[34
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 771--772
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 778--779
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 780--781
-
- []
-
-
-Overfull \hbox (20.26918pt too wide) in paragraph at lines 782--783
-[]\OT1/cmr/m/n/10 On fait l'estimation des param^etres par ap-pren-tis-sage par
- ing^^Senierie. L'estimation
- []
-
-
-Overfull \hbox (26.72284pt too wide) in paragraph at lines 782--783
-\OT1/cmr/m/n/10 des param^etres par ap-pren-tis-sage avec des donn^^Sees em-pir
-iques per-met l'automatisation
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 782--783
-
- []
-
-<latent_observable.png, id=153, 257.96375pt x 97.36375pt>
-File: latent_observable.png Graphic file (type png)
-
-<use latent_observable.png>
-Package pdftex.def Info: latent_observable.png used on input line 786.
-(pdftex.def)             Requested size: 199.16928pt x 75.17532pt.
-
-Overfull \hbox (5.01913pt too wide) in paragraph at lines 791--792
-\OT1/cmr/m/n/10 param^etres la-tents puisqu'il ne sont ja-mais (??). Dans la re
-pr^^Sesentation graphique
- []
-
-[35 <./latent_observable.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 793--794
-
- []
-
-
-Overfull \hbox (8.87091pt too wide) in paragraph at lines 795--796
-\OT1/cmr/m/n/10 su-jets. On ap-pelle ce terme Q-matrix (q-matrice). Chaque ques
--tion est repr^^Sesenter
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 795--796
-
- []
-
-<q_matrix.png, id=157, 529.98pt x 350.30875pt>
-File: q_matrix.png Graphic file (type png)
- <use q_matrix.png>
-Package pdftex.def Info: q_matrix.png used on input line 799.
-(pdftex.def)             Requested size: 199.16928pt x 131.64876pt.
-
-Overfull \hbox (2.41809pt too wide) in paragraph at lines 809--810
-[]\OT1/cmr/m/n/10 un mod^^Rele \OT1/cmr/bx/n/10 com-pen-satoire\OT1/cmr/m/n/10 
-, ou chaque comp^^Setences con-tribue lin^^Seairement
- []
-
-[36 <./q_matrix.png>]
-Overfull \hbox (14.1117pt too wide) in paragraph at lines 822--823
-\OT1/cmr/m/n/10 On peut aussi utiliser des ^^Sel^^Sements ob-serv-ables comme ^
-^Sevidence pour l'appartenance
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 822--823
-
- []
-
-
-Overfull \hbox (14.34131pt too wide) in paragraph at lines 828--829
-[]\OT1/cmr/m/n/10 ou $\OML/cmm/m/it/10 x[]$ \OT1/cmr/m/n/10 repr^^Sesente le su
-cc^^Res ou l'^^Sechec ^^Ra l'item cor-re-spon-dant. On abr^^Rege g^^Sen^^Serale
-ment
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 828--829
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 834--835
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 840--841
-
- []
-
-[37]
-Underfull \hbox (badness 10000) in paragraph at lines 858--859
-
- []
-
-<bayes_network_knowledge.png, id=165, 284.06125pt x 204.765pt>
-File: bayes_network_knowledge.png Graphic file (type png)
-
-<use bayes_network_knowledge.png>
-Package pdftex.def Info: bayes_network_knowledge.png used on input line 864.
-(pdftex.def)             Requested size: 85.35826pt x 61.52994pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 873--874
-
- []
-
-[38 <./bayes_network_knowledge.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 875--876
-
- []
-
-
-Overfull \hbox (10.38943pt too wide) in paragraph at lines 883--884
-[]\OT1/cmr/m/n/10 Les nou-velles prob-a-blit^^Ses sont r^^Seutilis^^Sees pour c
-r^^Seer de nou-veaux ^^Sechantillons. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 888--889
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 894--895
-
- []
-
-<sigmoide.png, id=169, 578.16pt x 479.7925pt>
-File: sigmoide.png Graphic file (type png)
- <use sigmoide.png>
-Package pdftex.def Info: sigmoide.png used on input line 902.
-(pdftex.def)             Requested size: 142.26378pt x 118.05899pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 907--908
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 913--914
-
- []
-
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 923--924
-
- []
-
-<graph_theta.png, id=173, 344.28625pt x 303.1325pt>
-File: graph_theta.png Graphic file (type png)
- <use graph_theta.png>
-Package pdftex.def Info: graph_theta.png used on input line 927.
-(pdftex.def)             Requested size: 170.71652pt x 150.30775pt.
-
-[40 <./sigmoide.png> <./graph_theta.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 939--940
-
  []
 
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
-Underfull \hbox (badness 10000) in paragraph at lines 945--946
-
- []
-
-<tri.png, id=177, 391.4625pt x 361.35pt>
-File: tri.png Graphic file (type png)
- <use tri.png>
-Package pdftex.def Info: tri.png used on input line 949.
-(pdftex.def)             Requested size: 199.16928pt x 183.85048pt.
- [41 <./tri.png>]
-Chapter 5.
-
-Underfull \hbox (badness 10000) in paragraph at lines 957--958
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 959--960
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 961--962
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 963--964
-
- []
-
-[42
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 965--966
-
- []
-
-
-Overfull \hbox (7.334pt too wide) in paragraph at lines 968--969
-[]\OT1/cmr/m/n/10 https://spectrum.ieee.org/computing/software/deconstructing-r
-ecommender-
  []
-
-[43] [44]
-Overfull \hbox (10.89803pt too wide) in paragraph at lines 1029--1029
-[]\OT1/cmr/bx/n/14.4 Multicriteria User Mod-el-ing in Rec-om-mender
- []
-
-[45] [46]
-Overfull \hbox (2.79631pt too wide) in paragraph at lines 1063--1063
-[]\OT1/cmr/bx/n/14.4 User-Based Collaborative-Filtering Rec-om-
- []
-
-[47] [48] [49] [50]
-Overfull \hbox (9.97961pt too wide) in paragraph at lines 1205--1205
-[]\OT1/cmr/bx/n/14.4 Comparing context-aware rec-om-mender sys-
- []
-
-[51] [52] (./NotesLOG6308.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
- ) 
+[6] (./NotesINF1010.aux) ) 
 Here is how much of TeX's memory you used:
- 5072 strings out of 493029
- 71826 string characters out of 6136233
- 145612 words of memory out of 5000000
- 8485 multiletter control sequences out of 15000+600000
- 10934 words of font info for 39 fonts, out of 8000000 for 9000
+ 4889 strings out of 493029
+ 68129 string characters out of 6136233
+ 141292 words of memory out of 5000000
+ 8333 multiletter control sequences out of 15000+600000
+ 10281 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,32p,1617b,313s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on NotesLOG6308.pdf (53 pages, 739053 bytes).
+ 38i,7n,32p,680b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on NotesINF1010.pdf (7 pages, 96249 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 170 compressed objects within 2 object streams
+ 56 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

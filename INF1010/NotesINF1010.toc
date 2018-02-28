@@ -1,0 +1,10 @@
+\contentsline {paragraph}{Plan de cours}{1}
+\contentsline {chapter}{\numberline {1}S\IeC {\'e}ances de Cours 1}{2}
+\contentsline {section}{\numberline {1.1}Concepts de base orient\IeC {\'e}-objet et constructeur/destructeur}{2}
+\contentsline {paragraph}{dogme}{2}
+\contentsline {paragraph}{encapsulation}{4}
+\contentsline {paragraph}{constructeur}{4}
+\contentsline {paragraph}{destructeur}{4}
+\contentsline {section}{\numberline {1.2}Allocation de m\IeC {\'e}moire dynamique}{5}
+\contentsline {paragraph}{Automatique}{5}
+\contentsline {paragraph}{Dynamique}{5}

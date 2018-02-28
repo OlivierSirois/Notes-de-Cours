@@ -951,59 +951,273 @@ Ces fonctions donne comme résultats finaux:\\
 \label{fig:tri}
 \end{figure}
 
-\iffalse
 \chapter{Articles}
 
 \section{Deconstructing Recommender Systems}
+ One morning in April, we each directed our browsers to Amazon.com’s website. Not only did the site greet us by name, the home page opened with a host of suggested purchases. It directed Joe to Barry Greenstein’s Ace on the River: An Advanced Poker Guide, Jonah Lehrer’s Imagine: How Creativity Works, and Michael Lewis’s Boomerang: Travels in the New Third World. For John it selected Dave Barry’s Only Travel Guide You’ll Ever Need, the spy novel Mission to Paris, by Alan Furst, and the banking exposé The Big Short: Inside the Doomsday Machine, also by Michael Lewis.\\
+
+By now, online shoppers are accustomed to getting these personalized suggestions. Netflix suggests videos to watch. TiVo records programs on its own, just in case we’re interested. And Pandora builds personalized music streams by predicting what we’ll want to listen to.\\
+
+All of these suggestions come from recommender systems. Driven by computer algorithms, recommenders help consumers by selecting products they will probably like and might buy based on their browsing, searches, purchases, and preferences. Designed to help retailers boost sales, recommenders are a huge and growing business. Meanwhile, the field of recommender system development has grown from a couple of dozen researchers in the mid-1990s to hundreds of researchers today—working for universities, the large online retailers, and dozens of other companies whose sole focus is on these types of systems.\\
+
+Over the years, recommenders have evolved considerably. They started as relatively crude and often inaccurate predictors of behavior. But the systems improved quickly as more and different types of data about website users became available and they were able to apply innovative algorithms to that data. Today, recommenders are extremely sophisticated and specialized systems that often seem to know you better than you know yourself. And they’re expanding beyond retail sites. Universities use them to steer students to courses. Cellphone companies rely on them to predict which users are in danger of switching to another provider. And conference organizers have tested them for assigning papers to peer reviewers.\\
+
+The two of us have been building and studying recommender systems since their early days, initially as academic researchers working on the GroupLens Project. Begun in 1992, GroupLens sorted through messages in Usenet discussion forums and pointed users to threads they might be interested in but had not yet discovered on their own. Several years later, we founded Net Perceptions, the leading recommender company during the first Internet boom. Our experience, therefore, gives us a lot of insight into what’s going on behind the scenes at Amazon and other online retailers, even though those companies seldom speak publicly about exactly how their recommendations work. (In this article, our analysis is based on educated observation and deduction, not on any inside information.) Here’s what we know.\\
+
+
+https://spectrum.ieee.org/computing/software/deconstructing-recommender-systems
 
 \section{Content-Boosted Collaborative Filtering for Improved Recommendations}
+\paragraph{Abstract}
+Most  recommender  systems  use  Collaborative  Filtering  or
+Content-based  methods  to predict  new  items of interest for
+a user.  While both methods have their own advantages, indi-
+vidually they fail to provide good recommendations in many
+situations.  Incorporating components from both methods, a
+hybrid recommender system can overcome these shortcom-
+ings. In this paper, we present an elegant and effective frame-
+work for combining content and collaboration. Our approach
+uses a content-based predictor to enhance existing user data,
+and then provides  personalized  suggestions  through  collab-
+orative filtering.  We present experimental results that show
+how this approach,
+Content-Boosted Collaborative Filtering
+,
+performs better than a pure content-based predictor, pure col-
+laborative filter, and a naive hybrid approach.
+
+\paragraph{Conclusion}
+
+Incorporating content information into collaborative filter-
+ing can significantly improve predictions of a recommender
+system.   In this paper, we have provided an effective way
+of  achieving  this.   We  have  shown  how  Content-boosted
+Collaborative Filtering performs better than a pure content-
+based predictor, collaborative filtering, and a naive hybrid of
+the two.
+CBCF  elegantly  exploits  content  within  a  collaborative
+framework. It overcomes the disadvantages of both collabo-
+rative filtering and content-based methods, by bolstering CF
+with content and vice versa. Further, due to the modular na-
+ture of our framework, any improvements in collaborative
+filtering or content-based recommending can be easily ex-
+ploited to build a more powerful system.
+Although
+CBCF  performs  consistently  better  than  pure
+CF,  the  difference in  performance is  not  very  large (
+4
+\%).
+The performance of our system can be boosted by using the
+methods described earlier.  Experiments comparing the dif-
+ferent approaches of combining content and collaboration,
+outlined in the previous section, are also needed.
 
 \section{On the recommending of citations for research papers}
-
+\paragraph{Abstract}
+Collaborative filtering has proven to be valuable for recommending items in many different domains. In this paper, we explore the use of collaborative filtering to recommend research papers, using the citation web between papers to create the ratings matrix. Specifically, we tested the ability of collaborative filtering to recommend citations that would be suitable additional references for a target research paper. We investigated six algorithms for selecting citations, evaluating them through offline experiments against a database of over 186,000 research papers contained in ResearchIndex. We also performed an online experiment with over 120 users to gauge user opinion of the effectiveness of the algorithms and of the utility of such recommendations for common research tasks. We found large differences in the accuracy of the algorithms in the offline experiment, especially when balanced for coverage. In the online experiment, users felt they received quality recommendations, and were enthusiastic about the idea of receiving recommendations in this domain.
 \section{Bringing PageRank to the citation analysis}
-
+\paragraph{Abstract}
+The paper attempts to provide an alternative method for measuring the importance of scientific papers based on the Google’s PageRank. The method is a meaningful extension of the common integer counting of citations and is then experimented for bringing PageRank to the citation analysis in a large citation network. It offers a more integrated picture of the publications’ influence in a specific field. We firstly calculate the PageRanks of scientific papers. The distributional characteristics and comparison with the traditionally used number of citations are then analyzed in detail. Furthermore, the PageRank is implemented in the evaluation of research influence for several countries in the field of Biochemistry and Molecular Biology during the time period of 2000–2005. Finally, some advantages of bringing PageRank to the citation analysis are concluded.
 \section{The YouTube video recommendation system}
-
+\paragraph{Abstract}
+We discuss the video recommendation system in use at YouTube, the world's most popular online video community. The system recommends personalized sets of videos to users based on their activity on the site. We discuss some of the unique challenges that the system faces and how we address them. In addition, we provide details on the experimentation and evaluation framework used to test and tune new algorithms. We also present some of the findings from these experiments.
 \section{Matrix Factorization for Recommender Systems}
-
+??
 \section{Deep Neural Networks for YouTube Recommendations}
-
+\paragraph{Abstract}
+YouTube represents one of the largest scale and most sophisticated industrial recommendation systems in existence. In this paper, we describe the system at a high level and focus on the dramatic performance improvements brought by deep learning. The paper is split according to the classic two-stage information retrieval dichotomy: first, we detail a deep candidate generation model and then describe a separate deep ranking model. We also provide practical lessons and insights derived from designing, iterating and maintaining a massive recommendation system with enormous user-facing impact. 
 \section{Multicriteria User Modeling in Recommender Systems}
-
+\paragraph{Abstract}
+The paper mentions that a hybrid recommender systems framework creates user-profile groups before applying a collaborative-filtering algorithm by incorporating techniques from the multiple-criteria decision-analysis (MCDA) field.
 \section{Recommendation Systems for Software Engineering}
-
+\paragraph{Abstract}
+Software development can be challenging because of the large information spaces that developers must navigate. Without assistance, developers can become bogged down and spend a disproportionate amount of their time seeking information at the expense of other value-producing tasks. Recommendation systems for software engineering (RSSEs) are software tools that can assist developers with a wide range of activities, from reusing code to writing effective bug reports. The authors provide an overview of recommendation systems for software engineering: what they are, what they can do for developers, and what they might do in the future.
 \section{An energy efficient mobile recommender systems}
-
+??
 \section{AutoRec : Autoencoder meet Collaborative Filtering}
-asdasdasd
+\paragraph{Abstract}
+This paper proposes AutoRec, a novel autoencoder frame-
+work for collaborative filtering (CF). Empirically, AutoRec’s
+compact and efficiently trainable model outperforms state-
+of-the-art CF techniques (biased matrix factorization, RBM-
+CF and LLORMA) on the Movielens and Netflix datasets.
 \section{Collaborative Filtering with Stacked Denoising AutoEncoders and Sparse Inputs}
-
+\paragraph{Abstract}
+Neural networks have not been widely studied in Collaborative Filtering.
+For instance, no paper using neural networks was published during the Net-
+flix Prize apart from Salakhutdinov et al’s work on Restricted Boltzmann
+Machine (RBM) [14].  While deep learning has tremendous success in image
+and speech recognition, sparse inputs received less attention and remains
+a challenging problem for neural networks.  Nonetheless, sparse inputs are
+critical for collaborative filtering.  In this paper, we introduce a neural net-
+work architecture which computes a non-linear matrix factorization from
+sparse rating inputs.  We show experimentally on the movieLens and jester
+dataset that our method performs as well as the best collaborative filtering
+algorithms.  We provide an implementation of the algorithm as a reusable
+plugin for Torch [4], a popular neural network framework
 \section{Predicting User Tasks : I know what you are doing}
-
+??
 \section{Fewer Clicks and Less Frustration: Reducing the Cost of Reaching the Right Folder }
-
+\paragraph{Abstract}
+Helping computer users rapidly locate files in their folder hierarchies has become an important research topic in today's intelligent user interface design. This paper reports on FolderPredictor, a software system that can reduce the cost of locating files in hierarchical folders. FolderPredictor applies a cost-sensitive prediction algorithm to the user's previous file access information to predict the next folder that will be accessed. Experimental results show that, on average, FolderPredictor reduces the cost of locating a file by 50\%. Another advantage of FolderPredictor is that it does not require users to adapt to a new interface, but rather meshes with the existing interface for opening files on the Windows platform.
 \section{User-Based Collaborative-Filtering Recommendation Algorithms on Hadoop}
-
+\paragraph{Abstract}
+Collaborative Filtering(CF) algorithms are widely used in a lot of recommender systems, however, the computational complexity of CF is high thus hinder their use in large scale systems. In this paper, we implement user-based CF algorithm on a cloud computing platform, namely Hadoop, to solve the scalability problem of CF. Experimental results show that a simple method that partition users into groups according to two basic principles, i.e., tidy arrangement of mapper number to overcome the initiation of mapper and partition task equally such that all processors finish task at the same time, can achieve linear speedup
 \section{Scaling-Up Item-Based Collaborative Filtering Recommendation Algorithm Based on Hadoop}
-
+\paragraph{Abstract}
+Collaborative filtering (CF) techniques have achieved widespread success in E-commerce nowadays. The tremendous growth of the number of customers and products in recent years poses some key challenges for recommender systems in which high quality recommendations are required and more recommendations per second for millions of customers and products need to be performed. Thus, the improvement of scalability and efficiency of collaborative filtering (CF) algorithms become increasingly important and difficult. In this paper, we developed and implemented a scaling-up item-based collaborative filtering algorithm on MapReduce, by splitting the three most costly computations in the proposed algorithm into four Map-Reduce phases, each of which can be independently executed on different nodes in parallel. We also proposed efficient partition strategies not only to enable the parallel computation in each Map-Reduce phase but also to maximize data locality to minimize the communication cost. Experimental results effectively showed the good performance in scalability and efficiency of the item-based CF algorithm on a Hadoop cluster.
 \section{Benefits and costs of adaptive user interfaces}
+\paragraph{Abstract}
+The paper examines the positive and the possible adverse effects of adaptive user interfaces (AUIs) in the context of an in-vehicle
+telematic system as a function of four factors: (1) four different levels of adaptivity (ranging from manual to fully adaptive with
+intermediate levels); (2) different tasks; (3) routine (familiar) and non-routine (unfamiliar) situations; and (4) different user age groups.
+Both experiments included three sessions during which participants drove a simple driving simulator and performed tasks with the
+telematic system at one of the adaptivity levels. We measured task performance times and lane position variance. Adaptivity was not
+always equally beneficial, and its benefits depended on a number of factors, including the frequency in which the tasks were performed,
+the user’s age, the difficulty of the task and the user’s involvement in the task. In familiar, routine situations, a fully adaptive system was
+beneficial for all participants, particularly older ones. In unfamiliar situations, to which the AUI was not adjusted, cognitive workload
+increased substantially, adversely affecting performance. Intermediate levels of adaptivity keep users involved in the task and help them
+become more proficient when performing both routine and non-routine tasks. However, intermediate levels of adaptivity should also be
+implemented with care, because they may also have adverse effects when users encounter non-routine situations.
 
-\section{Automatic Annotation of Daily Activity from Smartphone-Based Multisensory Streams}
 
 \section{Being Accurate is Not Enough: How Accuracy Metrics have hurt Recommender Systems }
-
+\paragraph{Abstract}
+Recommender systems have shown great potential to 
+help users find interesting and relevant items from 
+within a large information space.  Most research up to 
+this point has focused on improving the accuracy of 
+recommender systems.  We be
+lieve that not only has 
+this narrow focus been misguided, but has even been 
+detrimental to the field.  The recommendations that are 
+most accurate according to the standard metrics are 
+sometimes not the recommendations that are most 
+useful to users. In this paper, we propose informal 
+arguments that the recommender community should 
+move beyond the conventional accuracy metrics and 
+their associated experimental methodologies.  We 
+propose new user-centric directions for evaluating 
+recommender systems
 \section{The Impact of YouTube Recommendation System on Video Views}
+\paragraph{Abstract}
+Hosting a collection of millions of videos, YouTube offers
+several features to help users discover the videos of their in-
+terest. For example, YouTube provides video search, related
+video recommendation and front page highlight. The under-
+standing of how these features drive video views is useful for
+creating a strategy to drive video popularity.  In this pa-
+per, we perform a measurement study on data sets crawled
+from YouTube and find that the related video recommenda-
+tion, which recommends the videos that are related to the
+video a user is watching, is one of the most important view
+sources of videos. Despite the fact that the YouTube video
+search is the number one source of views in aggregation, the
+related video recommendation is the main source of views
+for the majority of the videos on YouTube. Furthermore,
+our results reveal that there is a strong correlation between
+the view count of a video and the average view count of its
+top referrer videos. This implies that a video has a higher
+chance to become popular when it is placed on the related
+video recommendation lists of popular videos. We also find
+that the click through rate from a video to its related videos
+is high and the position of a video in a related video list
+plays a critical role in the click through rate. Finally, our
+evaluation of the impact of the related video recommenda-
+tion system on the diversity of video views indicates that
+the current recommendation system helps to increase the
+diversity of video views in aggregation.
 
 \section{LinkedVis: exploring social and semantic career recommendations}
+\paragraph{Abstract}
+This paper presents LinkedVis, an interactive visual recommender system that combines social and semantic knowledge to produce career recommendations based on the LinkedIn API. A collaborative (social) approach is employed to identify professionals with similar career paths and produce personalized recommendations of both companies and roles. To unify semantically identical but lexically distinct entities and arrive at better user models, we employ lightweight natural language processing and entity resolution using semantic information from a variety of end-points on the web. Elements from the underlying recommendation algorithm are exposed through an interactive interface that allows users to manipulate different aspects of the algorithm and the data it operates on, allowing users to explore a variety of "what-if" scenarios around their current profile. We evaluate LinkedVis through leave-one-out accuracy and diversity experiments on a data corpus collected from 47 users and their LinkedIn connections, as well as through a supervised study of 27 users exploring their own profile and recommendations interactively. Results show that our approach outperforms a benchmark recommendation algorithm without semantic resolution in terms of accuracy and diversity, and that the ability to tweak recommendations interactively by adjusting profile item and social connection weights further improves predictive accuracy. Questionnaires on the user experience with the explanatory and interactive aspects of the application reveal very high user acceptance and satisfaction.
 
 \section{Recommender Systems – Beyond Matrix Completion}
-
+\paragraph{Abstract}
+The use of recommender systems has exploded over the
+last decade, making personalized recommendations ubiqui-
+tous online. Most of the major companies, including Google,
+Facebook,  Twitter,  LinkedIn,  Netflix,  Amazon,  Microsoft,
+Yahoo!,  eBay,  Pandora,  Spotify  and  many  others  use  rec-
+ommender systems (RS) within their services.
+These systems are used to recommend a whole range of
+items, including consumer products, movies, songs, friends,
+news articles, restaurants and various others.  Recommender
+systems  constitute  a  mission-critical  technology  in  several
+companies.  For example, Netflix reports that at least 75%
+of  their  downloads  and  rentals  come  from  their  RS,  thus
+making it of strategic importance to the company
+1
+.
+In some ways, the systems that produce these recommen-
+dations are remarkable.  They incorporate a variety of sig-
+nals about characteristics of the users and items, including
+people’s explicit or implicit evaluations of items.  The sys-
+tems  process  these  signals  at  a  massive  scale,  often  under
+real-time constraints.  Most importantly, the recommenda-
+tions are of significant quality on average.  In empirical tests,
+people choose the suggested items far more often than they
+choose suggested items based on unpersonalized benchmark
+algorithms such as overall popularity.
+In other ways, the systems that produce these recommen-
+dations are sometimes remarkably bad.  Occasionally, they make  recommendations  that  are  embarrassing  for  the  sys-
+tem, such as recommending to a faculty member an intro-
+ductory book from the “for dummies” series on a topic she is
+expert in.  Or, they continue recommending items the user
+is no longer interested in.  Shortcomings like these motivate
+ongoing  research  both  in  industry  and  academia,  and  rec-
+ommender systems are a very active field of research today.
+To provide an understanding of the state-of-the-art of rec-
+ommender systems, this article starts with a bit of history,
+culminating  in  the  million-dollar  Netflix  challenge.   That
+challenge led to a formulation of the recommendation prob-
+lem  as  one  of  matrix  completion:  given  a  matrix  of  users
+by items, with item ratings as cells, how well can an algo-
+rithm predict the values in some cells that are deliberately
+held out?  However, algorithms with maximum accuracy at
+the  matrix  completion  task  are  not  sufficient  to  make  the
+best recommendations in many practical settings.  We will
+describe  why,  review  some  of  the  approaches  that  current
+research  is  taking  to  do  better,  and  finally  sketch  ways  of
+approaching the recommendation problem in a more com-
+prehensive way in the future.
 \section{A Graph-based Recommender System for Digital Library}
-
-\section{Mining of Massive Datasets}
-
+\paragraph{Abstract}
+Research  shows  that  recommendations  comprise  a  valuable  
+service for users of a digital library [11]. While most existing 
+recommender   systems   rely   either   on   a   content-based   
+approach     or     a     collaborative     approach     to     make     
+recommendations,     there     is     potential     to     improve     
+recommendation  quality  by  using  a  combination  of  both  
+approaches (a hybrid approach). In this paper, we report how 
+we  tested  the  idea  of  using  a  graph-based  recommender  
+system   that   naturally   combines   the   content-based   and   
+collaborative  approaches.  Due  to  the  similarity  between  our  
+problem   and   a   concept   retrieval   task,   a   Hopfield   net   
+algorithm  was  used  to  exploit  high-degree  book-book,  user-
+user and book-user associations. Sample hold-out testing and 
+preliminary  subject  testing  were  conducted  to  evaluate  the  
+system,  by  which  it  was  found  that  the  system  gained  
+improvement  with  respect  to  both  precision  and  recall  by  
+combining   content-based   and   collaborative   approaches.   
+However,   no   significant   improvement   was   observed   by   
+exploiting high-degree associations. 
 \section{Comparing context-aware recommender systems in terms of accuracy and diversity}
-asdasd
+\paragraph{Abstract}
+Although the area of context-aware recommender systems (CARS) has made a significant progress over the last several years, the problem of comparing various contextual pre-filtering, post-filtering and contextual modeling methods remained fairly unexplored. In this paper, we address this problem and compare several contextual pre-filtering, post-filtering and contextual modeling methods in terms of the accuracy and diversity of their recommendations to determine which methods outperform the others and under which circumstances. To this end, we consider three major factors affecting performance of CARS methods, such as the type of the recommendation task, context granularity and the type of the recommendation data. We show that none of the considered CARS methods uniformly dominates the others across all of these factors and other experimental settings; but that a certain group of contextual modeling methods constitutes a reliable “best bet” when choosing a sound CARS approach since they provide a good balance of accuracy and diversity of contextual recommendations.
 \section{Collaborative Topic Modeling for Recommending Scientific Articles}
-\fi
+\paragraph{Abstract}
+Researchers have access to large online archives of scientific arti-
+cles. As a consequence, finding relevant papers has become more
+difficult. Newly formed online communities of researchers sharing
+citations provides a new way to solve this problem. In this paper, we
+develop an algorithm to recommend scientific articles to users of an
+online community. Our approach combines the merits of traditional
+collaborative filtering and probabilistic topic modeling. It provides
+an interpretable latent structure for users and items, and can form
+recommendations about both existing and newly published articles.
+We study a large subset of data from CiteULike, a bibliography shar-
+ing service, and show that our algorithm provides a more effective
+recommender system than traditional collaborative filtering
+
 \end{document}

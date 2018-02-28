@@ -1,0 +1,6 @@
+\contentsline {chapter}{\numberline {1}Programmation Dynamique}{2}
+\contentsline {paragraph}{Probl\IeC {\`e}me de d\IeC {\'e}cision s\IeC {\'e}quentiels}{2}
+\contentsline {paragraph}{Politique (policy)}{3}
+\contentsline {section}{\numberline {1.1}Mod\IeC {\`e}le de programation dynamique probabiliste (Processus de d\IeC {\'e}cision Markoviens)}{3}
+\contentsline {paragraph}{Bellman}{4}
+\contentsline {paragraph}{Th\IeC {\'e}or\IeC {\`e}me}{4}

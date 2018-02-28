@@ -1,50 +1,96 @@
-\contentsline {chapter}{\numberline {1}Introduction et Filtres Collaboratifs}{3}
-\contentsline {subsection}{\numberline {1.0.1}Amazon.com : tr\IeC {\`e}s efficace!, Int\IeC {\'e}r\IeC {\^e}ts}{3}
-\contentsline {subsection}{\numberline {1.0.2}Connaissance}{4}
-\contentsline {subsection}{\numberline {1.0.3}Intentions et T\IeC {\^a}ches}{4}
-\contentsline {section}{\numberline {1.1}Quelques D\IeC {\'e}finition et Taxonomies}{5}
-\contentsline {paragraph}{Syst\IeC {\`e}mes de Recommandations et Filtres Collaboratifs}{5}
-\contentsline {subsection}{\numberline {1.1.1}Donn\IeC {\'e}es Utilis\IeC {\'e}es}{5}
-\contentsline {section}{\numberline {1.2}item-item et utilisateur-utilisateur}{7}
-\contentsline {paragraph}{Syst\IeC {\`e}me Passif}{7}
-\contentsline {paragraph}{Syst\IeC {\`e}me Actif}{7}
-\contentsline {subsection}{\numberline {1.2.1}utilisateurs-utilisateurs}{9}
-\contentsline {subsection}{\numberline {1.2.2}items-items}{9}
-\contentsline {paragraph}{Approche Contenue}{9}
-\contentsline {section}{\numberline {1.3}Approche M\IeC {\'e}moire vs Approche Mod\IeC {\`e}le}{9}
-\contentsline {section}{\numberline {1.4}Algorithme Utilisateur-Utilisateur et Items-Items}{9}
-\contentsline {subsection}{\numberline {1.4.1}Utilisateurs-Utilisateur}{10}
-\contentsline {subsubsection}{Corr\IeC {\'e}lation Pearson}{11}
-\contentsline {subsection}{\numberline {1.4.2}K nearest Neighbour}{12}
-\contentsline {subsection}{\numberline {1.4.3}item-item}{13}
-\contentsline {section}{\numberline {1.5}TF-IDF}{15}
-\contentsline {section}{\numberline {1.6}Mesure de Performance}{15}
-\contentsline {chapter}{\numberline {2}M\IeC {\'e}thode contenue, PageRank et un peu de Bay\IeC {\'e}sien}{17}
-\contentsline {section}{\numberline {2.1}Mod\IeC {\`e}les Probabiliste}{17}
-\contentsline {subsection}{\numberline {2.1.1}Correction de Laplace}{18}
-\contentsline {subsection}{\numberline {2.1.2}Exemple}{19}
-\contentsline {section}{\numberline {2.2}Autres Approches probabiliste}{19}
-\contentsline {section}{\numberline {2.3}Mod\IeC {\`e}le Par Classe (Clustering)}{20}
-\contentsline {section}{\numberline {2.4}Arbre de d\IeC {\'e}cision}{21}
-\contentsline {subsection}{\numberline {2.4.1}Breese et Coll.}{21}
-\contentsline {section}{\numberline {2.5}PageRank (Popularit\IeC {\'e})}{22}
-\contentsline {subsection}{\numberline {2.5.1}Calcul de mani\IeC {\`e}re vectoriel}{24}
-\contentsline {subsection}{\numberline {2.5.2}Exemple}{24}
-\contentsline {subsection}{\numberline {2.5.3}Puissance des Matrices}{24}
-\contentsline {section}{\numberline {2.6}Rappel Th\IeC {\'e}orie Bay\IeC {\'e}sienne}{25}
-\contentsline {chapter}{\numberline {3}R\IeC {\'e}duction de Dimensions}{27}
-\contentsline {section}{\numberline {3.1}Intuition}{27}
-\contentsline {section}{\numberline {3.2}Techniques de D\IeC {\'e}composition Matricielle}{28}
-\contentsline {section}{\numberline {3.3}SVD}{29}
-\contentsline {paragraph}{Exemple dans le domaine de la RI}{29}
-\contentsline {section}{\numberline {3.4}Factorisation en Valeur non-n\IeC {\'e}gative + Valeurs manquantes}{31}
-\contentsline {section}{\numberline {3.5}Biais}{31}
-\contentsline {chapter}{\numberline {4}Mod\IeC {\`e}le de Connaissance de l'utilisateur}{33}
-\contentsline {section}{\numberline {4.1}Factorisation des matrices}{35}
-\contentsline {section}{\numberline {4.2}Utilisation d'un Mod\IeC {\`e}le Bay\IeC {\'e}sien}{36}
-\contentsline {subsection}{\numberline {4.2.1}Probl\IeC {\`e}mes Combinatoire}{37}
-\contentsline {section}{\numberline {4.3}Mod\IeC {\`e}les d'espaces (sous-ensembles)}{37}
-\contentsline {subsection}{\numberline {4.3.1}Inf\IeC {\'e}rence et choix de Question}{37}
-\contentsline {section}{\numberline {4.4}Autres Mod\IeC {\`e}les}{37}
-\contentsline {section}{\numberline {4.5}R\IeC {\'e}gression Logistique}{38}
-\contentsline {subsection}{\numberline {4.5.1}Mod\IeC {\`e}les TRI}{40}
+\contentsline {chapter}{\numberline {1}Introduction et Filtres Collaboratifs}{4}
+\contentsline {subsection}{\numberline {1.0.1}Amazon.com : tr\IeC {\`e}s efficace!, Int\IeC {\'e}r\IeC {\^e}ts}{4}
+\contentsline {subsection}{\numberline {1.0.2}Connaissance}{5}
+\contentsline {subsection}{\numberline {1.0.3}Intentions et T\IeC {\^a}ches}{5}
+\contentsline {section}{\numberline {1.1}Quelques D\IeC {\'e}finition et Taxonomies}{6}
+\contentsline {paragraph}{Syst\IeC {\`e}mes de Recommandations et Filtres Collaboratifs}{6}
+\contentsline {subsection}{\numberline {1.1.1}Donn\IeC {\'e}es Utilis\IeC {\'e}es}{6}
+\contentsline {section}{\numberline {1.2}item-item et utilisateur-utilisateur}{8}
+\contentsline {paragraph}{Syst\IeC {\`e}me Passif}{8}
+\contentsline {paragraph}{Syst\IeC {\`e}me Actif}{8}
+\contentsline {subsection}{\numberline {1.2.1}utilisateurs-utilisateurs}{10}
+\contentsline {subsection}{\numberline {1.2.2}items-items}{10}
+\contentsline {paragraph}{Approche Contenue}{10}
+\contentsline {section}{\numberline {1.3}Approche M\IeC {\'e}moire vs Approche Mod\IeC {\`e}le}{10}
+\contentsline {section}{\numberline {1.4}Algorithme Utilisateur-Utilisateur et Items-Items}{10}
+\contentsline {subsection}{\numberline {1.4.1}Utilisateurs-Utilisateur}{11}
+\contentsline {subsubsection}{Corr\IeC {\'e}lation Pearson}{12}
+\contentsline {subsection}{\numberline {1.4.2}K nearest Neighbour}{13}
+\contentsline {subsection}{\numberline {1.4.3}item-item}{14}
+\contentsline {section}{\numberline {1.5}TF-IDF}{16}
+\contentsline {section}{\numberline {1.6}Mesure de Performance}{16}
+\contentsline {chapter}{\numberline {2}M\IeC {\'e}thode contenue, PageRank et un peu de Bay\IeC {\'e}sien}{18}
+\contentsline {section}{\numberline {2.1}Mod\IeC {\`e}les Probabiliste}{18}
+\contentsline {subsection}{\numberline {2.1.1}Correction de Laplace}{19}
+\contentsline {subsection}{\numberline {2.1.2}Exemple}{20}
+\contentsline {section}{\numberline {2.2}Autres Approches probabiliste}{20}
+\contentsline {section}{\numberline {2.3}Mod\IeC {\`e}le Par Classe (Clustering)}{21}
+\contentsline {section}{\numberline {2.4}Arbre de d\IeC {\'e}cision}{22}
+\contentsline {subsection}{\numberline {2.4.1}Breese et Coll.}{22}
+\contentsline {section}{\numberline {2.5}PageRank (Popularit\IeC {\'e})}{23}
+\contentsline {subsection}{\numberline {2.5.1}Calcul de mani\IeC {\`e}re vectoriel}{25}
+\contentsline {subsection}{\numberline {2.5.2}Exemple}{25}
+\contentsline {subsection}{\numberline {2.5.3}Puissance des Matrices}{25}
+\contentsline {section}{\numberline {2.6}Rappel Th\IeC {\'e}orie Bay\IeC {\'e}sienne}{26}
+\contentsline {chapter}{\numberline {3}R\IeC {\'e}duction de Dimensions}{28}
+\contentsline {section}{\numberline {3.1}Intuition}{28}
+\contentsline {section}{\numberline {3.2}Techniques de D\IeC {\'e}composition Matricielle}{29}
+\contentsline {section}{\numberline {3.3}SVD}{30}
+\contentsline {paragraph}{Exemple dans le domaine de la RI}{30}
+\contentsline {section}{\numberline {3.4}Factorisation en Valeur non-n\IeC {\'e}gative + Valeurs manquantes}{32}
+\contentsline {section}{\numberline {3.5}Biais}{32}
+\contentsline {chapter}{\numberline {4}Mod\IeC {\`e}le de Connaissance de l'utilisateur}{34}
+\contentsline {section}{\numberline {4.1}Factorisation des matrices}{36}
+\contentsline {section}{\numberline {4.2}Utilisation d'un Mod\IeC {\`e}le Bay\IeC {\'e}sien}{37}
+\contentsline {subsection}{\numberline {4.2.1}Probl\IeC {\`e}mes Combinatoire}{38}
+\contentsline {section}{\numberline {4.3}Mod\IeC {\`e}les d'espaces (sous-ensembles)}{38}
+\contentsline {subsection}{\numberline {4.3.1}Inf\IeC {\'e}rence et choix de Question}{38}
+\contentsline {section}{\numberline {4.4}Autres Mod\IeC {\`e}les}{38}
+\contentsline {section}{\numberline {4.5}R\IeC {\'e}gression Logistique}{39}
+\contentsline {subsection}{\numberline {4.5.1}Mod\IeC {\`e}les TRI}{41}
+\contentsline {chapter}{\numberline {5}Articles}{42}
+\contentsline {section}{\numberline {5.1}Deconstructing Recommender Systems}{42}
+\contentsline {section}{\numberline {5.2}Content-Boosted Collaborative Filtering for Improved Recommendations}{43}
+\contentsline {paragraph}{Abstract}{43}
+\contentsline {paragraph}{Conclusion}{43}
+\contentsline {section}{\numberline {5.3}On the recommending of citations for research papers}{44}
+\contentsline {paragraph}{Abstract}{44}
+\contentsline {section}{\numberline {5.4}Bringing PageRank to the citation analysis}{44}
+\contentsline {paragraph}{Abstract}{44}
+\contentsline {section}{\numberline {5.5}The YouTube video recommendation system}{45}
+\contentsline {paragraph}{Abstract}{45}
+\contentsline {section}{\numberline {5.6}Matrix Factorization for Recommender Systems}{45}
+\contentsline {section}{\numberline {5.7}Deep Neural Networks for YouTube Recommendations}{45}
+\contentsline {paragraph}{Abstract}{45}
+\contentsline {section}{\numberline {5.8}Multicriteria User Modeling in Recommender Systems}{45}
+\contentsline {paragraph}{Abstract}{45}
+\contentsline {section}{\numberline {5.9}Recommendation Systems for Software Engineering}{45}
+\contentsline {paragraph}{Abstract}{45}
+\contentsline {section}{\numberline {5.10}An energy efficient mobile recommender systems}{46}
+\contentsline {section}{\numberline {5.11}AutoRec : Autoencoder meet Collaborative Filtering}{46}
+\contentsline {paragraph}{Abstract}{46}
+\contentsline {section}{\numberline {5.12}Collaborative Filtering with Stacked Denoising AutoEncoders and Sparse Inputs}{46}
+\contentsline {paragraph}{Abstract}{46}
+\contentsline {section}{\numberline {5.13}Predicting User Tasks : I know what you are doing}{46}
+\contentsline {section}{\numberline {5.14}Fewer Clicks and Less Frustration: Reducing the Cost of Reaching the Right Folder }{47}
+\contentsline {paragraph}{Abstract}{47}
+\contentsline {section}{\numberline {5.15}User-Based Collaborative-Filtering Recommendation Algorithms on Hadoop}{47}
+\contentsline {paragraph}{Abstract}{47}
+\contentsline {section}{\numberline {5.16}Scaling-Up Item-Based Collaborative Filtering Recommendation Algorithm Based on Hadoop}{47}
+\contentsline {paragraph}{Abstract}{47}
+\contentsline {section}{\numberline {5.17}Benefits and costs of adaptive user interfaces}{48}
+\contentsline {paragraph}{Abstract}{48}
+\contentsline {section}{\numberline {5.18}Being Accurate is Not Enough: How Accuracy Metrics have hurt Recommender Systems }{48}
+\contentsline {paragraph}{Abstract}{48}
+\contentsline {section}{\numberline {5.19}The Impact of YouTube Recommendation System on Video Views}{49}
+\contentsline {paragraph}{Abstract}{49}
+\contentsline {section}{\numberline {5.20}LinkedVis: exploring social and semantic career recommendations}{49}
+\contentsline {paragraph}{Abstract}{49}
+\contentsline {section}{\numberline {5.21}Recommender Systems \IeC {\textendash } Beyond Matrix Completion}{50}
+\contentsline {paragraph}{Abstract}{50}
+\contentsline {section}{\numberline {5.22}A Graph-based Recommender System for Digital Library}{51}
+\contentsline {paragraph}{Abstract}{51}
+\contentsline {section}{\numberline {5.23}Comparing context-aware recommender systems in terms of accuracy and diversity}{51}
+\contentsline {paragraph}{Abstract}{51}
+\contentsline {section}{\numberline {5.24}Collaborative Topic Modeling for Recommending Scientific Articles}{51}
+\contentsline {paragraph}{Abstract}{51}
