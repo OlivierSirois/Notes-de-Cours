@@ -1,0 +1,18 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}
+\contentsline {chapter}{\numberline {2}Cours 1 - Architecture des FPGAs}{3}
+\contentsline {section}{\numberline {2.1}Charact\IeC {\'e}ristiques}{4}
+\contentsline {subsection}{\numberline {2.1.1}Niveau sur reconfiguration}{4}
+\contentsline {subsubsection}{Le programme}{4}
+\contentsline {subsubsection}{jeu d'instruction}{4}
+\contentsline {subsubsection}{fonctions logique de haut-niveau}{4}
+\contentsline {subsubsection}{fonctions logique de bas niveau}{4}
+\contentsline {subsubsection}{Interconnexions}{4}
+\contentsline {subsection}{\numberline {2.1.2}Taille}{4}
+\contentsline {subsection}{\numberline {2.1.3}Vitesse}{5}
+\contentsline {subsection}{\numberline {2.1.4}Caract\IeC {\'e}ristique physique}{5}
+\contentsline {subsection}{\numberline {2.1.5}M\IeC {\'e}thode de configuration}{5}
+\contentsline {subsection}{\numberline {2.1.6}reconfiguration partielle en temps r\IeC {\'e}elle}{5}
+\contentsline {subsection}{\numberline {2.1.7}Disponibilit\IeC {\'e} d'IP}{5}
+\contentsline {section}{\numberline {2.2}Architecture de syst\IeC {\`e}me num\IeC {\'e}rique}{5}
+\contentsline {subsection}{\numberline {2.2.1}M\IeC {\'e}moire}{6}
+\contentsline {subsubsection}{D\IeC {\'e}codeur texte}{6}

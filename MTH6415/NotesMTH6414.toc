@@ -1,6 +1,31 @@
+\contentsline {section}{\numberline {0.1}Examen Finale}{1}
 \contentsline {chapter}{\numberline {1}Programmation Dynamique}{2}
 \contentsline {paragraph}{Probl\IeC {\`e}me de d\IeC {\'e}cision s\IeC {\'e}quentiels}{2}
 \contentsline {paragraph}{Politique (policy)}{3}
 \contentsline {section}{\numberline {1.1}Mod\IeC {\`e}le de programation dynamique probabiliste (Processus de d\IeC {\'e}cision Markoviens)}{3}
 \contentsline {paragraph}{Bellman}{4}
 \contentsline {paragraph}{Th\IeC {\'e}or\IeC {\`e}me}{4}
+\contentsline {paragraph}{Principe d'optimalit\IeC {\'e} de Bellman}{5}
+\contentsline {paragraph}{Exemple: Taille d'un lot \IeC {\`a} fabriquer}{6}
+\contentsline {chapter}{\numberline {2}Cours \#2}{7}
+\contentsline {section}{\numberline {2.1}Augmentation de l'\IeC {\'e}tat}{8}
+\contentsline {section}{\numberline {2.2}Mod\IeC {\`e}le symm\IeC {\'e}trique : Achat avant une date limite}{10}
+\contentsline {section}{\numberline {2.3}Ensemble D'arr\IeC {\^e}t Absorbant}{10}
+\contentsline {chapter}{\numberline {3}21 Mars}{12}
+\contentsline {subsection}{\numberline {3.0.1}Exemple}{12}
+\contentsline {section}{\numberline {3.1}Ordonnancement}{13}
+\contentsline {subsection}{\numberline {3.1.1}Argument d'\IeC {\'e}change des voisins}{13}
+\contentsline {subsubsection}{Exemple}{14}
+\contentsline {section}{\numberline {3.2}Corrig\IeC {\'e} Dev. 3}{14}
+\contentsline {chapter}{\numberline {4}Cours 4 avril}{16}
+\contentsline {section}{\numberline {4.1}It\IeC {\'e}ration Politique}{16}
+\contentsline {subsection}{\numberline {4.1.1}Proposition (s)}{16}
+\contentsline {subsection}{\numberline {4.1.2}Lien avec la programmation lin\IeC {\'e}aire}{18}
+\contentsline {subsection}{\numberline {4.1.3}Cout moyens par \IeC {\'e}tapes}{18}
+\contentsline {subsubsection}{proposition}{19}
+\contentsline {section}{\numberline {4.2}Cours 11 avril}{20}
+\contentsline {subsection}{\numberline {4.2.1}devoir 4 et 5}{20}
+\contentsline {paragraph}{1.14 dev 4}{20}
+\contentsline {paragraph}{4.19}{20}
+\contentsline {paragraph}{4.23}{21}
+\contentsline {paragraph}{7.16}{22}

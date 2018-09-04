@@ -1,0 +1,126 @@
+\documentclass[oneside]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{multicol}
+\usepackage{ragged2e}
+\usepackage{listings}
+\usepackage{pdfpages}
+\title{Notes de Cours ELE8307}
+\date{2017-10-10}
+\author{Olivier Sirois}
+\setlength\parindent{0pt}
+\makeindex
+\pagenumbering{arabic}
+\begin{document}
+    \setcounter{page}{1}
+    \maketitle
+    \tableofcontents
+    
+    \chapter{Introduction}
+        Conception de systèmes logiques\\
+    
+        Objectif : Apprendre à concevoir des prototypes de circuits avec FPGA et de perfectionner les habiletés de travail en groupe.\\
+        
+        
+    \chapter{Cours 1 - Architecture des FPGAs}
+        1946 : ENIAC\\
+        plusieurs caractéristique (2 moteurs), occupait beuacoup d'espace. 5000 additions par seconde (ou 40 division par seconde). 385 mul par second, 3 racine carrée par sec..\\
+        
+        merveilleux a l'époque.\\
+        
+        par contre, c'étais pas simple à programmer, il fallait faire les connections manuellement. C'étais effectivement dans les premiers ordinateurs. un 'bug' était réellement un insecte qui allait se placer dans l'ordinateur, il y en avait en moyenne 1 par jour, et sa pouvait frier toute le système..\\
+        
+        C'est avec sa que Von Neumann à eu son idée géniale..\\
+        
+        INSÉRÉ SLIDE 6\\
+        
+        Par contre, c'étais tellement lourd de changé l'opération entre chaque instruction que Von Neumann à ajouté une nouvelle connection entre le contrôleur de la mémoire (chemin pointillé bleu). C'est de la ou est née l'idée de mettre les instructions en mémoire pour que le contrôleur puisse manuellement aller lire les instructions. C'est de la ou est née le paradigme classique, une section de la mémoire était réservé pour les instructions tandis que le reste était utilisé pour les données.
+        \section{Charactéristiques}
+        \subsection{Niveau sur reconfiguration}
+        \subsubsection{Le programme}
+        le niveau le plus élevé sur lequel nous alons travaillé. 
+        \subsubsection{jeu d'instruction}
+        un instruction est une série d'opération qui va etre fait entre les registre. Nous allons définir nous même notre jeu d'instruction comme étant des séquences de micro-ops effectié sur les registre/ALUs. sa devient plus lourd à programmer/debugger
+        
+        \subsubsection{fonctions logique de haut-niveau}
+        (ALU, coprocessor). À l'époque, beaucoup de recherche sur arch de niveau moyen, sa revient mais sous la forme de 'coarse-grained' sur FPGA (IP block). On était capable de venir configuré un chemin de donnée auto-synchroniser composé d'ALU.. etc.\\
+       
+        on reste toujours au niveau de traitement de donnée.
+        \subsubsection{fonctions logique de bas niveau}
+        (LUT,PLA, porte, transistor). au niveau binaire. On peut changer le comportement des LUT sur les FPGA, (comprend les PLA). Sa peut même aller jusqu'au niveau du transistor. Évidemment, c'est beaucoup plus compliquer sauf que le gain de performance en vaut la chandelle.\\
+        
+        \subsubsection{Interconnexions}
+        On peut même programmer les interconnexions entre les différentes composante logique de bas niveau. Sa donne une reconfigurabilité presque infini. Juste en interconnectant les transistor de manière astucieuse on a un degrée de configuration infini. Toute la complexité peut se résumer à la complexité de leur interconnexion.  Évidemment, les interconnexion programmable prend beaucoup de place.. 80\% de la configurabilité du FPGA est dans les interconnexions.\\
+        
+        \subsection{Taille}
+        Le nombre d'élément configurable.. le nom le dit.\\
+        
+        On essaie toujours de ramener sa a un équivalent en porte logique (NOR). sauf que c'est de la bouette.. souvent, les compagnies font leur benchmark sur des circuits qui sont hyperspécifique et qui se fit exactement sur le FPGA. on peut souvent voir un facteur 8 entre ce qu'ils annoncent et ce qui fit vraiment sur le FPGA.\\
+        
+        Maintenant on va surement parler d'élément reconfigurable (LUT à 4 entrées.. etc.). C'est beaucoup plus représentatif de la performance/taille. Il faut vraiment avoir une notion poussé du systèmes pour pouvoir le comparés.
+        \subsection{Vitesse}
+        le délais, fréquence d'opérations
+        \subsection{Caractéristique physique}
+        Les tension d'entrées, d'opérations
+        \subsection{Méthode de configuration}
+        protocole de configuration (série, parallèle, maître-esclave, cryptage..).\\
+        
+        Aujourd'hui, presque toute les technologies propriétaire est dans le chip, alors souvent les compagnies offrent des options de cryptage pour pouvoir encrypter la mémoire sur le chips pour pouvoir protéger les designs des compagnies (et les votres).
+        
+        Persistence. Si on coupe le courant est-ce que le circuit reste ?
+        \subsection{reconfiguration partielle en temps réelle}
+        Certain FPGA offrent des fonctionnalités ou il peuvent changer certaines zones en opration. C'est comme un circuit mutant qui peut se modifier pendant qu'il roule. Il peut aller chercher des sous-configurations en mémoire et la loader directement sur le fabric\\
+        \subsection{Disponibilité d'IP}
+        On peut avoir accès à des gros blocs de construction IP. C'est bloque sont super complexe en générale, souvent les compagnies peuvent vendre leur bloque pour que les concepteur puissent les utiliser. Souvent, en temps que designer, c'est mieux de pouvoir ce servir de modules déja concus pour accélérer le processus de développement + plus de performance
+        \section{Architecture de système numérique}
+        INSÉRÉ SLIDE 8\\
+        
+        \subsection{Mémoire}
+        La mémoire est le circuit combinatoir configurable par excellence, en fait, c'est sa le but.\\
+        
+        Avec de la mémoire, on peut théoriquement réalisé n'importe quel circuit combinatoire. En utilisant la mémoire de particulière, on peut créer des effets particulière. On peut utiliser certains bits de la mémoire pour faire des contrôles spéciales (bits D0 = 1 seulement lorsque addr=0x8), cela donne l'équivalent d'un ET logique, vue que l'addresse est un partout. On peut alors, en utilisant la valeur en mémoire, recrée une table de karnaugh dans la mémoire et on utilise la valeur de l'addresse pour faire une sorte de 'query' de la table de Karnaugh.\\
+        
+        Avec cette puissante fonctionnalité, on peut recréer n'importe qu'elle fonction logique. n'importe quel circuit combinatoire peut s'implanter avec une mémoire.\\
+        
+        Techniquement, aucun calcul n'est réalisé, la valeurdes fonctions est mémoirsé pour chaque combinaison des entrées. On peut alors implémenter:\\
+        $D * 2^A$\\
+        $A = D + K$\\
+        
+        fonctions.\\
+        
+        \subsubsection{Décodeur texte}
+        On peut voir que c'est magique pouvoir faire un circuit avec de la mémoire, sauf qu'avec l'exemple de décodage, sa prend pas grande chose pour faire un circuit de 659 milles annees lumiere de cotes..\\
+        
+        C'est magique lorsque le nombre d'entrées est petits.\\
+        
+        En allant plus loins, on peut voir qu'on pourrait travailler lettre par lettre. À ce moment, on peut voir qu'à 10 entrées notre mémoire ne prend que dans les kilobits, ce qui est très manageable.\\
+        
+        En changeant le scaling on peut souvent rendre notre design sur une grosseur qui fait en sorte qu'on puisse l'implémenter. Un autre exemple du compromis taille/vitesse.\\
+        
+        l'importance de l'architecture ne peut pas être plus mis en évidence. Au niveau circuit on a les dimension:
+        \begin{itemize}
+            \item x
+            \item y
+            \item temps.
+        \end{itemize}
+    
+        \subsection{PAL - PLA}
+        INSÉRÉ SLIDE 15\\
+        
+        l'idée c'est d'avoir une matrice de somme de signal logique reconfigurable. Avec n'importe quel somme de produit, on peut faire n'importe quel circuit. Une architecture reconfigurable (PLA) est beaucoup plus attirantes étant donnée sa reconfigurabilité pour la sortie. Évidemment, vue qu'il y a deux niveau de reconfigurabilité, c'est un peu plus lent.\\
+        
+        On est quand même limité avec ces circuits. On pouvait avoir des modèles purement combinatoire ou des modèls avec des bascules.\\
+        
+        INSÉRÉ EXEMPLE DE TABLE DE CARNAUGH\\
+        \\
+        \subsection{PLD}
+        Après les PAL-PLA, nous avons eu un CPLD. On ne peut pas décrire exactement c'est quoi. l'idée c'est de réutiliser des technologies existantes en rajoutant une matrice d'interconnexion\\
+        
+        INSÉRÉ SLIDE 18\\
+        
+        
+        
+\end{document}

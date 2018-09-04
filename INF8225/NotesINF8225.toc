@@ -1,0 +1,41 @@
+\contentsline {section}{\numberline {0.1}VGG net}{2}
+\contentsline {subsection}{\numberline {0.1.1}Arch}{2}
+\contentsline {paragraph}{Input}{2}
+\contentsline {paragraph}{Channel}{2}
+\contentsline {paragraph}{Stride}{2}
+\contentsline {paragraph}{Zero padding}{2}
+\contentsline {paragraph}{Fonction d'activation}{2}
+\contentsline {paragraph}{Max Pooling}{2}
+\contentsline {paragraph}{FC et softmax}{2}
+\contentsline {subsection}{\numberline {0.1.2}Conclusion}{2}
+\contentsline {section}{\numberline {0.2}Dropout}{2}
+\contentsline {subsection}{\numberline {0.2.1}Motivation}{2}
+\contentsline {subsection}{\numberline {0.2.2}Principe}{3}
+\contentsline {subsection}{\numberline {0.2.3}Impl\IeC {\'e}mentation}{3}
+\contentsline {subsection}{\numberline {0.2.4}R\IeC {\'e}sultats}{3}
+\contentsline {subsection}{\numberline {0.2.5}Autres techniques}{3}
+\contentsline {section}{\numberline {0.3}Inception}{3}
+\contentsline {subsection}{\numberline {0.3.1}Motivation}{3}
+\contentsline {subsection}{\numberline {0.3.2}Arch}{4}
+\contentsline {subsection}{\numberline {0.3.3}Resultats}{4}
+\contentsline {subsection}{\numberline {0.3.4}Conclusion}{4}
+\contentsline {section}{\numberline {0.4}Batch Norm}{4}
+\contentsline {subsection}{\numberline {0.4.1}Motivation}{4}
+\contentsline {subsection}{\numberline {0.4.2}r\IeC {\'e}sultats}{4}
+\contentsline {subsection}{\numberline {0.4.3}Conclusion}{5}
+\contentsline {section}{\numberline {0.5}ResNet}{5}
+\contentsline {subsection}{\numberline {0.5.1}Motivation}{5}
+\contentsline {subsection}{\numberline {0.5.2}arch}{5}
+\contentsline {subsection}{\numberline {0.5.3}r\IeC {\'e}sultats et conclusion}{5}
+\contentsline {section}{\numberline {0.6}Fully convolutional network for semantic segmentation}{5}
+\contentsline {subsection}{\numberline {0.6.1}Motivation et Intuition}{5}
+\contentsline {section}{\numberline {0.7}Convolutional Netowkrs for Biomedical image segmentation}{6}
+\contentsline {subsection}{\numberline {0.7.1}Motivation}{6}
+\contentsline {subsection}{\numberline {0.7.2}architecture}{6}
+\contentsline {section}{\numberline {0.8}YOLO - you only look once, unified real time object detection}{6}
+\contentsline {subsection}{\numberline {0.8.1}Motivation + intuition}{6}
+\contentsline {subsection}{\numberline {0.8.2}Arch}{6}
+\contentsline {subsection}{\numberline {0.8.3}R\IeC {\'e}sultats}{7}
+\contentsline {section}{\numberline {0.9}Machine Theory of Mind}{7}
+\contentsline {subsection}{\numberline {0.9.1}Objectif}{7}
+\contentsline {chapter}{\numberline {1}Semaine 2}{8}

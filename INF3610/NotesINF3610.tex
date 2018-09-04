@@ -1,0 +1,122 @@
+\documentclass[oneside]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{multicol}
+\usepackage{ragged2e}
+\usepackage{listings}
+\usepackage{pdfpages}
+\title{Notes de Cours INF 3610}
+\date{2018-10-10}
+\author{Olivier Sirois}
+\setlength\parindent{0pt}
+\makeindex
+\pagenumbering{arabic}
+\begin{document}
+    \setcounter{page}{1}
+    \maketitle
+    \tableofcontents
+    \chapter{Chapitre 1 - Introduction}
+    Quelques définitions:\\
+    
+    \section{Systeme temps réelle}
+    Contraintes de temps très importantes, elle fait normalement partie des spécifications et doivent absolument être respecté. Normalement on parle d'un environnnement qui agit sur des capteurs (senseurs) avec le système qui agit de facon correcte à ces stimuli dans un temps donné.\\
+    
+    Les systèmes temps réelle sont normalment composé de deux sous-systèmes:
+    \begin{itemize}
+        \item contrôleur (PC ou microControleur)
+        \item contrôlé (environnement physique)
+    \end{itemize}
+
+    La relation entre les deux sous-système est décrite par trois opérations
+    \begin{itemize}
+        \item échantillonnage
+        \item calcule
+        \item réponse
+    \end{itemize}
+
+    On différencie aussi entre les contraintes dure et les contraintes douces. Normalement, il est critique de devoir respecté les contriantes dure tandis que pour les contraintes c'est un peu plus flexible.
+    \paragraph{def des slides}
+    Un systeme qui doit repondre a un stimuli provaenant d'un environnement dans un temps donnée.\\
+    
+    \section{Systeme embarquée}
+    Un système embarqué est un système autonome, souvent temps réelle, servant à résoudre des fonctions et des tâches spéficique et disposant de resources limités. c'est limité parce que normalement on essaie de réduire les couts parce qu'on veut en faire une production industriel.\\
+    
+    La complexité peut varier, c'Est pas la même chose entre un lave-vaisselle et un contrôleur de missile. Normalement, on utilise du matériel pour la performance et la consommation tandis qu'on utilise du logiciel pour la flexibilité.\\
+    
+    \subsection{contraintes}
+    Normalement, les métriques de conception d'un système embarqué sont :
+    \begin{itemize}
+        \item Taille
+        \item fiabilité
+        \item Consommation et dissipation de puissance
+        \item cout de production
+        \item temps de commercialisation (time to market)
+    \end{itemize}
+
+    On peut aussi avoir d'autre contrainte, genre:
+    \begin{itemize}
+        \item Tolérance aux pannes
+        \item Résistance aux chocs et temp.
+        \item BIST - built in self test. Pouvoir se diagnostiquer automatiquement
+        \item Flexibilité et mise-a jour
+    \end{itemize}
+
+    Normalement, es systèmes embarqués sont utilisé dans un environnement réactif ou dans des situation très demandant.
+    
+    \section{Class d'application}
+    \begin{itemize}
+        \item \textbf{Systèmes dominé par le contrôle - contrôle sophistiqué} - Requiert des contrainte de temps, de temps dure(critical failure) et mêmes plusieurs tâche simultané (multitache, concurrence, changement de contexte rapide requis >1us).\\
+        
+        Normalement, il y a peu de données associsé à chaque machine à états. On peut normalement associer la mémoire sur puces à ces machine pour accélérer le changement de contexte.\\
+        
+        Un RTOS préemptif est généralement requis, c-a-d. un OS qui a un ordonnancement de tâche sophistiqué qui tache les plus prioritaire en premier. Plusieur algorithme d'ordonnancement existe pour ces OS\\
+        
+        INSÉRÉ IMAGE DE SYSTEME DOMINÉS PAR CONTRÔLE
+        \item \textbf{Systèmes dominés par les données - contrôle qui traite une quantité importante de données.} - À certaine caractéristique:
+        \begin{itemize}
+            \item Beaucoup de MIPS ou de MFLOPS
+            \item bande passante élevé
+            \item instruction spécialisé pour DSP
+            \item Support limité pour les interruptions et les changements de contexte
+            \item beaucoup de données pour un même contexte
+            \item très peu de changement de contexte son nécessaire car un seul flot de données mais à grand débit
+        \end{itemize}
+    \end{itemize}
+    
+    \chapter{Noyau RTOS}
+    \section{Système avant/arrière-plan vs système multitache}
+    \subsection{Arrière plan}
+    s'applique normalement à des système peu complexe ou de petites tailles. C'est généralement une boucle infini qui appel à tour de rôle différent modules. La gestion des événements est généralement asynchrones (ISR). On peut avoir des interruptions de minuteur ou par I/O.\\
+    
+    INSÉRÉ IMAGE DE SYSTÈME AVANT/ARRIÈRE-PLAN\\
+    
+    \subsection{Systeme multi-tache}
+    S'applique généralement a des systeme plus complexes. Elle favorise la réutilisation du code de par sa modularité. On donne accès à des outils évolués (Flgas, mutex, sémaphore, MB, Q). sa permet d'augmenter l'abstraction lors de la conception et exploite le concept de tâche et de programmation concurrente. (linux kernel).\\
+    
+    INSÉRÉ IMAGE DE SYSTEME MULTI-TACHE\\
+    
+    \textbf{tâche} Un simple programme évoluant comme si il avait le CPU pour lui-même. Typiquement une boucle infini dans un des états suivant:...\\
+    
+    \subsubsection{Programmation concurrente}
+    Normalement utilité our exprimer le potentiel parallélisme et pour gérer les problème de synchronisation et de communication dans les systèmes multi-tâches.\\
+    
+    INSÉRÉ IMAGE MULTI-TACHE\\
+    
+    \section{Ressources partagées}
+    La programmation concurrente introduis nécessairement le problème de partage des ressources. Une ressource est entité exploité par une tâche. Elle peut etre corrompu si elle est simultanément utilisé, ce qui va inévitablement crasher.. \\
+    
+    Pour partager les ressources, on chercher nécessairement a avoir une fonction réentrante. une fonction qui peut etre appelé par plus d'une tâche sans crainte de corrompre les données (threadsafe).\\
+    
+    Pour s'assurer qu'une fonction soit réentrante, on s'assure généralement que les variables sont le plus souvent locals que possible.\\
+    
+    On exploite les mutex lors de partage de variables.\\
+    
+    Désactiver les interruptions ou le scheduleur.. (pas recommander).\\
+    
+    \subsection{Sections critiques}
+    Une section est dite critique si elle doit etre exécuter sans être interrompus. Ce qui pourrait causer un deadlock.. ou un traitement de données incorrect.
+    
+\end{document}

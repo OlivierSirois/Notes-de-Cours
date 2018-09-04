@@ -1,0 +1,81 @@
+\documentclass[oneside]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{multicol}
+\usepackage{ragged2e}
+\usepackage{listings}
+\usepackage{pdfpages}
+\title{Notes de Cours INF 8601}
+\date{2017-10-10}
+\author{Olivier Sirois}
+\setlength\parindent{0pt}
+\makeindex
+\pagenumbering{arabic}
+\begin{document}
+    \setcounter{page}{1}
+    \maketitle
+    \tableofcontents
+    \chapter{Chapitre 1 - Introduction}
+    
+    \section[Info]{Outline}
+    On retrouve les systèmes temps réels un peu partout. toutes les applications critiques contiennent une forme de systèmes/aspects temps réelles.\\
+    
+    on retrouve les systèmes temps réelles dans:
+    \begin{itemize}
+        \item factory - usine
+        \item drone
+        \item AI
+        \item medicale
+        \item automobile
+        \item jeux vidéos
+    \end{itemize}
+
+    Les systèmes ou les décisions doivent être fait dans un délai temporel sont techniquement considérés temps réelles. Cela s'applique à tous les systèmes rattachés aussi.\\
+    
+    Les systèmes temps réeles sont généralement des systèmes qui interagisse avec des environnements externes.\\
+    
+    Par nature, ils sont réactif. Mais normalement, on ne cherche pas seulement la bonne réponse, mais on veut l'avoir dans un temps données (spécifications). Ils contiennent aussi beaucoup de capteurs étant donnée qu'ils interagissent avec un environnement externes.\\
+    
+    Definition : Deadline  = temps ou il faut avoir une réponse (contraintes)\\
+    
+    on peut différencier les systèmes temps réelles en deux différentes catégories :
+    \begin{itemize}
+        \item Hard real time systems : ils doivent réponde sans faute a leur contraintes
+        \item Soft real time systems : la réponse n'est pas aussi critique mais elle est quand même voulus
+    \end{itemize}
+       
+    Definitions : Deterministe = les contraintes déterministe sont exprimés en terms de valeur fixe, i.e. aucune moyenne et autre valeur statistique\\
+    
+    Normalement, lorsqu'on ne répond pas a une contraite déterministe, sa équivaut à un systems failure.\\
+    
+    exemple : la porte de fermeture d'un train doit toujours marché..\\
+    
+    Définitions : Concurrences  = trois types:
+    \begin{itemize}
+        \item True concurrency : plusieurs processeurs en parallels
+        \item pseudo concurrency : Model qui représente logiquement des activités en parallele, sauf qu'il s'execute généralement sur un processeur mono-coeur.
+        \item physical concurrency : lorsqu'on parle d'une environnement qui évolue/la physique.
+    \end{itemize}
+    On peut aussi différencier l'envioronnement externe, dans le sens qu'on exploite normalement le patrons d'arrivés des événements. Comme par exemple un événemet périodique ou apériodique. Les systèmes temps réelles ont généralement aussi un partage de resources assez robustes.
+    
+    Normalement, l'utilisation des techniques de programmation temps réelles augmente considérable la complexité de la programmation.\\
+    
+    Définitions : Correct = le systèmes donne un résultats qui est vraie, (qu'il calcule bien les chose)\\
+    
+    Définiciton : Robuste = le systèmes réagit bien à des conditions qui ne sont pas planifier, mêmes en présence de défaillance systèmes non-prévues.\\
+    
+    Reliabitility  = une mesure de comment souvent le systèmes va défaillé\\
+    
+    Fault tolerance  = la reconnaissance et la gestion de fautes dans le systèmes en les évitants avec certaines techniques\\
+    
+    Criticalités = mesure d'importance d'une défaillance -> crash > division par 0\\
+    
+    d'autres aspect assz important est la prédictabilité d'un systèmes temps réelles. l'interface human-machines doit être designer de sorte qu'il prévient l'erreur humaine et la confusion.\\
+    
+    \chapter{Chapitre 2 - Analyse de systèmes temps réelles.}
+     
+    
+\end{document}
