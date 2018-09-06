@@ -18,7 +18,7 @@
     \setcounter{page}{1}
     \maketitle
     \tableofcontents
-    \chapter{Chapitre 1 - Introduction}
+    \chapter*{Introduction}
     
     \section[Info]{Outline}
     On retrouve les systèmes temps réels un peu partout. toutes les applications critiques contiennent une forme de systèmes/aspects temps réelles.\\
@@ -86,8 +86,54 @@
     Les méthodologies aujourd'hui ont déjà beaucoup d'abstraction pris en compte. C'est méthodologies sont essentiels pour pouvoir réduire le gap de productivités.\\
     
      
-    \chapter{Chapitre 2 - Analyse de systèmes temps réelles.}
+    \chapter{Cours 1 - Analyse de systèmes temps réelles.}
+    \subsection{Example - Guichet automatique de banque}
+    Normalement, les systeme automatiser de banque offrent les services suivant:
+    \begin{itemize}
+        \item Distribution d'argent à tous les porteur de cartes.
+        \item Consultation de solde pour les clients
+        \item toutes les transactions sont sécurisé (QoS?)
+        \item possibilité de rechargé le distributeur
+    \end{itemize}
+    les acteurs possible:
+    \begin{itemize}
+        \item la banque
+        \item le technicien pour la recharge
+        \item le client
+        \item la device
+    \end{itemize}
+    INSÉRÉ PHOTO SYSTEM (ACTEUR)\\
+    
+    On peut voit aussi la multiplicité, sa veut dire qu'il peut seulement avoir entre 0 et 1 acteurs qui travaille sur le système. (le système n'est pas multi-user).\\
+    
+    On peut aussi ajouter des tableaux pour des cas plus spécifique (un porteur + un client).\\
+    
+    Pour ce système, on a certain use-case. Un use-case sers a mettre en évidence une des fonctionnalités/utilisation du système.\\
+    
+    On peut énumérer plusieurs cas possible. Le scope des use-case peuvent être variable étant donné les spécifications/requis.\\
+    
+    On associe normalement chaque use-case avec un acteur. On peut ensuite les trier/..\\
+    
+    INSÉRÉ SLIDE 4 - 6\\
+    
+    Normalement, les systèmes sont définis par des contraintes très spécifique pour répondre aux besoin. Les contraintes peuvent avoir des natures complètement différentes. Un exemple de différentes contraintes sont figurés dans le tableau ci-dessous.\\
+    
+    INSÉRÉ TABLEAU CONTRAINTES\\
+    
+    Le principe est d'arriver avec un document qui illustre le mieux possible les contraintes sur le systèmes pour qu'il puisse répondre au requis.\\
+    
+    INSÉRÉ EXEMPLE DE CAS D'UTILISATION\\
+    
+    Dans le cas du GAB, on fait l'hypothèse que tous les conditions de fonctionnement pour retirer de l'argent sont respecté.\\
+    
+    nota:
+    \begin{itemize}
+        \item E = erreur
+        \item A = choix (affichage)
+    \end{itemize}
+    
+    INSÉRÉ IMAGE DU GAB\\
     
     
-   
+    
 \end{document}

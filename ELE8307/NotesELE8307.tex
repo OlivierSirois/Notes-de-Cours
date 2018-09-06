@@ -19,11 +19,6 @@
     \maketitle
     \tableofcontents
     
-    \chapter{Introduction}
-        Conception de systèmes logiques\\
-    
-        Objectif : Apprendre à concevoir des prototypes de circuits avec FPGA et de perfectionner les habiletés de travail en groupe.\\
-        
         
     \chapter{Cours 1 - Architecture des FPGAs}
         1946 : ENIAC\\
@@ -121,6 +116,130 @@
         
         INSÉRÉ SLIDE 18\\
         
+        Notre programmation est alors très efficaces pour les petits produits, on rajoute alors une notion hiérarchiques dans la programmation de logiques\\
+        \\
+        \subsection{FPGA}
+        INSÉRÉ SLIDE 19\\
         
+        nous avons en fait le même genre de logique qu'avant, avec les macro-cells qui sont une genre de version modifié d'un PAL-PLA. par contre, avec les interconnexions nous avons un niveau de hiérarchie beaucoup plus élevés.\\
         
+        INSÉRÉ SLIDE 20\\
+        
+        Chacune cellules pouvait être utilité comme purement combinatoire ou comme une fonction de mémorisation. \\
+        \\
+        \subsubsection{Vue globale}
+        Faire un registre avec des macro-cells c'était assez lourd, sa prenait deux macro-cells pour faire un registre de 32 bits. trop de ressources pour l'importance du registres. Sachant sa, ils ont garder des macro-cells mais en rajoutant des blocks déidés de mémoire. n'importe quel macro-cells était capable de communiquer entre eux et avec des registres mémoire.\\
+        
+        INSÉRÉ SLIDE 21, 22, 23 et 24\\
+        
+        Une macro-cells (cellule logique). étant en fait un LUT avec un peu de logique additionel (carry chain + cascade chain). 
+        \\
+        
+        INSÉRÉ SLIDES xc3000\\
+        
+        INSÉRÉS SLIDES xc4000\\
+        
+        rajout d'une petite LUT pour la XC4000, (logic function of f,g,..). La grande force de Xilinx était de réutiliser les LUTS pour faire de la mémoire utilisable par les utilisateurs. Ils se sont dit qu'avec une cellule logique avec des LUTS, sa empeche pas l'utilisateur de les utilisater comme mémoire, pour pouvoir bénificier sous forme de logique additionel.\\
+        
+        SLIDE 32\\
+        \\
+        \subsubsection{FPGA récents - Altera}
+        \begin{itemize}
+            \item APEX
+            \begin{itemize}
+                \item utilisation simultané de SOP
+                \item mémoire adressable par contenu
+                \item IO multitension
+                \item PLL intégrée pour multiplier la fréquence
+                \item nombreux standard IO
+            \end{itemize}
+            \item Excalibur
+            \begin{itemize}
+                \item processeur ARM9 intégrée
+            \end{itemize}
+            \item Stratix
+            \begin{itemize}
+                \item Blocs DSP
+                \item mémoire TriMatrix - différentes tailles
+                \item Adaptive logic module - cellule de calcule combinatoire mystérieuse
+                \item PLL avancés
+                \item Adaptive des impédances intégrés
+                \item IP matériels (interface mémoire, PCIe..)
+            \end{itemize}
+        \end{itemize}
+    INSÉRÉ SLIDE 37\\
+    
+    Maintenant on commence a retrouver des floating points sous forme de Hard blocks sur les FPGA, ils deviennent tellement gros qu'on peut commencer à voir des résultats intéressant sur FPGA. Les gros compétiteurs des FPGA sont les GPU, depuis quelques années, les GPU sont utilisé par les scientifique pour faire du caclculs de haute performance. Gros combats pour le marché de calculs haute performance.\\
+    
+    Un autre fait important est l'impédance intégrés, dépendamment de l'entrée, sa peut faire osciller le courant sur le FPGA ce qui pourrait en causer sa destructions. Étant donnée tous ce qu'on a sur le FPGA, on a pas la place pour rajouter des résistances dans les FPGA. Les producteur ont alors mis des résistances variable qui peuvent être rajuster on the fly pour pouvoir adapter l'indépendance des entrées-sorties. Sa fonctionne..
+    
+        \subsubsection{FPGA récents - Xilinx}
+        \begin{itemize}
+            \item Virtex
+            \begin{itemize}
+                \item Présence de mémoires
+            \end{itemize}
+            \item Virtex II
+            \begin{itemize}
+                \item PLL avancés
+                \item nombreux IO
+            \end{itemize}
+        \end{itemize}
+        FINIR...
+        
+        \subsubsection{nouvelle tendance - SOC}
+        \begin{itemize}
+            \item Altera
+            \begin{itemize}
+                \item Cyclone V
+                \item Stratix 10 SOC
+            \end{itemize}
+            \item Xilinx
+            \begin{itemize}
+                \item Zynq
+                \item Zynq (Quad core)
+            \end{itemize}
+        \end{itemize}
+        
+    \section{Cartes utilisé pour les laboratoires}
+    \subsection{DE2- board}
+    INSÉRÉ DE2-USER MANUAL FIGURE 2.1\\
+    
+    Caractéristique du FPGA\\
+    \begin{itemize}
+        \item 33k LE
+        \item 105 M4k RAM blocks
+        \item 483k total RAM bits
+        \item 35 embedded multipliers
+        \item 4 PLLs
+        \item 475 user IO pins
+        \item fineline..
+    \end{itemize}
+    
+    la plupart du board est configuré pour le lab.\\
+    
+    \subsection{Cyclone 2 - FPGA sur le DE2}
+    EP2C35*\\
+    
+    toute l'information est fournit dans le fichier de documentation du FPGA. l'élément de logique du FPGA ressemble beaucoup à ce qu'il y a dans les figures précédentes. Évidemment, il manque le cascade chain. \\
+    
+    les cellules ont les modes normales et arithmétique. arithméqieu  - LUT splitter en deux pour le carry.\\
+    
+    il faut comprendre aussi qu'il y a deux niveau d'interconnexion (globale / locale). plus on va loin, plus sa prend du temps et plus la fréquence va en etre affecter. Dans le cours, on aura pas besoin de vraiment jouer avec sa.\\
+    
+    Il est pratiquement impossible de se rendre à la vitesse maximal d'un FPGA. Il faut littéralement qu'on fait le routage à la main et sa commence à devenir très compliqué.\\
+    
+    les blocks M4K de mémoire peuvent avoir des modes différents, les modes sont expliquer dans le fichier de spécifications du FPGA.\\
+    
+    Pour la plupart des notions plus avancés, il faut lire la datasheet.\\
+    
+    \subsection{Lab}
+    l'horloge du clavier / fpga ne sont pas synchroniser. le but du lab est de corriger le code VHDL pour pouvoir corriger cette erreur de syncronisation. les erreurs sont causer par manque de synchronisme.\\
+    
+    Il va faloir resynchroniser les signaux , signaux de donnée deviennet signaux Dhorloge, sa passe dans une bascule pour pouvoir les resynchroniser. Le but c'Est d'illustrer que c'Est important de travailler en synchronisme avec le FPGA.\\
+    
+    \subsection{VGA}
+    voir la documentation.
+    
+    \chapter{Cours 2 - }
 \end{document}
