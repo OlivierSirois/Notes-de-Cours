@@ -170,5 +170,182 @@
     
     Gros problème d'explosion combinatoire avec sa..\\
     
+    \chapter{Cours 2 - Automate temporisé}
+    \section{Introduction}
+    \paragraph{Systèmes temps réel} Agit dans l'environnement.. \\
+    INSÉRÉ SLIDE 3\\
+    
+    Normalement, le systèmes captes son environnement à l'aide de \textbf{capteurs}, fait des traitements (normalement dans un temps définis) et agit ensuite dans son environnement à l'aide d'\textbf{actuateurs}.\\
+    
+    Le principe est que dans un système temps réel, on doit répondre dans un temps requis. La vérification de tels systèmes doivent alors prendre en considération les contraintes temporelles.\\
+    \begin{itemize}
+        \item Statecharts, réseaux de pétri temporisé, Automates temporisés
+        \item Algèbre de processus temporisé
+        \item language synchrone
+    \end{itemize}
+    \textbf{Automates temporisé}: offrent un très bon compromis entre la puissnace de modélisation et la complexité de vérification.\\
+    
+    INSÉRÉ SLIDE 5\\
+    
+    De plus, on ne peut pas se contenter de simplement modéliser le System under test, on doit aussi modéliser l'environnement et ses interactions avec le systèmes testé.\\
+    
+    \section{Automates}
+    un automate est un tuple A = < L, Act, E, I0> ou:
+    \begin{itemize}
+        \item L est un ensemle fini et non vide de sommets (locations)
+        \item Act est un ensemble fini d'actions pour le sommet
+        \item E $\in$ L x Act x L est un ensemble fini de transition possible (transitions)
+        \item I0 est 'état initiale
+    \end{itemize}
+
+    INSÉRÉ SLIDE 7
+    
+    d'un automate, on peut extraite un évolution. Qui est une séquence alterné d'états et d'actions. Il est possible de déduire les évolutions possible du modèles. On appelle trace d'exécution la séquence d'action exécutées selon une évolution. ex: action1 -> action2 -> action3.\\
+    
+    Avec deux automates, leurs composition est le produit scalaire entre les deux automates.\\
+    
+    INSÉRÉ SLIDE 9, 10\\
+    
+    représentent le produit entre deux automates. Il prend en compte des actions des deux automates (synchronisation) versus les actions locals à chaque automates.\\
+    
+    
+    
+    
+    \section{Automates Temporisé}
+    On peutrajouter des contraints temporelles. Lorsqu'un message m est émis, m est déclaré perdu si aucun acquitetement n'est recu avant les 5 unités de temps qui suivent l'émission et un acquittement ne peut être recu qu'après 1 unité de temps.\\
+    
+    Le modèle d'automates temporisé est une extension du modèle d'automates traditionelle qui prend en considération ces contraintes temporelles.\\
+    
+    On distingue deux sémantiques pour le domaine temporel. on peut le faire en temps discret ou en temps continue. Normalement on vérifie les systèmes en temps continue parce qu'il n'y a aucune fréquence d'échantillonage qui peut théoriquement attraper toute les différentes possibilité d'arrivé d'événement.\\
+    
+    On associe normalement des horloges (qui sont les seules variables continus). Les horloges évoluent de facon uniforme avec le temps. Elle peut être mise à zéro au franchissement d'un arc pour commencer à compter le temps à partir d'un événement bien précis.\\
+    
+    INSÉRÉ SLIDE 14\\
+    
+    Il suffit d'imposer des contraintes sur les horloges pour modéliser les aspect temporelles des automates.\\
+    
+    Noter que d'avoir un horloge sur un état signifie qu'on a une contrainte pour rester dans un état. l'absence d'horloge signifie qu'il n'y a aucune limites de temps.\\
+    
+    Une évolution d'un automate temporisé est une séquence alterné d'états et d'actions continues-discrètes.\\
+    
+    INSÉRÉ SLIDE 15 (BAS)\\
+    
+    On peut définir une contrainte temporelle par la grammaire de la slide 16\\
+    
+    INSÉRÉ TOP SLIDE 16\\
+    
+    ou x et y sont des horloge, c est un entier et $\angle$$\in$\{$\le$, $\leq$\}\\
+    
+    INSÉRÉ BAS DE SLIDE 16\\
+    
+    
+    \subsection{Contraintes temporelles}
+    Soit un ensemble fini d'horloge\\
+    
+    une valuation v de H est une fonction qui associe à chaque horloge de H une valeur réelle positive ou nulle. $R^{+}$.\\
+    
+    soit F une contrainte temporelle sur H et v une valuation de H, dh $\in$ $R^+$ et $H' \in H $\\
+    
+    INSÉRÉ BAS SLIDE 17\\
+       
+    INSÉRÉ ÉQUATION DE SLIDE 18\\
+    
+    \subsubsection{Exemple}
+    INSÉRÉ SLIDE 19\\
+    
+    \begin{itemize}
+        \item 
+        \textbf{f1 est-elle consistante?} \\
+        Le contraintes sont rencontrés dans f1 et f2. Alors c'est consistant\\
+         v(x) = v(y) = 2\\
+         v(x) = v(y) = v(2) = 2
+         
+        \item 
+        \textbf{Donnez la représentation graphique}\\
+         x est compris parmis les bornes. On doit faire les contraintes vertical/horizontal pour x et y. On rajoute ensuite les contraintes diagonale.\\
+         
+        
+        
+        
+    \end{itemize}
+    
+    \subsection{Définition et représentation graphique}
+    Pour une représentation graphique, on  modifie une condition d'un automate \\
+    
+    INSÉRÉ Définition SLIDE 20\\
+    
+    On défini Inv comme étant l'invariant. Elle associe une contrainte temporelle applée L à chaque sommet. Inv(l) doit être fermée en arrière.\\
+    
+    $\forall$ $\in$ L, v $\in$V, dH $\in$...\\
+    
+    INSÉRÉ SLIDE 21, 22, 23, 24\\
+    Le principe est que certaine formulation d'invariant peuvent donner des comportements inattendus.\\
+    
+    Un état du modèle est défini par un couple composé d'un sommet I et d'une valuation v des horloges de H qui satisfait Inv(I), i.e.: Inv(l)(v) est vraie.\\
+    
+    on peut seulement prendre une transition si la valuation de sa transition est vraie.\\
+    
+    
+    
+    \subsection{Sémantique opérationelle}    
+    
+    Un système de trnaisitions est un tuple T <Q, $Q_0$, Et, Rt>\\
+    \begin{itemize}
+        \item Q est un ensemble non vide d'états
+        \item Et est un ensemble d'étiquettes
+        \item Rt est une relation de transitions entre les états
+        \item Q0 est un ensemble d'états initiaux
+    \end{itemize}
+
+    INSÉRÉ SLIDE 27 (PROPRIÉTÉTS)\\
+    
+    Le système de transitions d'un automate temporisé\\
+    
+    A = <L, H, Act, E, I0, Inv>\\
+    
+    INSÉRÉ PROPRIÉTÉ SLIDE 28\\
+    
+    INSÉRÉ SLIDE 29\\
+    
+    INSÉRÉ SLIDE 30\\
+    Note, il n'existe pas d'évolution qui supporte ABA vu que l'invariant de l1 éjecte en dehors de l1 à x$\geq$2\\
+    
+    \subsection{Automates bien temporisés}
+    
+    Une évolution inif est à temps divergent si la somme des temps de séjours dans ses locations est infinis, convergent quand ses finis.\\
+    
+    \subsubsection{Temps convergent et zénon}
+    INSÉRÉ SLIDE 32\\
+    
+    la suite peu avoir une infinité d'actions, sauf que l'invariant de on ne supporte pas une valeur d'horloge en haut de 2.\\
+    
+    Pour un non-zénon, dans tout cycle élémentaire de transitions discrète au moins une horloge est remise à zéro et comparé à une orne inférieur strictement positive.\\
+    
+    INSÉRÉ SLIDE 33\\
+    
+    un état a un verrou temporel (timelock) si il n'a aucune évolution à temps divergent \\
+    
+    dans la deuxième image, aucune possibilité d'été pour une valeur de x supérieur à 2\\
+    
+    Un automate temporisé est à l'état bloqué si aucune action de Act ne peut être exécuté à partir de cet état (état bloqué).\\
+    
+    un automate est bien temporisé si: pour chaque état accessible q (l,v) il existe une action a de Act ou un réel positif dh tel que \\
+    
+    INSÉRÉ IMAGE SLIDE 34\\
+    
+    et il est non zénon (toutes ses évolutions sont non zénon).
+    \section{Composition d'automates temporisé}
+    
+    INSÉRÉ SLIDE 35\\
+    
+    On fait comme au début du cours, on fait l'union des actions, horloge et états.. c'est gros.\\
+    
+    Les composition d'automates se généralise à un ensemble  d'automate..\\
+    
+    Pour synchroniser deux automates, il faut tout simplement mettre la même actions.\\
+    
+    
+    \section{Automate temporisé à la UPPAAL}
+    \section{Automates hybride, à chronomêtre, à couts}
     
 \end{document}
