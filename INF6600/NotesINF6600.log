@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.9.4)  4 SEP 2018 13:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.9.3)  8 SEP 2018 21:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -538,11 +538,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
 [6] (./NotesINF6600.aux) ) 
 Here is how much of TeX's memory you used:
  4578 strings out of 492641
  65770 string characters out of 6131788
- 141496 words of memory out of 5000000
+ 141495 words of memory out of 5000000
  8384 multiletter control sequences out of 15000+600000
  10588 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -554,7 +559,7 @@ cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on NotesINF6600.pdf (7 pages, 93514 bytes).
+Output written on NotesINF6600.pdf (7 pages, 93538 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream

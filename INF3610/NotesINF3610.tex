@@ -74,7 +74,6 @@
         
         Un RTOS préemptif est généralement requis, c-a-d. un OS qui a un ordonnancement de tâche sophistiqué qui tache les plus prioritaire en premier. Plusieur algorithme d'ordonnancement existe pour ces OS\\
         
-        INSÉRÉ IMAGE DE SYSTEME DOMINÉS PAR CONTRÔLE
         \item \textbf{Systèmes dominés par les données - contrôle qui traite une quantité importante de données.} - À certaine caractéristique:
         \begin{itemize}
             \item Beaucoup de MIPS ou de MFLOPS
@@ -90,16 +89,26 @@
     \subsection{Système avant/arrière-plan vs système multitache}
     \subsubsection{Arrière plan}
     s'applique normalement à des système peu complexe ou de petites tailles. C'est généralement une boucle infini qui appel à tour de rôle différent modules. La gestion des événements est généralement asynchrones (ISR). On peut avoir des interruptions de minuteur ou par I/O.On retrouve normalement cette méthode dans les systèmes de petite tailles (petit processeur). Cette approche est simple, mais elle très peu modulaire.\\
-    
-    INSÉRÉ IMAGE DE SYSTÈME AVANT/ARRIÈRE-PLAN\\
+
+    \begin{figure}[!ht]
+    	\centering
+    	\includegraphics[width=8cm, height = 8cm, keepaspectratio]{Images/avantarriereplan.png}
+    	\caption{Système avant-arrière plan}
+    	\label{fig:Foreground-Background}
+    \end{figure}
     
     \subsection{Systeme multi-tache}
     S'applique généralement a des systeme plus complexes. Elle favorise la réutilisation du code de par sa modularité. On donne accès à des outils évolués (Flgas, mutex, sémaphore, MB, Q). sa permet d'augmenter l'abstraction lors de la conception et exploite le concept de tâche et de programmation concurrente. (linux kernel).\\
     
     Contrairement au systèmes types arriere/avant-plan, ces systèmes sont super modulaires. Un des désavantages est que sa prend un système massif/complexe et beaucoup de temps de développement. C'est très gourmand en mémoire alors sa peut être à reconsidérer dépendament de ton hardware.\\
     
-    INSÉRÉ IMAGE DE SYSTEME MULTI-TACHE\\
-    
+    \begin{figure}[!ht]
+  	\centering
+  	\includegraphics[width=8cm, height = 8cm, keepaspectratio]{Images/multitache.png}
+  	\caption{Système multitâche}
+  	\label{fig:Multitache}
+	\end{figure}  
+ 
     \textbf{tâche} Un simple programme évoluant comme si il avait le CPU pour lui-même. Typiquement une boucle infini dans un des états suivant:...\\
     \subsubsection{Noyau préemptif}
     un système préemptif est un système ou les tâches peuvent utiliser des fonctions non réentrantes (excepté pour la syncronisation avec les ISR)\\
@@ -111,7 +120,12 @@
     Le paradigme est privilégié. Normalement sont des systèmes super réactif ou les tâches prioritaire s'exécutent en premier.\\
     
     
-    INSÉRÉ SLIDE 41
+    \begin{figure}[!ht]
+    	\centering
+    	\includegraphics[width=8cm, height = 8cm, keepaspectratio]{Images/noyau_non_preemptif.png}
+    	\caption{Exemple d'un noyau non-Preemptif}
+    	\label{fig:NoyauNonPreemptif}
+    \end{figure}
     
     \subsubsection{Priorité}
     Détermine l'exécution des tâches. c'est une métrique caractérisant son importance. Les tâches prioritaire vont être exécuter avant ceux moins prioritaire. Normalement on représente sont importance avec un numéro, ce numéro peut être assigner au lancement de la tâche mais peut aussi être changer durant son exécution.\\
@@ -121,8 +135,13 @@
     \subsubsection{Programmation concurrente}
     Normalement utilité our exprimer le potentiel parallélisme et pour gérer les problème de synchronisation et de communication dans les systèmes multi-tâches.\\
     
-    INSÉRÉ IMAGE MULTI-TACHE\\
-    
+    \begin{figure}[!ht]
+    	\centering
+    	\includegraphics[width=8cm, height = 8cm, keepaspectratio]{Images/noyau_preemptif.png}
+    	\caption{Exemple d'un noyau Preemptif}
+    	\label{fig:NoyauPreemptif}
+    \end{figure}
+
     \subsubsection{Ressources partagées}
     Techniquement, une ressource partagée est une ressources utilités par plus d'une tâche, simultanément ou non.\\
     
@@ -139,8 +158,14 @@
     
     Afin d'éviter la corruption de données, nous utilisons des fonctions \textbf{réentrantes} pour régler le problème. L'approche recommandé est d'utiliser des sémaphore/mutex\\
     
-    INSÉRÉ SIDE 50\\
-    
+
+    \begin{figure}[!ht]
+    	\centering
+    	\includegraphics[width=8cm, height = 8cm, keepaspectratio]{Images/fonction_non_reentrante.png}
+    	\caption{Fonction non reentrante}
+    	\label{fig:FonctionNonReentrante}
+    \end{figure}
+
     \textbf{Sections critiques}
     Une section est dite critique si elle doit etre exécuter sans être interrompus. Ce qui pourrait causer un deadlock.. ou un traitement de données incorrect.
     
@@ -177,12 +202,21 @@
         \item Signal
     \end{itemize} 
 
-    INSÉRÉ SLIDE 60
-    \\
+    \begin{figure}[!ht]
+    	\centering
+    	\includegraphics[width=8cm, height = 8cm, keepaspectratio]{Images/semaphore_ressource.png}
+    	\caption{Exemple d'un utilisation de Sémaphore pour le partage d'un ressource sensible}
+    	\label{fig:SemaphoreRessource}
+    \end{figure}
     
     \paragraph{Deadlock} Il se peut que l'utilisation de sémaphore introduise des effets indésirabl.\\
     
-    INSÉRÉ SLIDE 61\\
+    \begin{figure}[!ht]
+    	\centering
+    	\includegraphics[width=8cm, height = 8cm, keepaspectratio]{Images/deadlock.png}
+    	\caption{Exemple d'un deadlock}
+    	\label{fig:Deadlock}
+    \end{figure}
     
     Dans l'éventualité ou deux tâches veulent avoir un mutex détenus par une autre tâches, les deux tâches vont attendre éternellement. il convient alors aux tâches :
     
@@ -192,13 +226,23 @@
         \item Relâcher les resource dans le même ordre
     \end{itemize}
 
-    INSÉRÉ BAS DE SLIDE 62\\
+    
     
     Les sémaphores peuvent aussi être utiliser our synchroniser des tâches. On appelle sa un rendez-vous unilatéral/bilatéral. uni/bi pour le nombre de tâches à synchroniser.\\
     
-    INSÉRÉ SLIDE 64\\
+    \begin{figure}[!ht]
+    	\centering
+    	\includegraphics[width=8cm, height = 8cm, keepaspectratio]{Images/rdv_unilateral.png}
+    	\caption{Exemple d'un rendez-vous unilateral}
+    	\label{fig:Unilateral}
+    \end{figure}
     
-    INSÉRÉ SLIDE 65\\
+    \begin{figure}[!ht]
+    	\centering
+    	\includegraphics[width=8cm, height = 8cm, keepaspectratio]{Images/rdv_bilateral.png}
+    	\caption{Exemple d'un rendez-vous bilateral}
+    	\label{fig:Bilateral}
+    \end{figure}
     
     On peut aussi utiliser les sémaphores à fin de synchroniser plusieurs tâches. Nous alons tous simplement avoir une registre qui contient plusieurs bit ou chaque bit représente l'état d'un sémaphore. On utilise un ou logique pour procéder. Dans ce cas, on peut même les appeller des flags.\\
     
@@ -224,17 +268,32 @@
     \subsubsection{Problème d'inversion de priorité}
     Dans le cas ou la tâche moins prioritaire bloque la tâche prioritaire en raison du manque de resources/sémaphores, on inverse les priorités entre les tâches pour pouvoir libérer les resources.\\
     
-    INSÉRÉ SLIDE 76, 77\\
+    \begin{figure}[!ht]
+    	\centering
+    	\includegraphics[width=8cm, height = 8cm, keepaspectratio]{Images/prob_scheduling.png}
+    	\caption{Exemple du problème typique de scheduling}
+    	\label{fig:Scheduling}
+    \end{figure}
     
     Normalement, la tâche prioritaire aurait du s'exécuter en premier sauf que la tâche T4 avait un lock sur le mutex de la resource Q. Pour régler le problème, on utilise \textbf{héritage de priorité} pour pouvoir régler le problème. Pour faire cela, on change la priorité entre T1 et T4 temporairement pour que T4 relâche les ressources nécessaire pour ensuite rechanger les priorités\\
     
-    INSÉRÉ SLIDE 79\\
+    \begin{figure}[!ht]
+    	\centering
+    	\includegraphics[width=8cm, height = 8cm, keepaspectratio]{Images/heritage_priorite.png}
+    	\caption{Exemple de l'héritage des priorités}
+    	\label{fig:HeritagePriorite}
+    \end{figure}
     
     au final, après l'héritage de priorité, T1 s'est exécuter en 9 périodes vs 12.\\
     
     d'autre méthode peuvent aussi être utiliser. Comme par exemple l'ICPP:\\
     
-    INSÉRÉ SLIDE 80\\
+    \begin{figure}[!ht]
+    	\centering
+    	\includegraphics[width=8cm, height = 8cm, keepaspectratio]{Images/icpp.png}
+    	\caption{Exemple de le l'ordonnancement fait par une heuristique d'ICPP}
+    	\label{fig:ICPP}
+    \end{figure}
     
     l'ICPP:\\
     \begin{itemize}

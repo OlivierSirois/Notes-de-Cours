@@ -9,10 +9,10 @@
 \contentsline {subsubsection}{Arri\IeC {\`e}re plan}{4}
 \contentsline {subsection}{\numberline {1.4.2}Systeme multi-tache}{4}
 \contentsline {subsubsection}{Noyau pr\IeC {\'e}emptif}{5}
-\contentsline {subsubsection}{Priorit\IeC {\'e}}{5}
-\contentsline {subsubsection}{Programmation concurrente}{5}
-\contentsline {subsubsection}{Ressources partag\IeC {\'e}es}{5}
-\contentsline {subsubsection}{S\IeC {\'e}maphores}{6}
-\contentsline {paragraph}{Deadlock}{7}
-\contentsline {subsubsection}{Gestion des interruptions}{8}
-\contentsline {subsubsection}{Probl\IeC {\`e}me d'inversion de priorit\IeC {\'e}}{8}
+\contentsline {subsubsection}{Priorit\IeC {\'e}}{6}
+\contentsline {subsubsection}{Programmation concurrente}{6}
+\contentsline {subsubsection}{Ressources partag\IeC {\'e}es}{7}
+\contentsline {subsubsection}{S\IeC {\'e}maphores}{8}
+\contentsline {paragraph}{Deadlock}{9}
+\contentsline {subsubsection}{Gestion des interruptions}{11}
+\contentsline {subsubsection}{Probl\IeC {\`e}me d'inversion de priorit\IeC {\'e}}{11}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.9.4)  7 SEP 2018 14:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.9.3)  8 SEP 2018 23:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -379,241 +379,119 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
+<Images/processus_de_developpement.png, id=14, 761.84625pt x 424.58624pt>
+File: Images/processus_de_developpement.png Graphic file (type png)
+<use Images/processus_de_developpement.png>
+Package pdftex.def Info: Images/processus_de_developpement.png  used on input l
+ine 34.
+(pdftex.def)             Requested size: 199.16808pt x 110.99881pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+<Images/types_tests.png, id=15, 788.9475pt x 365.365pt>
+File: Images/types_tests.png Graphic file (type png)
+<use Images/types_tests.png>
+Package pdftex.def Info: Images/types_tests.png  used on input line 42.
+(pdftex.def)             Requested size: 199.16252pt x 92.23302pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
 [2
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+ <./Images/processus_de_developpement.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+<Images/flowchart_verification.png, id=20, 742.775pt x 400.49625pt>
+File: Images/flowchart_verification.png Graphic file (type png)
+<use Images/flowchart_verification.png>
+Package pdftex.def Info: Images/flowchart_verification.png  used on input line 
+71.
+(pdftex.def)             Requested size: 199.1692pt x 107.38988pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-
- []
-
-
-Overfull \hbox (6.27827pt too wide) in paragraph at lines 64--65
+Overfull \hbox (6.27827pt too wide) in paragraph at lines 79--80
 []\OT1/cmr/m/n/10 Dans le cas des syst^^Remes temps r^^Seelles, le fonc-tion-ne
 ment est as-su-jetti ^^Ra l'^^Sevolution
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+[3 <./Images/types_tests.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+[4 <./Images/flowchart_verification.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+<Images/java_pathfinder.png, id=28, 828.09375pt x 529.98pt>
+File: Images/java_pathfinder.png Graphic file (type png)
+<use Images/java_pathfinder.png>
+Package pdftex.def Info: Images/java_pathfinder.png  used on input line 142.
+(pdftex.def)             Requested size: 199.16353pt x 127.46466pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+<Images/llbmc.png, id=29, 803.0pt x 390.45876pt>
+File: Images/llbmc.png Graphic file (type png)
+<use Images/llbmc.png>
+Package pdftex.def Info: Images/llbmc.png  used on input line 152.
+(pdftex.def)             Requested size: 199.1689pt x 96.84587pt.
+[5 <./Images/java_pathfinder.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+<Images/exemple_promela.png, id=33, 779.91376pt x 464.73625pt>
+File: Images/exemple_promela.png Graphic file (type png)
+<use Images/exemple_promela.png>
+Package pdftex.def Info: Images/exemple_promela.png  used on input line 162.
+(pdftex.def)             Requested size: 199.16693pt x 118.6799pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
+Overfull \hbox (1.65778pt too wide) in paragraph at lines 170--171
+\OT1/cmr/m/n/10 valeurs ou x0 est la valeur ini-tiale et xi est la valeur de x 
+au $\OML/cmm/m/it/10 i[]$ \OT1/cmr/m/n/10 cy-cle d'ex^^Secution. 
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-
- []
-
-
-Overfull \hbox (0.19507pt too wide) in paragraph at lines 132--133
-\OT1/cmr/m/n/10 Description du com-porte-ment d'un syst^^Reme ^^Ra l'aide d'une
- de-scrip-tion alg^^Sebrique.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
-
- []
-
-[5]
-Overfull \hbox (4.40787pt too wide) in paragraph at lines 153--154
-\OT1/cmr/m/n/10 Ce sont des preuves au sens math^^Sematique du terme. Elles che
-rchent ^^Ra d^^Seterminer
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
-
- []
-
-
-Overfull \hbox (3.40797pt too wide) in paragraph at lines 160--161
-\OT1/cmr/m/n/10 Dans les m^^Sethodes s^^Semantiques, on se base sur l'ex^^Secut
-ion du mod^^Rele. L'approche
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
-
- []
-
-[6]
-Chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--177
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+<Images/exemple_lustre.png, id=34, 477.785pt x 204.765pt>
+File: Images/exemple_lustre.png Graphic file (type png)
+<use Images/exemple_lustre.png>
+Package pdftex.def Info: Images/exemple_lustre.png  used on input line 175.
+(pdftex.def)             Requested size: 199.1665pt x 85.35706pt.
+[6 <./Images/llbmc.png> <./Images/exemple_promela.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
@@ -622,105 +500,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
-[7
+<Images/statechart.png, id=41, 572.1375pt x 312.16624pt>
+File: Images/statechart.png Graphic file (type png)
+<use Images/statechart.png>
+Package pdftex.def Info: Images/statechart.png  used on input line 194.
+(pdftex.def)             Requested size: 199.16858pt x 108.66917pt.
+<Images/reseaux_petri.png, id=42, 709.65125pt x 446.66875pt>
+File: Images/reseaux_petri.png Graphic file (type png)
+<use Images/reseaux_petri.png>
+Package pdftex.def Info: Images/reseaux_petri.png  used on input line 201.
+(pdftex.def)             Requested size: 199.16661pt x 125.35947pt.
+<Images/automate_discret.png, id=43, 708.6475pt x 293.095pt>
+File: Images/automate_discret.png Graphic file (type png)
+<use Images/automate_discret.png>
+Package pdftex.def Info: Images/automate_discret.png  used on input line 208.
+(pdftex.def)             Requested size: 199.16605pt x 82.37462pt.
+<Images/modele_logique.png, id=44, 792.9625pt x 469.755pt>
+File: Images/modele_logique.png Graphic file (type png)
+<use Images/modele_logique.png>
+Package pdftex.def Info: Images/modele_logique.png  used on input line 219.
+(pdftex.def)             Requested size: 199.1597pt x 117.98322pt.
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
-
+Overfull \hbox (0.19507pt too wide) in paragraph at lines 226--227
+\OT1/cmr/m/n/10 Description du com-porte-ment d'un syst^^Reme ^^Ra l'aide d'une
+ de-scrip-tion alg^^Sebrique.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
-
- []
-
-
+[7 <./Images/exemple_lustre.png> <./Images/statechart.png>] [8 <./Images/reseau
+x_petri.png> <./Images/automate_discret.png> <./Images/modele_logique.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 233--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
+<Images/exemple_ltl.png, id=52, 798.985pt x 405.515pt>
+File: Images/exemple_ltl.png Graphic file (type png)
+<use Images/exemple_ltl.png>
+Package pdftex.def Info: Images/exemple_ltl.png  used on input line 240.
+(pdftex.def)             Requested size: 199.17276pt x 101.08768pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
@@ -729,110 +557,349 @@ Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
  []
 
+<Images/exemple_ctl.png, id=53, 758.835pt x 312.16624pt>
+File: Images/exemple_ctl.png Graphic file (type png)
+<use Images/exemple_ctl.png>
+Package pdftex.def Info: Images/exemple_ctl.png  used on input line 253.
+(pdftex.def)             Requested size: 199.16823pt x 81.93295pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
+
+ []
+
+[9 <./Images/exemple_ltl.png> <./Images/exemple_ctl.png>]
+Overfull \hbox (4.40787pt too wide) in paragraph at lines 263--264
+\OT1/cmr/m/n/10 Ce sont des preuves au sens math^^Sematique du terme. Elles che
+rchent ^^Ra d^^Seterminer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+
+ []
+
+<Images/methode_syntaxique.png, id=57, 717.68124pt x 213.79875pt>
+File: Images/methode_syntaxique.png Graphic file (type png)
+<use Images/methode_syntaxique.png>
+Package pdftex.def Info: Images/methode_syntaxique.png  used on input line 267.
+
+(pdftex.def)             Requested size: 199.16437pt x 59.33148pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
-
+Overfull \hbox (3.40797pt too wide) in paragraph at lines 275--276
+\OT1/cmr/m/n/10 Dans les m^^Sethodes s^^Semantiques, on se base sur l'ex^^Secut
+ion du mod^^Rele. L'approche
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 264--266
+<Images/flot_model_checking.png, id=58, 804.00375pt x 463.7325pt>
+File: Images/flot_model_checking.png Graphic file (type png)
+<use Images/flot_model_checking.png>
+Package pdftex.def Info: Images/flot_model_checking.png  used on input line 283
+.
+(pdftex.def)             Requested size: 199.16023pt x 114.87143pt.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+ []
+
+[10 <./Images/methode_syntaxique.png>] [11 <./Images/flot_model_checking.png>]
+Chapter 2.
+<Images/real_time_systems.png, id=65, 711.65875pt x 422.57875pt>
+File: Images/real_time_systems.png Graphic file (type png)
+<use Images/real_time_systems.png>
+Package pdftex.def Info: Images/real_time_systems.png  used on input line 298.
+(pdftex.def)             Requested size: 199.16536pt x 118.2632pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+[12
+
+ <./Images/real_time_systems.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+
+ []
+
+<Images/rtsys_environnement.png, id=70, 721.69624pt x 457.71pt>
+File: Images/rtsys_environnement.png Graphic file (type png)
+<use Images/rtsys_environnement.png>
+Package pdftex.def Info: Images/rtsys_environnement.png  used on input line 315
+.
+(pdftex.def)             Requested size: 199.16635pt x 126.31413pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
+
+ []
+
+<Images/automate_simple.png, id=71, 804.00375pt x 428.60126pt>
+File: Images/automate_simple.png Graphic file (type png)
+<use Images/automate_simple.png>
+Package pdftex.def Info: Images/automate_simple.png  used on input line 333.
+(pdftex.def)             Requested size: 199.16023pt x 106.16905pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
+
+ []
+
+[13 <./Images/rtsys_environnement.png>]
+<Images/composition_automate.png, id=75, 764.8575pt x 434.62375pt>
+File: Images/composition_automate.png Graphic file (type png)
+<use Images/composition_automate.png>
+Package pdftex.def Info: Images/composition_automate.png  used on input line 35
+4.
+(pdftex.def)             Requested size: 199.1617pt x 113.17194pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--283
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+
+ []
+
+[14 <./Images/automate_simple.png> <./Images/composition_automate.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
+
+ []
+
+<Images/automate_temporise.png, id=80, 769.87625pt x 460.72125pt>
+File: Images/automate_temporise.png Graphic file (type png)
+<use Images/automate_temporise.png>
+Package pdftex.def Info: Images/automate_temporise.png  used on input line 375.
+
+(pdftex.def)             Requested size: 199.16458pt x 119.18713pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
+
+ []
+
+<Images/slide15.png, id=81, 783.92876pt x 457.71pt>
+File: Images/slide15.png Graphic file (type png)
+<use Images/slide15.png>
+Package pdftex.def Info: Images/slide15.png  used on input line 388.
+(pdftex.def)             Requested size: 199.16354pt x 116.28499pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
+
+ []
+
+<Images/slide16.png, id=82, 763.85374pt x 412.54124pt>
+File: Images/slide16.png Graphic file (type png)
+<use Images/slide16.png>
+Package pdftex.def Info: Images/slide16.png  used on input line 397.
+(pdftex.def)             Requested size: 199.1684pt x 107.56664pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
+
+ []
+
+[15 <./Images/automate_temporise.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
+
+ []
+
+[16 <./Images/slide15.png> <./Images/slide16.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 432--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
+Underfull \hbox (badness 10000) in paragraph at lines 441--442
+
+ []
+
+<Images/definition_representation_graphique.png, id=89, 715.67375pt x 374.39874
+pt>
+File: Images/definition_representation_graphique.png Graphic file (type png)
+<use Images/definition_representation_graphique.png>
+Package pdftex.def Info: Images/definition_representation_graphique.png  used o
+n input line 445.
+(pdftex.def)             Requested size: 199.1642pt x 104.19109pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
 
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
 
  []
 
-[11] (./NotesINF6603.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--465
+
+ []
+
+[17 <./Images/definition_representation_graphique.png>]
+<Images/propriete_system_transition.png, id=93, 693.59125pt x 203.76125pt>
+File: Images/propriete_system_transition.png Graphic file (type png)
+<use Images/propriete_system_transition.png>
+Package pdftex.def Info: Images/propriete_system_transition.png  used on input 
+line 474.
+(pdftex.def)             Requested size: 199.1678pt x 58.51094pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 479--480
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
+
+ []
+
+<Images/slide28.png, id=94, 731.73375pt x 467.7475pt>
+File: Images/slide28.png Graphic file (type png)
+<use Images/slide28.png>
+Package pdftex.def Info: Images/slide28.png  used on input line 485.
+(pdftex.def)             Requested size: 199.16739pt x 127.31413pt.
+<Images/exemple_evolution.png, id=95, 799.98875pt x 329.23pt>
+File: Images/exemple_evolution.png Graphic file (type png)
+<use Images/exemple_evolution.png>
+Package pdftex.def Info: Images/exemple_evolution.png  used on input line 492.
+(pdftex.def)             Requested size: 199.16663pt x 81.96568pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+
+ []
+
+[18 <./Images/propriete_system_transition.png> <./Images/slide28.png> <./Images
+/exemple_evolution.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--508
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 512--513
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 514--515
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--517
+
+ []
+
+<Images/composition_automate_temporise.png, id=100, 760.8425pt x 441.65pt>
+File: Images/composition_automate_temporise.png Graphic file (type png)
+<use Images/composition_automate_temporise.png>
+Package pdftex.def Info: Images/composition_automate_temporise.png  used on inp
+ut line 523.
+(pdftex.def)             Requested size: 199.16109pt x 115.60802pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 532--533
+
+ []
+
+[19] [20 <./Images/composition_automate_temporise.png>] (./NotesINF6603.aux) ) 
 Here is how much of TeX's memory you used:
- 4580 strings out of 492641
- 65805 string characters out of 6131788
- 142496 words of memory out of 5000000
- 8386 multiletter control sequences out of 15000+600000
+ 4745 strings out of 492641
+ 70367 string characters out of 6131788
+ 142786 words of memory out of 5000000
+ 8522 multiletter control sequences out of 15000+600000
  10588 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,32p,660b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy7.pfb>
-Output written on NotesINF6603.pdf (12 pages, 142876 bytes).
+ 41i,8n,32p,660b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
+<
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7
+.pfb>
+Output written on NotesINF6603.pdf (21 pages, 1560428 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 143 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
